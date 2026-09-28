@@ -55,6 +55,18 @@ def save(im, name, width=None, quality=88):
     im.save(OUT / name, quality=quality) if name.endswith(".jpg") else im.save(OUT / name)
     print(f"{name}: {im.width}x{im.height}, {(OUT / name).stat().st_size // 1024} KB")
 
+def opening_frame(shot_id):
+    """A shot's first frame (its approved keyframe), graded and captioned by the compositor with the lyric fully written.
+    Mid-shot stills can catch Kling's smear frames, which read as speed in motion but look broken frozen."""
+    import numpy as np
+    from PIL import Image, ImageOps
+    import compose
+    s = compose.BY_ID[shot_id]
+    fr = ImageOps.fit(frame(ROOT / "video/clips/kling3pro" / f"{shot_id}.mp4", 0.0), (compose.W, compose.H), Image.LANCZOS)
+    img = Image.fromarray(compose.grade(np.asarray(fr), s["mode"], 7, False)).convert("RGBA")
+    for i, c in enumerate(s["captions"]): compose.render_caption(img, c, c["end"] + 0.3, shot_id, i)
+    return img.convert("RGB")
+
 def storyboard_grid(cols=11, cw=320, ch=180, strip=8, gap=8):
     """Every approved storyboard keyframe in song order, each with a strip in its mode's color."""
     from PIL import Image, ImageOps
@@ -89,7 +101,7 @@ def prepare():
     OUT.mkdir(parents=True, exist_ok=True)
     save(Image.open(ROOT / "video/poster.png").convert("RGB"), "cover.jpg", width=2000, quality=90)
     save(frame(MASTER, 51.4), "kahneman.jpg")                                      # S20: the book
-    save(row([frame(MASTER, 26.3), frame(MASTER, 33.7)]), "verse1.jpg", width=2400)  # S09 LOW vs HIGH, S12 the pager
+    save(row([opening_frame("S09"), frame(MASTER, 33.7)]), "verse1.jpg", width=2400)  # S09 LOW vs HIGH, S12 the pager
     save(row([frame(MASTER, 112.6), frame(MASTER, 119.35)]), "verse2.jpg", width=2400)  # S43 Navier–Stokes, S46 the slip
     sheets = lambda *names: row([Image.open(ROOT / "video/concept" / n).convert("RGB") for n in names])
     save(stack([sheets("sheet-fast-nano.png", "sheet-slow-nano.png"), sheets("v2/sheet-fast-v2.png", "v2/sheet-slow-v2.png")]),
