@@ -27,7 +27,7 @@ suno/ lyrics → song (Suno, external) → scripts/suno_transcribe.py → analys
 
 ## Not in git
 
-- **A fresh clone has no media:** no audio, keyframes, clips, or renders. `.gitignore` blocks media everywhere except `media/poster.webp`. `scripts/media_backup.py download` restores it all from R2 using `media/backup.json`; after new renders, run `upload` (ask first: it writes to the user's shared production bucket) and commit the updated manifest.
+- **A fresh clone has no media:** no audio, keyframes, clips, or renders. `.gitignore` blocks media everywhere except the README's WebP images in `media/`. `scripts/media_backup.py download` restores it all from R2 using `media/backup.json`; after new renders, run `upload` (ask first: it writes to the user's shared production bucket) and commit the updated manifest.
 - **Copyright:** the original song was only inspiration and a reference for the writing. Never commit its audio or lyrics. `scripts/vocal_map.py` writes its raw transcript to `$SCRATCH`, outside the repo.
 - **Kept local on purpose:** the pre-Suno audio experiments and their research (listed in `.gitignore`). Leave them out.
 - **Private:** `research/notion-research.md` and `research/x-archive-references.md` come from the user's own Notion and X archive, and stay out.

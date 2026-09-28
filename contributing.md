@@ -102,7 +102,7 @@ video/concept/         receipts for the style frames and character sheets
 video/clips/           a receipt for every clip: model, prompt, and parameters
 video/review/          the scene review page and my feedback on each render
 video/fonts/           the caption fonts (OFL and Apache licensed)
-media/                 the README's featured image, and backup.json: the R2 manifest for all the media
+media/                 the README's images (the poster and five stills from the cut), and backup.json: the R2 manifest
 tests/                 offline smoke tests
 ```
 
@@ -115,4 +115,4 @@ tests/                 offline smoke tests
 - **Model weights and environments:** `.venv` and audio-separator’s weights (downloaded on demand into `audio/models/`).
 - **Private research:** notes built from my own Notion workspace and X archive.
 
-`.gitignore` blocks media files everywhere; `media/poster.webp` is the one exception. For another deliberate exception, use `git add -f`.
+`.gitignore` blocks media files everywhere except the README’s WebP images in `media/`. For another deliberate exception, use `git add -f`.

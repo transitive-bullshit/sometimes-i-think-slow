@@ -113,5 +113,5 @@ __pycache__/
 *.pth
 *.safetensors
 
-# the README's featured image: the approved poster, a stand-in until the video is hosted
-!/media/poster.webp
+# the README's images: the poster (a stand-in until the video is hosted) and a few stills from the cut
+!/media/*.webp
