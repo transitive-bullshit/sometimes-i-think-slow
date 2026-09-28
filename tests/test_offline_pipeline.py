@@ -97,3 +97,17 @@ def test_grades_and_tape_overlays():
         img = Image.new("RGBA", (compose.W, compose.H), (0, 0, 0, 0))
         compose.osd(img, shots[sid], t)
         assert np.asarray(img)[..., 3].any(), f"no on-screen display drawn for {sid}"
+
+
+def test_youtube_captions():
+    """The YouTube captions cover the sung lines in order with real names, never overlap, and wrap to two rows at most."""
+    import youtube_prep
+
+    cues = youtube_prep.cues()
+    assert len(cues) >= 75 and cues[0]["start"] >= 0 and cues[-1]["end"] <= SONG_END
+    for a, b in zip(cues, cues[1:]):
+        assert a["start"] < a["end"] <= b["start"] + 1e-9, a["text"]
+    assert all(len(youtube_prep.wrap(c["text"])) <= 2 for c in cues)
+    srt = youtube_prep.srt(cues)
+    for name in ("Andrej", "Kahneman", "Gary Marcus", "Navier–Stokes"):
+        assert name in srt, name

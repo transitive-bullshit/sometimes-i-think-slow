@@ -28,6 +28,7 @@ uv run --env-file .env python scripts/render_shots.py wan3 <ids...>       # SLOW
 uv run python scripts/compose.py                                          # the cut -> video/out/fast-and-slow.mp4 (~8 min)
 uv run python scripts/review_build.py                                     # scene clips + review.json for the review page
 uv run python scripts/serve.py .                                          # http://localhost:8765/video/review/index.html
+uv run python scripts/youtube_prep.py                                     # the YouTube package -> video/out/youtube/ (~6 min)
 ```
 
 Every generating script skips outputs that already exist, so each step is safe to re-run, and every paid call writes its prompt and parameters next to its output. A full pass of keyframes and clips costs roughly $35 on fal. `compose.py --from 60 --to 90 --out /tmp/test.mp4` renders a slice for quick checks.
@@ -48,6 +49,7 @@ Every generating script skips outputs that already exist, so each step is safe t
 | Review | [`scripts/review_build.py`](scripts/review_build.py), [`video/review/index.html`](video/review/index.html), [`scripts/serve.py`](scripts/serve.py) | [`video/review/feedback.json`](video/review/feedback.json) |
 | Lip-sync (cut) | [`scripts/lipsync.py`](scripts/lipsync.py) | `video/clips/omnihuman/` |
 | Write-up | [`scripts/publish_notion.py`](scripts/publish_notion.py) (`prepare`, then `publish`) | a draft page in my site's Notion CMS |
+| YouTube | [`scripts/youtube_prep.py`](scripts/youtube_prep.py) | `video/out/youtube/`: a 4K upload, the lyrics as captions, the thumbnail, and `details.md` with the title, description, and settings |
 
 `storyboard_shots.py` is the single source of truth for shots: start times, modes, scenes, camera, motion, and in-world text. `shots.json` is generated from it and the timed lyrics, and a test fails if the two drift.
 
@@ -87,7 +89,7 @@ After an upload, commit the updated manifest.
 uv run pytest
 ```
 
-The smoke tests in [`tests/`](tests/) run offline in a few seconds. They check that `shots.json` matches its generator, that the shots tile the song with no gaps, that every animated shot has a receipt, that captions use real names rather than Suno’s phonetic spellings, that every caption, grade, and tape overlay renders with the committed fonts, and that the media backup covers every file the render reads. [CI](.github/workflows/test.yml) runs them on every push, along with a compile check of every Python file. It installs only the core dependencies, has no secrets, and never calls fal or any other API.
+The smoke tests in [`tests/`](tests/) run offline in a few seconds. They check that `shots.json` matches its generator, that the shots tile the song with no gaps, that every animated shot has a receipt, that captions use real names rather than Suno’s phonetic spellings, that every caption, grade, and tape overlay renders with the committed fonts, that the media backup covers every file the render reads, and that the YouTube captions run in order without overlapping. [CI](.github/workflows/test.yml) runs them on every push, along with a compile check of every Python file. It installs only the core dependencies, has no secrets, and never calls fal or any other API.
 
 ## What’s in the repo
 
