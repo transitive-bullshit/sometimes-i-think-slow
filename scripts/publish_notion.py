@@ -2,9 +2,10 @@
 
 `prepare` builds the page's images into video/notion/: stills from the cut, the storyboard grid, the model sheets before
 and after the Samurai Champloo redirect, the 2029 -> 4029 text drift, and a card from the round-2 scene review.
-`publish` uploads them and the share cut to Notion (multi-part for the video; every file is a native Notion upload, and
-only the original song's YouTube video is embedded by URL), then creates the page as a draft for review: Public and
-Featured stay off and Published stays empty. It refuses to create a second page with the same slug.
+`publish` uploads them to Notion as native files, then creates the page as a draft for review: Public and Featured stay
+off and Published stays empty. The videos are embedded by URL: the share cut from its R2 backup (media/backup.json), so
+there's no second copy for the site to mirror, and the original song from YouTube. It refuses to create a second page
+with the same slug.
 
 usage: publish_notion.py prepare | publish [--dry]
 env:   NOTION_API_TOKEN, NOTION_API_VERSION (an integration with access to the Projects database)
@@ -14,7 +15,8 @@ import io, json, math, mimetypes, os, pathlib, re, subprocess, sys, tempfile, ti
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "video/notion"
 MASTER = ROOT / "video/out/fast-and-slow.mp4"
-SHARE = ROOT / "video/out/fast-and-slow_share.mp4"
+SHARE_URL = next(e["url"] for e in json.loads((ROOT / "media/backup.json").read_text())["files"]
+                 if e["path"] == "video/out/fast-and-slow_share.mp4")                  # the share cut on R2
 DATA_SOURCE = "6ffedb27-f124-8259-8a40-075b8e5a4993"          # Projects
 AUTHOR = "b036f7f6-95a9-4f97-b3b5-c46867d0d103"               # Travis
 SLUG = "sometimes-i-think-slow-ai-music-video"
@@ -181,7 +183,7 @@ def callout(s, emoji): return blk("callout", {"rich_text": rt(s), "icon": {"type
 def toggle(s, kids): return blk("toggle", {"rich_text": rt(s), "children": kids})
 def code(s): return blk("code", {"rich_text": [{"type": "text", "text": {"content": s}}], "language": "plain text"})
 def media(kind, fid, cap): return blk(kind, {"type": "file_upload", "file_upload": {"id": fid}, "caption": rt(cap)})
-def youtube(url, cap): return blk("video", {"type": "external", "external": {"url": url}, "caption": rt(cap)})
+def embed(url, cap): return blk("video", {"type": "external", "external": {"url": url}, "caption": rt(cap)})
 
 def suno_style():
     """The style prompt the final take used ("A. 1991 faithful") and the exclude list, from suno/README.md."""
@@ -191,7 +193,7 @@ def suno_style():
 def content(f):
     style, excludes = suno_style()
     return [
-        media("video", f["video"], "video created by claude opus 5.5; song made with suno v6"),
+        embed(SHARE_URL, "video created by claude opus 5.5; song made with suno v6"),
         divider(),
         h2("Two ways to think"),
         p("Daniel Kahneman’s [Thinking, Fast and Slow](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow) splits the mind in two. "
@@ -202,7 +204,7 @@ def content(f):
           "a second way to scale AI, right next to training."),
         p("Nice & Smooth’s 1991 classic “Sometimes I Rhyme Slow” was already that duo. Greg Nice is quick and bouncy; Smooth B "
           "is low, silky, and takes his time. Swap one word, and the hook explains the whole idea."),
-        youtube(ORIGINAL_YT, "The original: Nice & Smooth, “Sometimes I Rhyme Slow” (1991)"),
+        embed(ORIGINAL_YT, "The original: Nice & Smooth, “Sometimes I Rhyme Slow” (1991)"),
         p("It’s a follow-up to [Slow It Down](https://www.transitivebullsh.it/projects/slow-it-down-ai-music-video), my first "
           "AI-made music video, and it was made the same way: Claude Code directing, me giving notes."),
         h2("Meet FAST & SLOW"),
@@ -304,12 +306,11 @@ def plain(blocks, depth=0):
 def publish(dry):
     for n in FILES: assert (OUT / n).exists(), f"missing {OUT / n}: run `publish_notion.py prepare`"
     if dry:
-        print("\n".join(plain(content({"video": "dry", **{n: "dry" for n in FILES}})))); return
+        print("\n".join(plain(content({n: "dry" for n in FILES})))); return
     S = session()
     existing = api(S, "POST", f"data_sources/{DATA_SOURCE}/query", json={"filter": {"property": "Slug", "rich_text": {"equals": SLUG}}})["results"]
     if existing: sys.exit(f"a page with slug {SLUG} already exists: {existing[0]['url']} (not creating a duplicate)")
     ids = {n: upload(S, OUT / n) for n in FILES}
-    ids["video"] = upload(S, SHARE, name="sometimes-i-think-slow.mp4")
     blocks = content(ids)
     page = api(S, "POST", "pages", json={"parent": {"type": "data_source_id", "data_source_id": DATA_SOURCE},
                                          "icon": {"type": "emoji", "emoji": "🎬"},
