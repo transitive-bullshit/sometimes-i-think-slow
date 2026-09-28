@@ -24,16 +24,15 @@ SONG = ROOT / "audio/suno/final-take.wav"
 NAME = "sometimes-i-think-slow"
 LEAD_IN, HOLD, MIN_CUE, ROW = 0.15, 0.35, 1.0, 42   # s before the first word, s after the last, shortest cue, chars per row
 
-TITLE = "Sometimes I Think Slow: System 1 and System 2 trade verses"
-ALT_TITLES = ["Sometimes I Think Slow: How AI thinks fast and slow, as a 1991 rap duet",
-              "Sometimes I Think Slow: A 90s rap duet about test-time compute"]
+PUBLISHED = "https://www.youtube.com/watch?v=dZjYGcjS3iQ"     # the title and description as published, 2026-09-28
+TITLE = "Sometimes I Think Slow, Sometimes I Think Fast"
 WRITEUP = "https://www.transitivebullsh.it/projects/sometimes-i-think-slow-ai-music-video"
 REPO = "https://github.com/transitive-bullshit/sometimes-i-think-slow"
 ORIGINAL_YT = "https://www.youtube.com/watch?v=dkl_Vq1SWKg"
 SLOW_IT_DOWN_YT = "https://www.youtube.com/watch?v=Tz6gQDN9qG0"
-DESCRIPTION = f"""Sometimes I think slow. Sometimes I think fast.
+DESCRIPTION = f"""AI remix of the 1991 classic "Sometimes I Rhyme Slow" by Nice & Smooth.
 
-AI models think two ways now: fast, in one forward pass, and slow, reasoning at test time. Nice & Smooth's 1991 classic "Sometimes I Rhyme Slow" was already that duo, so I had Claude Code (Opus 5.5) swap one word and turn it into an AI parody.
+AI models think two ways now: fast, in one forward pass, and slow, reasoning at test time, so I had Claude Code (Opus 5.5) turn it into an AI parody that also pays homage to the original lyricists who were so far ahead of their time.
 
 • FAST is System 1: he answers before you finish asking
 • SLOW is System 2: he takes three minutes and gets it right
@@ -117,12 +116,11 @@ def upload_video():
 # ---------------------------------------------------------------- details
 def details(video, captions, thumb):
     mb = lambda p: f"{p.stat().st_size / 1e6:,.0f} MB" if p.stat().st_size > 1e6 else f"{p.stat().st_size // 1000} KB"
-    alts = "\n".join(f"- {t}" for t in ALT_TITLES)
     return f"""# YouTube upload: Sometimes I Think Slow
 
-Everything is in this folder. The settings copy Slow It Down's upload on the Transitive BS channel.
+Published at {PUBLISHED}. Everything is in this folder. The settings copy Slow It Down's upload on the Transitive BS channel.
 
-- **Video:** `{video.name}` ({mb(video)}; 2160p24 H.264, AAC 384 kbps)
+- **Video:** `{video.name}` ({mb(video) + "; " if video.exists() else ""}2160p24 H.264, AAC 384 kbps)
 - **Captions:** `{captions.name}` (English, with timing)
 - **Thumbnail:** `{thumb.name}` (the poster, 1280x720, {mb(thumb)})
 
@@ -133,10 +131,6 @@ Everything is in this folder. The settings copy Slow It Down's upload on the Tra
 ```text
 {TITLE}
 ```
-
-Alternatives:
-
-{alts}
 
 **Description** ({len(DESCRIPTION)}/5,000 characters)
 
