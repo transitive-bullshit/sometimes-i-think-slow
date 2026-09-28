@@ -23,6 +23,7 @@ suno/ lyrics → song (Suno, external) → scripts/suno_transcribe.py → analys
 
 - **Paid APIs:** every generating script calls fal. Ask before batch runs, and regenerate only the shots in question. Scripts skip existing outputs: move a file aside to redo it, and keep the old take for the review page's compare toggle.
 - **Receipts:** every paid call writes its prompt and parameters as JSON next to its output, with repo-relative paths. Keep it that way.
+- **The public site:** `scripts/publish_notion.py publish` writes to the user's website CMS (the Notion Projects database). Only run it when asked; it creates a draft and refuses to duplicate an existing slug.
 - **Keys:** they come from `.env` (see `.env.example`). Never print them.
 
 ## Not in git

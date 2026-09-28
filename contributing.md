@@ -47,6 +47,7 @@ Every generating script skips outputs that already exist, so each step is safe t
 | Captions, grades, render | [`scripts/compose.py`](scripts/compose.py), [`video/fonts/`](video/fonts/README.md) | `video/out/` |
 | Review | [`scripts/review_build.py`](scripts/review_build.py), [`video/review/index.html`](video/review/index.html), [`scripts/serve.py`](scripts/serve.py) | [`video/review/feedback.json`](video/review/feedback.json) |
 | Lip-sync (cut) | [`scripts/lipsync.py`](scripts/lipsync.py) | `video/clips/omnihuman/` |
+| Write-up | [`scripts/publish_notion.py`](scripts/publish_notion.py) (`prepare`, then `publish`) | a draft page in my site's Notion CMS |
 
 `storyboard_shots.py` is the single source of truth for shots: start times, modes, scenes, camera, motion, and in-world text. `shots.json` is generated from it and the timed lyrics, and a test fails if the two drift.
 
