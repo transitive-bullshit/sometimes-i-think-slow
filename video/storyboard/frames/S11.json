@@ -1,0 +1,5 @@
+{
+ "id": "S11",
+ "prompt": "Image 2 is FAST's model sheet. Edit image 1: redraw only FAST's head and hair to match his model sheet: no cap, no headband, a wild untamed mane of short spiky twists, same face and dark skin. Keep everything else exactly as it is: his pose, pointing hand, windbreaker, the TV and the full post card text 'Andrej Karpathy' '@karpathy' 'no thinking, single token, low latency', the background, lighting and speed lines.",
+ "note": "head fix on the round-2 layout"
+}

@@ -1,0 +1,13 @@
+{
+ "id": "S64",
+ "model": "kling3pro",
+ "endpoint": "fal-ai/kling-video/v3/pro/image-to-video",
+ "args": {
+  "prompt": "Tape slows and warbles. The same street-level Brooklyn brownstone stoop as image 1 (a few steps up from the sidewalk, not a high floor, no fire escape), now seen from across the street and a little higher, as the camera pulls back: FAST dozing on SLOW's shoulder on the steps, small but clearly recognizable, the row of brownstones around them and the sunrise city skyline glowing beyond the rooftops. FAST is a dark-skinned Black man with a wild mane of short spiky twists and no hat, in his traffic-cone orange, teal and purple windbreaker; SLOW is a Japanese man with long black hair in a low ponytail and thin rectangular glasses, in his camel overcoat and black turtleneck.  Camera: Pull-back from across the street, slightly elevated. 1990s hand-painted cel anime, warm golden sunrise light, film grain. Keep the art style, characters, faces, hair, outfits and any lettering exactly as in the first frame. Characters do not speak or sing; mouths stay closed or relaxed. No new text or subtitles.",
+  "negative_prompt": "3D render, CGI, photorealistic, morphing, warped faces, extra limbs, extra people, subtitles, captions, watermark, text changes",
+  "generate_audio": false,
+  "duration": "3",
+  "cfg_scale": 0.5
+ },
+ "seconds": 139.0
+}

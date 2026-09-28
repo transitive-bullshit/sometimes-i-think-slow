@@ -1,0 +1,9 @@
+{
+ "id": "S29",
+ "prompt": "Create a new 16:9 storyboard keyframe for a music video. Image 1 is the style reference: match its 1990s hand-painted cel anime look, ink line quality, film grain and VHS softness exactly. Image 2 is SLOW's model sheet: draw SLOW exactly on-model (same face, hair, skin tone, glasses, outfit and props). A transitional frame where color and monochrome ink wash meet, bleeding into each other across the frame.\nScene: Streetlights come on; SLOW walks away from the crowd into the dark end of the underpass, and the frame drains from color to black ink wash as he goes.\nCamera: Wide, SLOW walking away from camera.\nCharacters: SLOW only, no one else unless the scene mentions extras. Their mouths are closed or relaxed (nobody is mid-word).\nNo readable text, letters, captions, subtitles or speech bubbles anywhere.\nNo borders, no panel frames, not a comic page.",
+ "refs": [
+  "https://v3b.fal.media/files/b/0aac3da1/vKDV2cyQkmk38EXD8V6Ze_k1-underpass-v2.png",
+  "https://v3b.fal.media/files/b/0aac3da1/UBj6WTnCLK05JS9PKPPP3_sheet-slow-v2.png"
+ ],
+ "seconds": 32.9
+}

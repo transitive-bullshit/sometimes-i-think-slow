@@ -1,0 +1,9 @@
+{
+ "id": "S28",
+ "prompt": "Create a new 16:9 storyboard keyframe for a music video. Image 1 is the style reference: match its 1990s hand-painted cel anime look, ink line quality, film grain and VHS softness exactly. Image 2 is FAST's model sheet: draw FAST exactly on-model (same face, hair, skin tone, glasses, outfit and props). Dusk under a concrete highway overpass with sodium streetlights. Color split: the left side of the frame is warm and saturated (FAST's side), the right side cool and desaturated (SLOW's side).\nScene: FAST on the left half in hot saturated color, leaping off the car hood toward camera, the crowd behind him jumping with fists raised.\nCamera: Low wide, FAST mid-air.\nCharacters: FAST only, no one else unless the scene mentions extras. Their mouths are closed or relaxed (nobody is mid-word).\nNo readable text, letters, captions, subtitles or speech bubbles anywhere.\nNo borders, no panel frames, not a comic page.",
+ "refs": [
+  "https://v3b.fal.media/files/b/0aac3da1/vKDV2cyQkmk38EXD8V6Ze_k1-underpass-v2.png",
+  "https://v3b.fal.media/files/b/0aac3da1/jhalTAv9tOgD0h36Ez6fs_sheet-fast-v2.png"
+ ],
+ "seconds": 34.8
+}

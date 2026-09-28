@@ -1,0 +1,13 @@
+{
+ "id": "S17",
+ "model": "kling3pro",
+ "endpoint": "fal-ai/kling-video/v3/pro/image-to-video",
+ "args": {
+  "prompt": "Marker scrawl in two strokes. Inside the bodega: a wall calendar reads 'SEPTEMBER 1991'; FAST confidently scrawls a big '2029' over it with a marker. SLOW behind the counter pinches the bridge of his nose. Camera: Medium, calendar foreground. 1990s hand-painted cel anime, saturated colors, energetic limited animation with smear frames, film grain. Keep the art style, characters, faces, hair, outfits and any lettering exactly as in the first frame. Characters do not speak or sing; mouths stay closed or relaxed. No new text or subtitles.",
+  "negative_prompt": "3D render, CGI, photorealistic, morphing, warped faces, extra limbs, extra people, subtitles, captions, watermark, text changes",
+  "generate_audio": false,
+  "duration": "3",
+  "cfg_scale": 0.5
+ },
+ "seconds": 101.8
+}

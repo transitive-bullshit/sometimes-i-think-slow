@@ -1,0 +1,13 @@
+{
+ "id": "S05",
+ "model": "kling3pro",
+ "endpoint": "fal-ai/kling-video/v3/pro/image-to-video",
+ "args": {
+  "prompt": "Whip pan into verse 1 with a smear frame. Extreme close-up of FAST's skateboard wheels spinning over wet asphalt, his beeper on his waistband buzzing and flashing, orange windbreaker hem in frame; streaks of speed. Camera: Macro, ground level. 1990s hand-painted cel anime, saturated colors, energetic limited animation with smear frames, film grain. Keep the art style, characters, faces, hair, outfits and any lettering exactly as in the first frame. Characters do not speak or sing; mouths stay closed or relaxed. No new text or subtitles.",
+  "negative_prompt": "3D render, CGI, photorealistic, morphing, warped faces, extra limbs, extra people, subtitles, captions, watermark, text changes",
+  "generate_audio": false,
+  "duration": "4",
+  "cfg_scale": 0.5
+ },
+ "seconds": 95.2
+}

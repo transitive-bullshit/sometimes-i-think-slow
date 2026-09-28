@@ -1,0 +1,13 @@
+{
+ "id": "S27",
+ "model": "kling3pro",
+ "endpoint": "fal-ai/kling-video/v3/pro/image-to-video",
+ "args": {
+  "prompt": "Point on 'slow'. SLOW alone on the right half of the frame in cool desaturated tones, calmly pointing to the 'test-time compute' chart as the crowd watches him. Camera: Medium on SLOW. 1990s hand-painted cel anime, dusk under a highway overpass, sodium light, film grain, VHS softness. Keep the art style, characters, faces, hair, outfits and any lettering exactly as in the first frame. Characters do not speak or sing; mouths stay closed or relaxed. No new text or subtitles.",
+  "negative_prompt": "3D render, CGI, photorealistic, morphing, warped faces, extra limbs, extra people, subtitles, captions, watermark, text changes",
+  "generate_audio": false,
+  "duration": "6",
+  "cfg_scale": 0.5
+ },
+ "seconds": 135.3
+}

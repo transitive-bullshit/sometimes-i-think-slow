@@ -1,0 +1,14 @@
+{
+ "job": "S07_b",
+ "shot": "S07",
+ "start": "/Users/tfischer/dev/videos/sometimes-i-rhyme-slow-claude/video/storyboard/frames_r2/S07_start.png",
+ "end": "/Users/tfischer/dev/videos/sometimes-i-rhyme-slow-claude/video/storyboard/frames_r2/S07_end.png",
+ "args": {
+  "prompt": "FAST whips a hard spiral pass; the football streaks across the frame in a straight line and slams into the unsuspecting kid's chest; the kid catches it by reflex, is knocked off his feet and tumbles backward out of frame to the right. A sunny park by a playground: FAST on the left, a kid at the far right looking the other way. Camera: Side angle, FAST foreground left, kid far right. 1990s hand-painted cel anime, saturated colors, energetic limited animation with smear frames, film grain. Keep the art style, characters, faces, hair, outfits and any lettering exactly as in the first frame. Characters do not speak or sing; mouths stay closed or relaxed. No new text or subtitles.",
+  "negative_prompt": "3D render, CGI, photorealistic, morphing, warped faces, extra limbs, extra people, subtitles, captions, watermark, text changes, new writing, changing letters or numbers, slow motion",
+  "generate_audio": false,
+  "duration": "3",
+  "cfg_scale": 0.5
+ },
+ "seconds": 1383.7
+}

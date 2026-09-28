@@ -1,0 +1,13 @@
+{
+ "id": "S14",
+ "model": "kling3pro",
+ "endpoint": "fal-ai/kling-video/v3/pro/image-to-video",
+ "args": {
+  "prompt": "The word lights first; then he sprays in one fluid stroke. FAST in profile in front of a brick wall with a spray can; a translucent cyber X-ray overlay of his head shows a glowing node graph where the single word 'LINE' already lights up, before he has painted anything. Camera: Profile medium close. 1990s hand-painted cel anime, saturated colors, energetic limited animation with smear frames, film grain. Keep the art style, characters, faces, hair, outfits and any lettering exactly as in the first frame. Characters do not speak or sing; mouths stay closed or relaxed. No new text or subtitles.",
+  "negative_prompt": "3D render, CGI, photorealistic, morphing, warped faces, extra limbs, extra people, subtitles, captions, watermark, text changes",
+  "generate_audio": false,
+  "duration": "3",
+  "cfg_scale": 0.5
+ },
+ "seconds": 111.3
+}

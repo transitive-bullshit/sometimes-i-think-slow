@@ -1,0 +1,13 @@
+{
+ "id": "S09",
+ "model": "kling3pro",
+ "endpoint": "fal-ai/kling-video/v3/pro/image-to-video",
+ "args": {
+  "prompt": "Crossover, HIGH falls, crowd erupts. The approved court frame: FAST in the 'LOW' shirt breaks the ankles of the 'HIGH' jersey player, scoreboard 'LOW 21  HIGH 19', effort-slider sign 'INSTANT \u00b7 MEDIUM \u00b7 HIGH \u00b7 XHIGH \u00b7 MAX'. Camera: Medium, court level. 1990s hand-painted cel anime, saturated colors, energetic limited animation with smear frames, film grain. Keep the art style, characters, faces, hair, outfits and any lettering exactly as in the first frame. Characters do not speak or sing; mouths stay closed or relaxed. No new text or subtitles.",
+  "negative_prompt": "3D render, CGI, photorealistic, morphing, warped faces, extra limbs, extra people, subtitles, captions, watermark, text changes",
+  "generate_audio": false,
+  "duration": "3",
+  "cfg_scale": 0.5
+ },
+ "seconds": 92.6
+}

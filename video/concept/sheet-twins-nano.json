@@ -1,0 +1,6 @@
+{
+ "name": "sheet-twins-nano",
+ "endpoint": "fal-ai/nano-banana-pro/edit",
+ "prompt": "Keep these exact two characters: the same faces, hair, outfits and the same 1990s cel anime look as the reference images. Model sheet lineup on plain warm-gray paper, 1990s cel anime production design: the identical twins FAST and SLOW standing side by side, full body, front view, same face and same height, opposite body language. Title lettering at the top: 'SAME DATA. SAME WEIGHTS.'",
+ "seconds": 30.6
+}

@@ -1,0 +1,10 @@
+{
+ "id": "S23",
+ "prompt": "Create a new 16:9 storyboard keyframe for a music video. Image 1 is the style reference and the base composition to adapt: match its 1990s hand-painted cel anime look, ink line quality, film grain and VHS softness exactly. Image 2 is FAST's model sheet: draw FAST exactly on-model (same face, hair, skin tone, glasses, outfit and props). Image 3 is SLOW's model sheet: draw SLOW exactly on-model (same face, hair, skin tone, glasses, outfit and props). FAST's world: bright, saturated 90s colors (traffic-cone orange, teal, purple; neon if it is night), energetic diagonal composition, speed lines only where something moves fast.\nScene: Night street outside the bodega, neon. FAST (dark skin, wild spiky twists) holds a Polaroid camera at arm's length for a selfie of the two of them, flash bursting; SLOW (Japanese, low ponytail, rectangular glasses) stands beside him perfectly still and unimpressed. A freshly ejected Polaroid print hangs from the camera showing the two of them: FAST a motion blur, SLOW perfectly sharp. Exactly two people in the frame.\nCamera: Medium two-shot, slightly low.\nCharacters: FAST and SLOW only, no one else unless the scene mentions extras. Their mouths are closed or relaxed (nobody is mid-word).\nNo readable text, letters, captions, subtitles or speech bubbles anywhere.\nNo borders, no panel frames, not a comic page.",
+ "refs": [
+  "https://v3b.fal.media/files/b/0aac3dcc/LjXya7znLojDYmVXn9iuo_k2-bodega-v2.png",
+  "https://v3b.fal.media/files/b/0aac3dcc/VAXl9niGQqpTx-o0xjMM7_sheet-fast-v2.png",
+  "https://v3b.fal.media/files/b/0aac3dcc/RvSi7ktSh54IsoxeGfc_s_sheet-slow-v2.png"
+ ],
+ "seconds": 37.8
+}

@@ -1,0 +1,14 @@
+{
+ "id": "S51",
+ "model": "wan3",
+ "endpoint": "alibaba/wan-3.0/image-to-video",
+ "args": {
+  "prompt": "The knob click-turns to LOW. Night rain on a curb: FAST sits soaked, hunched over a boombox, turning its big effort knob down toward 'LOW' (dial marked LOW \u00b7 MED \u00b7 HIGH \u00b7 MAX); neon reflections in puddles; his jacket keeps a faint orange wash. Camera: Medium low angle. monochrome Japanese sumi-e ink wash animation, calm and slow, ink texture on washi paper, film grain. Keep the art style, characters, faces, hair, outfits and any lettering exactly as in the first frame. Characters do not speak or sing; mouths stay closed or relaxed. No new text or subtitles.",
+  "audio": false,
+  "resolution": "1080p",
+  "enable_prompt_expansion": false,
+  "duration": 4,
+  "aspect_ratio": "16:9"
+ },
+ "seconds": 139.8
+}

@@ -1,0 +1,5 @@
+{
+ "name": "k4-laundromat-sumie-b",
+ "endpoint": "fal-ai/nano-banana-pro/edit",
+ "prompt": "Image 1 is the scene; image 2 is the model sheet for the man on the bench (keep his face, rectangular glasses and low ponytail visible, headphones around his neck instead of on his head). Transform the ENTIRE image into a traditional Japanese sumi-e ink wash painting on off-white washi paper: loose expressive brush strokes, ink bleeds and splatters, dry-brush texture, visible paper fiber, rain as fine vertical brush lines. Completely monochrome black ink and grey washes only; the man's coat is also grey ink wash with NO color anywhere in the image. Keep the laundromat, the glowing dryers, the printer ribbon of handwriting, and the sign 'ABILENE WASH & FOLD' legible as brushed white light."
+}

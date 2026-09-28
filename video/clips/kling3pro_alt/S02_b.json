@@ -1,0 +1,14 @@
+{
+ "job": "S02_b",
+ "shot": "S02",
+ "start": "",
+ "end": "",
+ "args": {
+  "prompt": "FAST never stops moving: he kicks off on his skateboard and carves fast, tight lines back and forth in front of the chalk mural, pops a high ollie, lands it and snaps a kickflip, full of energy; SLOW stays perfectly still in the same spot, calmly turning one page of his notebook. Under the overpass at dusk: 'train-time compute' and 'test-time compute' chalk charts on the wall behind them; the crew leans on a car in the background. Camera: Medium-wide two-shot, low angle. 1990s hand-painted cel anime, dusk under a highway overpass, sodium light, film grain, VHS softness. Keep the art style, characters, faces, hair, outfits and any lettering exactly as in the first frame. Characters do not speak or sing; mouths stay closed or relaxed. No new text or subtitles.",
+  "negative_prompt": "3D render, CGI, photorealistic, morphing, warped faces, extra limbs, extra people, subtitles, captions, watermark, text changes, new writing, changing letters or numbers, slow motion",
+  "generate_audio": false,
+  "duration": "6",
+  "cfg_scale": 0.5
+ },
+ "seconds": 124.7
+}

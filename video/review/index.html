@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fast &amp; Slow Scene Review</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root { --bg:#0f0e0d; --panel:#181614; --card:#1d1a17; --line:#2f2a25; --fg:#efe8dc; --muted:#a0978a; --fast:#ff6a13; --teal:#12a4a0;
+  --slow:#bdb6aa; --hook:#f2b33d; --sunrise:#ffb86b; --ok:#3fbf7f; --chg:#ff5d7a; color-scheme:dark; }
+@media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) { --bg:#f4efe6; --panel:#fffdf8; --card:#fffdf8; --line:#e2d9ca; --fg:#1b1814; --muted:#6d655a; color-scheme:light; } }
+:root[data-theme="light"] { --bg:#f4efe6; --panel:#fffdf8; --card:#fffdf8; --line:#e2d9ca; --fg:#1b1814; --muted:#6d655a; color-scheme:light; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font:15px/1.5 "Space Grotesk", ui-sans-serif, system-ui, sans-serif; }
+main { max-width:1320px; margin:0 auto; padding:20px 16px 90px; }
+header.top { display:flex; flex-wrap:wrap; gap:10px 18px; align-items:center; justify-content:space-between; margin-bottom:12px; }
+h1 { font-family:Bungee, sans-serif; font-weight:400; font-size:clamp(24px,4vw,40px); margin:0; line-height:1; }
+h1 .f { color:var(--fast); } h1 .s { color:var(--slow); } h1 .tag { font-size:.42em; vertical-align:middle; color:var(--teal); }
+.sub { color:var(--muted); font-size:14px; margin-top:6px; }
+.actions { display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+.btn { font:inherit; font-size:14px; padding:7px 12px; border-radius:9px; border:1px solid var(--line); background:var(--panel); color:var(--fg); cursor:pointer; }
+.btn:hover { border-color:var(--muted); } .btn.primary { background:var(--fast); border-color:var(--fast); color:#1b0c02; font-weight:700; }
+.btn.small { font-size:12.5px; padding:4px 10px; }
+.btn:focus-visible, textarea:focus-visible, .pill:focus-visible, .status button:focus-visible, summary:focus-visible, input:focus-visible { outline:2px solid var(--teal); outline-offset:2px; }
+.counts { display:flex; gap:6px; flex-wrap:wrap; font-size:13px; }
+.counts span { padding:2px 9px; border-radius:99px; border:1px solid var(--line); }
+.counts .c-ok { border-color:var(--ok); color:var(--ok); } .counts .c-chg { border-color:var(--chg); color:var(--chg); }
+.savestate { font-size:12.5px; color:var(--muted); }
+.help { margin:0 0 14px; padding:10px 14px; border-radius:10px; background:rgba(18,164,160,.10); border:1px solid rgba(18,164,160,.55); font-size:14px; }
+kbd { font:12px "Space Grotesk", sans-serif; border:1px solid var(--line); border-bottom-width:2px; border-radius:4px; padding:0 5px; background:var(--panel); }
+/* the full cut */
+.player { background:#000; border-radius:14px; overflow:hidden; border:1px solid var(--line); }
+.player video { display:block; width:100%; aspect-ratio:16/9; background:#000; }
+.transport { display:flex; align-items:center; gap:10px; padding:10px 12px 6px; background:var(--panel); flex-wrap:wrap; }
+.time { font-variant-numeric:tabular-nums; color:var(--muted); font-size:13px; min-width:88px; }
+.timeline { position:relative; flex:1 1 380px; height:30px; background:var(--card); border-radius:8px; overflow:hidden; cursor:pointer; }
+.seg { position:absolute; top:0; bottom:0; border-right:1px solid rgba(0,0,0,.4); opacity:.72; }
+.seg:hover, .seg.cur { opacity:1; }
+.seg.cur { box-shadow:inset 0 0 0 2px #fff; }
+.seg.m-hook { background:var(--hook); } .seg.m-fast { background:var(--fast); } .seg.m-slow { background:#77716a; }
+.seg.m-sunrise { background:var(--sunrise); } .seg.m-transition { background:linear-gradient(90deg,#77716a,var(--hook)); }
+.seg.s-ok::after, .seg.s-change::after { content:""; position:absolute; left:0; right:0; bottom:0; height:6px; }
+.seg.s-ok::after { background:var(--ok); } .seg.s-change::after { background:var(--chg); }
+.playhead { position:absolute; top:0; bottom:0; width:2px; background:#fff; box-shadow:0 0 6px #fff; pointer-events:none; }
+.check { font-size:13px; color:var(--muted); display:inline-flex; gap:6px; align-items:center; cursor:pointer; }
+.nowbar { display:flex; gap:10px 16px; align-items:center; flex-wrap:wrap; justify-content:space-between; padding:4px 12px 10px; background:var(--panel); font-size:13.5px; }
+.nowbar .lbl { color:var(--muted); }
+.legend { display:flex; gap:12px; flex-wrap:wrap; font-size:12px; color:var(--muted); }
+.legend i { display:inline-block; width:10px; height:10px; border-radius:2px; margin-right:4px; vertical-align:-1px; }
+/* filters + scene cards */
+.bar { display:flex; gap:8px 14px; flex-wrap:wrap; align-items:center; justify-content:space-between; margin:18px 0 10px; }
+.filters { display:flex; gap:6px; flex-wrap:wrap; }
+.pill { font:inherit; font-size:13px; padding:4px 11px; border-radius:99px; border:1px solid var(--line); background:transparent; color:var(--muted); cursor:pointer; }
+.pill.on { background:var(--fg); color:var(--bg); border-color:var(--fg); }
+.pill .n { opacity:.7; margin-left:3px; font-size:11.5px; }
+.tools { display:flex; gap:12px; flex-wrap:wrap; align-items:center; }
+.grid { display:grid; gap:14px; grid-template-columns:repeat(auto-fill, minmax(min(390px,100%),1fr)); }
+.scene { background:var(--card); border:1px solid var(--line); border-radius:12px; overflow:hidden; display:flex; flex-direction:column; scroll-margin:80px; }
+.scene.sel { border-color:var(--teal); box-shadow:0 0 0 2px var(--teal); }
+.scene.now:not(.sel) { border-color:var(--hook); border-style:dashed; }
+.vid { position:relative; background:#000; aspect-ratio:16/9; }
+.vid video { width:100%; height:100%; display:block; object-fit:contain; background:#000; }
+.tc { position:absolute; left:8px; top:8px; background:rgba(0,0,0,.62); color:#fff; font-size:12px; padding:2px 8px; border-radius:6px; pointer-events:none; font-variant-numeric:tabular-nums; }
+.chip { position:absolute; right:8px; top:8px; font-size:12px; font-weight:700; padding:2px 9px; border-radius:6px; pointer-events:none; display:none; }
+.scene.st-ok .chip.ok { display:block; background:var(--ok); color:#06150d; }
+.scene.st-change .chip.change { display:block; background:var(--chg); color:#1b0308; }
+.body { padding:10px 12px 12px; display:flex; flex-direction:column; gap:7px; flex:1; }
+.row1 { display:flex; gap:8px; align-items:baseline; flex-wrap:wrap; }
+.sid { font-family:Bungee, sans-serif; font-size:15px; } .ttl { font-weight:700; }
+.badges { display:flex; gap:5px; flex-wrap:wrap; }
+.badge { font-size:11px; padding:1px 7px; border-radius:99px; border:1px solid var(--line); color:var(--muted); }
+.badge.m-fast { color:var(--fast); border-color:var(--fast); } .badge.m-hook { color:var(--hook); border-color:var(--hook); }
+.badge.m-slow { color:var(--slow); border-color:var(--slow); } .badge.m-sunrise { color:var(--sunrise); border-color:var(--sunrise); }
+.badge.m-transition { color:var(--hook); border-color:var(--hook); }
+.lyr { font-size:14px; border-left:3px solid var(--line); padding-left:8px; white-space:pre-line; }
+.lyr .st { color:var(--muted); font-size:10.5px; text-transform:uppercase; letter-spacing:.5px; margin-right:6px; }
+.lyr.none { color:var(--muted); font-style:italic; }
+.fix { font-size:12.5px; color:var(--teal); }
+.banner { margin:0 0 14px; padding:10px 14px; border-radius:10px; background:rgba(242,179,61,.10); border:1px solid rgba(242,179,61,.6); font-size:14px; }
+.badge.upd { color:#0f0e0d; background:var(--teal); border-color:var(--teal); font-weight:700; }
+.updnote { font-size:13px; } .updnote b { color:var(--teal); }
+.prev { font-size:12.5px; color:var(--muted); border-left:3px solid var(--line); padding-left:8px; }
+.vid.old::after { content:"RENDER 1"; position:absolute; right:8px; bottom:52px; background:rgba(0,0,0,.7); color:#fff; font-size:11px; font-weight:700; padding:2px 7px; border-radius:5px; pointer-events:none; }
+details { font-size:13px; color:var(--muted); } summary { cursor:pointer; font-size:12.5px; width:max-content; }
+details .desc { margin-top:4px; color:var(--fg); font-size:13px; }
+details b { font-weight:600; color:var(--muted); font-size:11.5px; text-transform:uppercase; letter-spacing:.4px; }
+.fb { margin-top:auto; display:flex; flex-direction:column; gap:7px; padding-top:9px; border-top:1px dashed var(--line); }
+.status { display:flex; gap:6px; flex-wrap:wrap; align-items:center; }
+.status button { font:inherit; font-size:13px; padding:5px 12px; border-radius:8px; border:1px solid var(--line); background:transparent; color:var(--fg); cursor:pointer; }
+.status button:hover { border-color:var(--muted); }
+.status button.ok[aria-pressed="true"] { background:var(--ok); border-color:var(--ok); color:#06150d; font-weight:700; }
+.status button.change[aria-pressed="true"] { background:var(--chg); border-color:var(--chg); color:#1b0308; font-weight:700; }
+.status .ctx { margin-left:auto; color:var(--muted); font-size:12.5px; }
+textarea { font:inherit; font-size:13.5px; width:100%; min-height:54px; resize:vertical; border-radius:8px; border:1px solid var(--line); background:var(--panel); color:var(--fg); padding:7px 9px; }
+.scene.st-change textarea { border-color:var(--chg); }
+.global { margin-top:26px; background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px; }
+.global h3 { margin:0 0 6px; }
+.empty { color:var(--muted); padding:20px 0; }
+.toast { position:fixed; left:50%; bottom:22px; transform:translateX(-50%); background:var(--fg); color:var(--bg); padding:8px 14px; border-radius:10px; font-size:14px; opacity:0; transition:opacity .2s; pointer-events:none; z-index:10; }
+.toast.show { opacity:1; }
+@media (max-width:600px) { .status .ctx { margin-left:0; } .time { min-width:0; } }
+</style>
+</head>
+<body>
+<main>
+  <header class="top">
+    <div>
+      <h1><span class="f">FAST</span> &amp; <span class="s">SLOW</span> · scene review <span class="tag" id="roundTag">RENDER 1</span></h1>
+      <div class="sub">"Sometimes I Think Slow", the finished cut split into its <span id="nscenes">66</span> scenes. Each card plays that scene exactly as it sits in the video.</div>
+    </div>
+    <div class="actions">
+      <div class="counts" id="counts"></div>
+      <span class="savestate" id="saveState" role="status" aria-live="polite"></span>
+      <button class="btn" id="copyBtn">Copy as text</button>
+      <button class="btn primary" id="saveBtn">Save</button>
+    </div>
+  </header>
+
+  <div class="help"><b>How to review:</b> play a scene in its card, or watch the whole cut below. Hit <b>✓ Approve</b> for keepers; for the rest, hit <b>✎ Change</b> and write what you want. Your notes save as you go, so I can read them as soon as you tell me you're done.
+    <span style="display:inline-block">Keys: <kbd>J</kbd>/<kbd>K</kbd> next/previous scene · <kbd>Space</kbd> play/pause · <kbd>A</kbd> approve and move on · <kbd>C</kbd> change and write a note · <kbd>Esc</kbd> leave the note box</span></div>
+  <div class="banner" id="banner" hidden></div>
+
+  <section class="player" id="player" aria-label="The full cut">
+    <video id="full" preload="metadata" playsinline controls></video>
+    <div class="transport">
+      <button class="btn small" id="prevBtn" aria-label="Previous scene">◀ Scene</button>
+      <button class="btn small" id="nextBtn" aria-label="Next scene">Scene ▶</button>
+      <span class="time" id="time">0:00 / 3:02</span>
+      <div class="timeline" id="timeline" aria-label="Scenes on the song timeline"></div>
+      <label class="check"><input type="checkbox" id="loop"> Loop scene</label>
+    </div>
+    <div class="nowbar">
+      <span><span class="lbl">Now:</span> <b id="nowLabel">S01</b> <button class="btn small" id="toCard">Go to its card ↓</button></span>
+      <span class="legend"><span><i style="background:var(--hook)"></i>hook</span><span><i style="background:var(--fast)"></i>FAST</span><span><i style="background:#77716a"></i>SLOW (sumi-e)</span><span><i style="background:var(--sunrise)"></i>sunrise</span><span><i style="background:var(--ok)"></i>approved</span><span><i style="background:var(--chg)"></i>change</span></span>
+    </div>
+  </section>
+
+  <div class="bar">
+    <div class="filters" id="filters" role="group" aria-label="Filter scenes"></div>
+    <div class="tools">
+      <label class="check"><input type="checkbox" id="autoplay" checked> Auto-play on <kbd>J</kbd>/<kbd>K</kbd></label>
+      <button class="btn small" id="bulkBtn"></button>
+    </div>
+  </div>
+  <div class="grid" id="grid"></div>
+
+  <section class="global">
+    <h3>Overall notes</h3>
+    <textarea id="globalNotes" placeholder="Pacing, story, anything that spans several scenes…"></textarea>
+  </section>
+</main>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+const KEY = "fastslow-scene-review-r1";
+const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
+const full = $("#full");
+let R, SC = [], D = 182.4, FB = { round:1, shots:{}, global:"", updated:0 }, filter = "All", sel = -1, nowIdx = -1, loopIdx = -1;
+const fmt = t => `${Math.floor(t / 60)}:${String(Math.floor(t % 60)).padStart(2, "0")}`;
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
+const stOf = id => (FB.shots[id] || {}).status;
+
+function toast(msg){ const t = $("#toast"); t.textContent = msg; t.classList.add("show"); clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove("show"), 2200); }
+
+async function load(){
+  R = await (await fetch("review.json", { cache:"no-store" })).json();
+  SC = R.scenes; D = R.duration || D;
+  $("#nscenes").textContent = SC.length; $("#roundTag").textContent = `RENDER ${R.round || 1}`;
+  full.src = R.full; full.poster = R.poster;
+  let local = null, srv = null;
+  try { local = JSON.parse(localStorage.getItem(KEY) || "null"); } catch(e){}
+  try { srv = await (await fetch("/api/feedback/review", { cache:"no-store" })).json(); } catch(e){}
+  const pick = [srv, local].filter(x => x && x.shots).sort((a, b) => (b.updated || 0) - (a.updated || 0))[0];
+  if (pick) FB = Object.assign({ round:1, shots:{}, global:"" }, pick);
+  const round = R.round || 1, upd = SC.filter(s => s.updated);
+  if ((FB.round || 1) < round) {        // a new render round: updated scenes go back to unreviewed, earlier notes kept
+    upd.forEach(s => { const f = FB.shots[s.id] || {}; FB.shots[s.id] = { prev:f.notes || f.prev || "" }; });
+    FB.round = round; FB.updated = Date.now();
+    try { localStorage.setItem(KEY, JSON.stringify(FB)); } catch(e){}
+  }
+  if (upd.length) {
+    filter = "Updated";
+    const kept = SC.filter(s => !s.updated && stOf(s.id) === "ok").length;
+    $("#banner").hidden = false;
+    $("#banner").innerHTML = `<b>Render ${round}:</b> ${upd.length} scenes updated from your notes (${upd.map(s => s.id).join(", ")}). They're shown first and back to unreviewed, with your earlier note under each; your ${kept} approvals stay. <b>Show render ${round - 1}</b> on a card plays the old version for comparison.`;
+  }
+  $("#globalNotes").value = FB.global || "";
+  $("#saveState").textContent = FB.saved_at ? `Saved ${FB.saved_at.slice(11)}` : "";
+  buildTimeline(); buildFilters(); renderGrid(); renderCounts(); tick(true);
+}
+
+// ---------------------------------------------------------------- saving
+let saveTimer = null;
+function changed(){
+  FB.updated = Date.now();
+  try { localStorage.setItem(KEY, JSON.stringify(FB)); } catch(e){}
+  renderCounts(); paintTimeline(); buildFilters();
+  $("#saveState").textContent = "Saving…";
+  clearTimeout(saveTimer); saveTimer = setTimeout(() => post(true), 800);
+}
+async function post(auto){
+  try {
+    const r = await fetch("/api/feedback/review" + (auto ? "?autosave=1" : ""), { method:"POST", headers:{ "Content-Type":"application/json" }, body:JSON.stringify(FB) });
+    const j = await r.json();
+    $("#saveState").textContent = j.ok ? `Saved ${j.saved_at.slice(11)}` : "Not saved";
+    if (!auto) toast(j.ok ? "Saved. Tell Claude it's ready." : "Save failed");
+  } catch(e){
+    $("#saveState").textContent = "Server offline: kept in this browser";
+    if (!auto) toast("Save failed (is the local server running?)");
+  }
+}
+$("#saveBtn").onclick = () => { clearTimeout(saveTimer); post(false); };
+$("#globalNotes").oninput = e => { FB.global = e.target.value; changed(); };
+
+// ---------------------------------------------------------------- full cut + timeline
+function buildTimeline(){
+  const tl = $("#timeline");
+  tl.innerHTML = SC.map((s, i) => `<div class="seg m-${s.mode}" data-i="${i}" style="left:${s.start / D * 100}%;width:${s.dur / D * 100}%" title="${s.id} · ${esc(s.title)} · ${fmt(s.start)}"></div>`).join("")
+    + `<div class="playhead" id="playhead"></div>`;
+  tl.onclick = e => {
+    const seg = e.target.closest(".seg");
+    if (seg) return seekScene(+seg.dataset.i);
+    const r = tl.getBoundingClientRect(); full.currentTime = (e.clientX - r.left) / r.width * D;
+  };
+  paintTimeline();
+}
+function paintTimeline(){
+  $$(".seg").forEach(d => { const st = stOf(SC[+d.dataset.i].id); d.classList.toggle("s-ok", st === "ok"); d.classList.toggle("s-change", st === "change"); });
+}
+function sceneAt(t){ const i = SC.findIndex(s => t >= s.start && t < s.end); return i < 0 ? (t >= D - 0.05 ? SC.length - 1 : 0) : i; }
+function seekScene(i){ loopIdx = i; full.currentTime = SC[i].start + 0.001; tick(true); }
+function tick(force){
+  const t = full.currentTime || 0;
+  if ($("#loop").checked && loopIdx >= 0 && !full.paused && (t >= SC[loopIdx].end - 0.03 || t < SC[loopIdx].start - 0.25)) {
+    full.currentTime = SC[loopIdx].start + 0.001;
+  }
+  const i = sceneAt(full.currentTime || 0);
+  if (i !== nowIdx) {
+    nowIdx = i; const s = SC[i];
+    $("#nowLabel").textContent = `${s.id} · ${s.title}`;
+    $$(".seg.cur").forEach(d => d.classList.remove("cur"));
+    const seg = $(`.seg[data-i="${i}"]`); if (seg) seg.classList.add("cur");
+    $$(".scene.now").forEach(c => c.classList.remove("now"));
+    const c = $(`#c-${s.id}`); if (c) c.classList.add("now");
+  }
+  $("#playhead").style.left = ((full.currentTime || 0) / D * 100) + "%";
+  $("#time").textContent = `${fmt(full.currentTime || 0)} / ${fmt(D)}`;
+  if (!full.paused) requestAnimationFrame(() => tick());
+}
+full.addEventListener("play", () => { if (loopIdx < 0) loopIdx = sceneAt(full.currentTime); tick(); });
+full.addEventListener("seeked", () => tick(true));
+full.addEventListener("timeupdate", () => { if (full.paused) tick(true); });
+$("#loop").onchange = () => { loopIdx = sceneAt(full.currentTime || 0); };
+$("#prevBtn").onclick = () => seekScene(Math.max(0, sceneAt(full.currentTime || 0) - 1));
+$("#nextBtn").onclick = () => seekScene(Math.min(SC.length - 1, sceneAt(full.currentTime || 0) + 1));
+$("#toCard").onclick = () => {
+  const s = SC[nowIdx]; if (!s) return;
+  if (!visible(s)) { filter = "All"; buildFilters(); renderGrid(); }
+  select(nowIdx, true);
+};
+
+// ---------------------------------------------------------------- filters + cards
+function sections(){ return [...new Set(SC.map(s => s.section))]; }
+function visible(s){
+  const st = stOf(s.id);
+  if (filter === "All") return true;
+  if (filter === "Updated") return !!s.updated;
+  if (filter === "Unreviewed") return !st;
+  if (filter === "Approved") return st === "ok";
+  if (filter === "Changes") return st === "change";
+  return s.section === filter;
+}
+function buildFilters(){
+  const n = f => SC.filter(s => { const o = filter; filter = f; const v = visible(s); filter = o; return v; }).length;
+  const fs = [...(SC.some(s => s.updated) ? ["Updated"] : []), "All", "Unreviewed", "Approved", "Changes", ...sections()];
+  $("#filters").innerHTML = fs.map(f => `<button class="pill ${f === filter ? "on" : ""}" data-f="${esc(f)}">${esc(f)}<span class="n">${n(f)}</span></button>`).join("");
+  const un = SC.filter(s => visible(s) && !stOf(s.id)).length;
+  $("#bulkBtn").textContent = `✓ Approve the ${un} unreviewed shown`;
+  $("#bulkBtn").disabled = !un;
+}
+$("#filters").onclick = e => { const b = e.target.closest(".pill"); if (!b) return; filter = b.dataset.f; buildFilters(); renderGrid(); };
+
+function card(s, i){
+  const f = FB.shots[s.id] || {}, st = f.status;
+  const caps = s.captions.length
+    ? s.captions.map(c => `<div class="lyr"><span class="st">${esc(c.style)}</span>${esc(c.text)}</div>`).join("")
+    : `<div class="lyr none">No lyric on screen</div>`;
+  const text = s.text.length ? `<div class="desc"><b>In-frame text</b> ${s.text.map(t => "“" + esc(t) + "”").join(" · ")}</div>` : "";
+  const mode = { slow:"sumi-e", fast:"FAST", hook:"hook", sunrise:"sunrise", transition:"transition" }[s.mode] || s.mode;
+  return `<article class="scene ${st ? "st-" + st : ""} ${i === sel ? "sel" : ""} ${i === nowIdx ? "now" : ""}" id="c-${s.id}" data-i="${i}">
+    <div class="vid">
+      <video preload="none" playsinline controls poster="${s.thumb}?v=${R.v}" src="${s.clip}?v=${R.v}" aria-label="${s.id} ${esc(s.title)}"></video>
+      <span class="tc">${s.id} · ${fmt(s.start)}–${fmt(s.end)} · ${s.dur.toFixed(1)}s</span>
+      <span class="chip ok">✓ Approved</span><span class="chip change">✎ Change</span>
+    </div>
+    <div class="body">
+      <div class="row1"><span class="sid">${s.id}</span><span class="ttl">${esc(s.title)}</span></div>
+      <div class="badges">${s.updated ? '<span class="badge upd">UPDATED</span>' : ""}<span class="badge m-${s.mode}">${mode}</span><span class="badge">${esc(s.section)}</span>${s.insert43 ? '<span class="badge">4:3 tape</span>' : ""}<span class="badge">${esc(s.source)}</span></div>
+      ${s.updated ? `<div class="updnote"><b>What changed:</b> ${esc(s.update_note)}</div>` : ""}
+      ${f.prev ? `<div class="prev">Your earlier note: ${esc(f.prev)}</div>` : ""}
+      ${caps}
+      ${s.fix ? `<div class="fix">After QA: ${esc(s.fix)}</div>` : ""}
+      <details><summary>Shot notes</summary>
+        <div class="desc">${esc(s.scene)}</div>
+        <div class="desc"><b>Camera</b> ${esc(s.camera)} · <b>Motion</b> ${esc(s.motion)}</div>${text}
+      </details>
+      <div class="fb">
+        <div class="status" role="group" aria-label="Status for ${s.id}">
+          <button class="ok" data-s="ok" aria-pressed="${st === "ok"}">✓ Approve</button>
+          <button class="change" data-s="change" aria-pressed="${st === "change"}">✎ Change</button>
+          ${s.prev_clip ? `<button class="cmp btn small" title="Swap between the new and the previous render">Show render ${(R.round || 2) - 1}</button>` : ""}
+          <button class="ctx btn small" title="Play this scene inside the full cut">▶ In context</button>
+        </div>
+        <textarea placeholder="What should change in ${s.id}?" aria-label="Notes for ${s.id}">${esc(f.notes || "")}</textarea>
+      </div>
+    </div></article>`;
+}
+function renderGrid(){
+  const vis = SC.map((s, i) => visible(s) ? card(s, i) : "").join("");
+  $("#grid").innerHTML = vis || `<p class="empty">No scenes in this view.</p>`;
+}
+function refreshCard(i){
+  const s = SC[i], el = $(`#c-${s.id}`); if (!el) return; const st = stOf(s.id);
+  el.classList.toggle("st-ok", st === "ok"); el.classList.toggle("st-change", st === "change");
+  el.querySelectorAll(".status button[data-s]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.s === st)));
+}
+function setStatus(i, st, toggle = true){
+  if (i < 0) return; const id = SC[i].id, f = FB.shots[id] = FB.shots[id] || {};
+  f.status = toggle && f.status === st ? undefined : st;
+  if (!f.status && !f.notes) delete FB.shots[id];
+  refreshCard(i); changed();
+}
+function select(i, scroll){
+  if (sel >= 0) { const o = $(`#c-${SC[sel].id}`); if (o) o.classList.remove("sel"); }
+  sel = i; const el = i >= 0 ? $(`#c-${SC[i].id}`) : null;
+  if (el) { el.classList.add("sel"); if (scroll) el.scrollIntoView({ behavior:"smooth", block:"center" }); }
+}
+function cardVideo(i){ const el = i >= 0 ? $(`#c-${SC[i].id}`) : null; return el ? el.querySelector("video") : null; }
+function inContext(i){
+  $$("video").forEach(v => { if (v !== full) v.pause(); });
+  loopIdx = i; full.currentTime = Math.max(0, SC[i].start - 1.0); full.play();
+  $("#player").scrollIntoView({ behavior:"smooth", block:"start" });
+}
+
+const grid = $("#grid");
+grid.addEventListener("click", e => {
+  const el = e.target.closest(".scene"); if (!el) return; const i = +el.dataset.i;
+  if (i !== sel) select(i, false);
+  const b = e.target.closest(".status button");
+  if (!b) return;
+  if (b.classList.contains("ctx")) return inContext(i);
+  if (b.classList.contains("cmp")) {                  // swap the card between the new take and the previous render
+    const s = SC[i], box = el.querySelector(".vid"), v = box.querySelector("video"), old = !box.classList.contains("old");
+    box.classList.toggle("old", old); v.src = (old ? s.prev_clip : s.clip) + "?v=" + R.v;
+    b.textContent = old ? "Show new" : `Show render ${(R.round || 2) - 1}`; v.play().catch(() => {});
+    return;
+  }
+  setStatus(i, b.dataset.s);
+  if (b.dataset.s === "change" && stOf(SC[i].id) === "change") el.querySelector("textarea").focus();
+  else b.blur();
+});
+grid.addEventListener("focusin", e => { const el = e.target.closest(".scene"); if (el && +el.dataset.i !== sel) select(+el.dataset.i, false); });
+grid.addEventListener("input", e => {
+  if (!e.target.matches("textarea")) return;
+  const i = +e.target.closest(".scene").dataset.i, id = SC[i].id, f = FB.shots[id] = FB.shots[id] || {};
+  f.notes = e.target.value;
+  if (!f.status && f.notes.trim()) { f.status = "change"; refreshCard(i); }       // a note without a verdict means "change"
+  changed();
+});
+// one sound at a time: starting any video pauses the others
+document.addEventListener("play", e => {
+  $$("video").forEach(v => { if (v !== e.target) v.pause(); });
+  const el = e.target.closest && e.target.closest(".scene"); if (el && +el.dataset.i !== sel) select(+el.dataset.i, false);
+}, true);
+
+$("#bulkBtn").onclick = () => {
+  const ids = SC.filter(s => visible(s) && !stOf(s.id));
+  if (!ids.length || !confirm(`Approve ${ids.length} unreviewed scene${ids.length > 1 ? "s" : ""} in this view?`)) return;
+  ids.forEach(s => { FB.shots[s.id] = Object.assign(FB.shots[s.id] || {}, { status:"ok" }); refreshCard(SC.indexOf(s)); });
+  changed(); toast(`Approved ${ids.length}`);
+};
+
+function renderCounts(){
+  const n = k => SC.filter(s => stOf(s.id) === k).length, ok = n("ok"), ch = n("change");
+  $("#counts").innerHTML = `<span class="c-ok">✓ ${ok}</span><span class="c-chg">✎ ${ch}</span><span>${SC.length - ok - ch} to review</span>`;
+}
+
+// ---------------------------------------------------------------- keyboard
+function visibleIdx(){ return $$(".scene").map(el => +el.dataset.i); }
+function move(d){
+  const v = visibleIdx(); if (!v.length) return;
+  const p = v.indexOf(sel), next = v[p < 0 ? (d > 0 ? 0 : v.length - 1) : Math.max(0, Math.min(v.length - 1, p + d))];
+  $$("video").forEach(x => x.pause());
+  select(next, true);
+  if ($("#autoplay").checked) { const vid = cardVideo(next); if (vid) { vid.currentTime = 0; vid.play().catch(() => {}); } }
+}
+document.addEventListener("keydown", e => {
+  if (e.target.matches("textarea, input")) { if (e.key === "Escape") e.target.blur(); return; }
+  if (e.metaKey || e.ctrlKey || e.altKey) return;
+  const k = e.key.toLowerCase();
+  if (k === "j") { e.preventDefault(); move(1); }
+  else if (k === "k") { e.preventDefault(); move(-1); }
+  else if (e.code === "Space" && e.target.tagName !== "VIDEO" && e.target.tagName !== "BUTTON") {
+    e.preventDefault(); const v = sel >= 0 ? cardVideo(sel) : full;
+    if (v) v.paused ? v.play().catch(() => {}) : v.pause();
+  }
+  else if (k === "a" && sel >= 0) { setStatus(sel, "ok", false); move(1); }
+  else if (k === "c" && sel >= 0) { e.preventDefault(); setStatus(sel, "change", false); const el = $(`#c-${SC[sel].id}`); if (el) el.querySelector("textarea").focus(); }
+});
+
+// ---------------------------------------------------------------- copy as text
+function asText(){
+  const L = [`Scene review, render ${R.round || 1} (${new Date().toLocaleString()})`];
+  const ok = SC.filter(s => stOf(s.id) === "ok"), ch = SC.filter(s => stOf(s.id) === "change"), un = SC.filter(s => !stOf(s.id));
+  L.push(`Approved (${ok.length}): ${ok.map(s => s.id).join(", ") || "none"}`);
+  if (ch.length) { L.push(`Changes (${ch.length}):`); ch.forEach(s => L.push(`- ${s.id} ${s.title}: ${(FB.shots[s.id].notes || "").trim() || "(no note)"}`)); }
+  const noted = ok.filter(s => (FB.shots[s.id].notes || "").trim());
+  if (noted.length) { L.push("Notes on approved scenes:"); noted.forEach(s => L.push(`- ${s.id} ${s.title}: ${FB.shots[s.id].notes.trim()}`)); }
+  if (un.length) L.push(`Not reviewed yet (${un.length}): ${un.map(s => s.id).join(", ")}`);
+  const upd = SC.filter(s => s.updated); if (upd.length) L.push(`(Updated this round: ${upd.map(s => s.id).join(", ")})`);
+  if ((FB.global || "").trim()) L.push(`Overall: ${FB.global.trim()}`);
+  return L.join("\n");
+}
+$("#copyBtn").onclick = async () => { try { await navigator.clipboard.writeText(asText()); toast("Copied the review as text"); } catch(e){ toast("Copy failed. Use Save instead"); } };
+
+load();
+</script>
+</body>
+</html>

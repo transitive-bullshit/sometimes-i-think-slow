@@ -1,0 +1,7 @@
+{
+ "name": "k6b-karpathy-pager",
+ "endpoint": "fal-ai/nano-banana-pro/edit",
+ "source": "bake-krea-k2-bodega.png",
+ "prompt": "Use image 1 only as the style and lighting reference and image 2 for FAST's hand and sleeve. New image, same 1990s cel anime style: extreme close-up of FAST's hand holding his beeper with the orange-teal windbreaker cuff visible. The pager's backlit green LCD shows two lines in blocky segment type, spelled exactly: 'KARPATHY:' and 'NO THINKING. SINGLE TOKEN. LOW LATENCY'. Soft-focus bodega neon and a CRT glow behind, film grain.",
+ "seconds": 37.4
+}

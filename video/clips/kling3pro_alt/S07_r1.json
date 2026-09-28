@@ -1,0 +1,13 @@
+{
+ "id": "S07",
+ "model": "kling3pro",
+ "endpoint": "fal-ai/kling-video/v3/pro/image-to-video",
+ "args": {
+  "prompt": "Smear-frame throw; ball arrives instantly. FAST throws a perfect football spiral across the park before a kid has finished raising his hand to ask for it; the ball is already in the kid's arms, the kid stunned. Camera: Side angle, FAST foreground left, kid far right. 1990s hand-painted cel anime, saturated colors, energetic limited animation with smear frames, film grain. Keep the art style, characters, faces, hair, outfits and any lettering exactly as in the first frame. Characters do not speak or sing; mouths stay closed or relaxed. No new text or subtitles.",
+  "negative_prompt": "3D render, CGI, photorealistic, morphing, warped faces, extra limbs, extra people, subtitles, captions, watermark, text changes",
+  "generate_audio": false,
+  "duration": "3",
+  "cfg_scale": 0.5
+ },
+ "seconds": 90.9
+}

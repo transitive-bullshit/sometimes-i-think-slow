@@ -1,0 +1,14 @@
+{
+ "id": "S50",
+ "model": "wan3",
+ "endpoint": "alibaba/wan-3.0/image-to-video",
+ "args": {
+  "prompt": "Hand up; fingers cross. FAST raises his right hand like a witness, all innocence, while behind his back his other hand's fingers are crossed (visible to camera). Camera: Medium, slightly behind FAST. monochrome Japanese sumi-e ink wash animation, calm and slow, ink texture on washi paper, film grain. Keep the art style, characters, faces, hair, outfits and any lettering exactly as in the first frame. Characters do not speak or sing; mouths stay closed or relaxed. No new text or subtitles.",
+  "audio": false,
+  "resolution": "1080p",
+  "enable_prompt_expansion": false,
+  "duration": 3,
+  "aspect_ratio": "16:9"
+ },
+ "seconds": 130.5
+}

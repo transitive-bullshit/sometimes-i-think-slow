@@ -1,0 +1,14 @@
+{
+ "id": "S57",
+ "model": "wan3",
+ "endpoint": "alibaba/wan-3.0/image-to-video",
+ "args": {
+  "prompt": "Shake, then hard freeze-frame. BEAT DROP. Close on FAST's hand shaking a Magic 8-Ball; its window reads 'ASK AGAIN LATER'. SLOW's deadpan side-eye in the background. Camera: Macro on the 8-Ball. monochrome Japanese sumi-e ink wash animation, calm and slow, ink texture on washi paper, film grain. Keep the art style, characters, faces, hair, outfits and any lettering exactly as in the first frame. Characters do not speak or sing; mouths stay closed or relaxed. No new text or subtitles.",
+  "audio": false,
+  "resolution": "1080p",
+  "enable_prompt_expansion": false,
+  "duration": 3,
+  "aspect_ratio": "16:9"
+ },
+ "seconds": 277.8
+}

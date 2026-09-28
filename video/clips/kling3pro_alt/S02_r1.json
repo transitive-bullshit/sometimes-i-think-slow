@@ -1,0 +1,13 @@
+{
+ "id": "S02",
+ "model": "kling3pro",
+ "endpoint": "fal-ai/kling-video/v3/pro/image-to-video",
+ "args": {
+  "prompt": "FAST lands the ollie on 'fast'; SLOW turns one page on 'slow'. The approved underpass two-shot: FAST under 'train-time compute' pops an ollie, SLOW under 'test-time compute' stands still reading his notebook. Crew leaning on a car in the background. Camera: Medium-wide two-shot, low angle. 1990s hand-painted cel anime, dusk under a highway overpass, sodium light, film grain, VHS softness. Keep the art style, characters, faces, hair, outfits and any lettering exactly as in the first frame. Characters do not speak or sing; mouths stay closed or relaxed. No new text or subtitles.",
+  "negative_prompt": "3D render, CGI, photorealistic, morphing, warped faces, extra limbs, extra people, subtitles, captions, watermark, text changes",
+  "generate_audio": false,
+  "duration": "6",
+  "cfg_scale": 0.5
+ },
+ "seconds": 112.3
+}

@@ -1,0 +1,13 @@
+{
+ "id": "S11",
+ "model": "kling3pro",
+ "endpoint": "fal-ai/kling-video/v3/pro/image-to-video",
+ "args": {
+  "prompt": "Slow push toward the screen. Night bodega: the CRT glows with a social post card 'Andrej Karpathy' '@karpathy' 'no thinking, single token, low latency'. FAST (no cap, wild twists) stands to the LEFT of the TV and points at it from the side with his fingertip near the screen's left edge; his hand and arm stay outside the screen so the whole post card is clearly visible and unobstructed; the screen glow lights his face. Camera: Medium, the TV screen fully visible right of center. 1990s hand-painted cel anime, saturated colors, energetic limited animation with smear frames, film grain. Keep the art style, characters, faces, hair, outfits and any lettering exactly as in the first frame. Characters do not speak or sing; mouths stay closed or relaxed. No new text or subtitles.",
+  "negative_prompt": "3D render, CGI, photorealistic, morphing, warped faces, extra limbs, extra people, subtitles, captions, watermark, text changes",
+  "generate_audio": false,
+  "duration": "4",
+  "cfg_scale": 0.5
+ },
+ "seconds": 108.0
+}

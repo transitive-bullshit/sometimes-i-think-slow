@@ -1,0 +1,14 @@
+{
+ "job": "S10_b",
+ "shot": "S10",
+ "start": "",
+ "end": "",
+ "args": {
+  "prompt": "Frantic and simple: FAST is running out, stops dead, spins back, snatches a cassette off the counter and sprints out of frame to the right in a blur; the soda can, the cassette stack and the newspaper rack crash over in his wake; the pigeon flaps away. A bodega counter with a sticky note on the CRT reading 'MAKE NO MISTAKES'. Camera: Wide static, FAST exiting frame right. 1990s hand-painted cel anime, saturated colors, energetic limited animation with smear frames, film grain. Keep the art style, characters, faces, hair, outfits and any lettering exactly as in the first frame. Characters do not speak or sing; mouths stay closed or relaxed. No new text or subtitles.",
+  "negative_prompt": "3D render, CGI, photorealistic, morphing, warped faces, extra limbs, extra people, subtitles, captions, watermark, text changes, new writing, changing letters or numbers, slow motion",
+  "generate_audio": false,
+  "duration": "3",
+  "cfg_scale": 0.5
+ },
+ "seconds": 88.5
+}

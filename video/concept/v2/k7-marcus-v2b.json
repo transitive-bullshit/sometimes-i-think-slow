@@ -1,0 +1,6 @@
+{
+ "name": "k7-marcus-v2b",
+ "endpoint": "fal-ai/nano-banana-pro/edit",
+ "source": "k7-marcus-v2.png",
+ "prompt": "Image 2 is FAST's model sheet. Edit image 1: remove the foreground man in the orange-teal-purple windbreaker entirely (fill with the rainy newsstand street behind him). Redraw the small figure slipping on the banana peel in the background as FAST from the model sheet (wild spiky twists, no cap), mid-slip, arms flailing, frozen in a smear frame. Keep the man in the camel coat reading the newspaper exactly as is, and keep the headline 'GARY MARCUS: \"TOLD YOU IT WOULD SLIP\"' exactly and legibly. Same 1990s cel anime style."
+}

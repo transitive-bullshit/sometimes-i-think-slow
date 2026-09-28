@@ -1,0 +1,13 @@
+{
+ "id": "S04",
+ "model": "kling3pro",
+ "endpoint": "fal-ai/kling-video/v3/pro/image-to-video",
+ "args": {
+  "prompt": "FAST windmill spin; SLOW's ponytail lifts in the wind. Reverse angle from behind the mural wall's base: FAST (left) and SLOW (right) seen from behind, facing the two painted charts, the city glowing beyond the overpass; FAST mid-spin in a breakdance freeze, SLOW motionless. Camera: Wide from behind the characters, low. 1990s hand-painted cel anime, dusk under a highway overpass, sodium light, film grain, VHS softness. Keep the art style, characters, faces, hair, outfits and any lettering exactly as in the first frame. Characters do not speak or sing; mouths stay closed or relaxed. No new text or subtitles.",
+  "negative_prompt": "3D render, CGI, photorealistic, morphing, warped faces, extra limbs, extra people, subtitles, captions, watermark, text changes",
+  "generate_audio": false,
+  "duration": "5",
+  "cfg_scale": 0.5
+ },
+ "seconds": 99.9
+}

@@ -1,0 +1,14 @@
+{
+ "job": "S03h_a",
+ "shot": "S03",
+ "start": "video/storyboard/frames_r2/S03_hype.png",
+ "end": "",
+ "args": {
+  "prompt": "Already mid-chant: the three kids on the car hood keep punching their fists into the air on the beat and shouting 'FAST!', bouncing on the hood, three big pumps; the kid on the right shakes his skateboard overhead; the camera bumps on each hit. Three kids sit on the hood of a boxy 80s sedan under the overpass at dusk, graffiti on the pillars, sodium light. Camera: Medium, three-quarter angle, fisheye edge distortion. 1990s hand-painted cel anime, dusk under a highway overpass, sodium light, film grain, VHS softness. Keep the art style, characters, faces, hair, outfits and any lettering exactly as in the first frame. No new text or subtitles.",
+  "negative_prompt": "3D render, CGI, photorealistic, morphing, warped faces, extra limbs, extra people, subtitles, captions, watermark, text changes, new writing, changing letters or numbers, slow motion",
+  "generate_audio": false,
+  "duration": "4",
+  "cfg_scale": 0.5
+ },
+ "seconds": 107.8
+}

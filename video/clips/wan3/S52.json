@@ -1,0 +1,14 @@
+{
+ "id": "S52",
+ "model": "wan3",
+ "endpoint": "alibaba/wan-3.0/image-to-video",
+ "args": {
+  "prompt": "The umbrella point taps the pavement once. SLOW stands over him holding a closed umbrella point-down like a ronin's sword, rain around him, firm and calm. Camera: Low angle from FAST's point of view. monochrome Japanese sumi-e ink wash animation, calm and slow, ink texture on washi paper, film grain. Keep the art style, characters, faces, hair, outfits and any lettering exactly as in the first frame. Characters do not speak or sing; mouths stay closed or relaxed. No new text or subtitles.",
+  "audio": false,
+  "resolution": "1080p",
+  "enable_prompt_expansion": false,
+  "duration": 3,
+  "aspect_ratio": "16:9"
+ },
+ "seconds": 130.0
+}

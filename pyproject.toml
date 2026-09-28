@@ -1,0 +1,36 @@
+[project]
+name = "sometimes-i-think-slow"
+version = "1.0.0"
+description = "An AI-made hip-hop parody music video about thinking fast and slow: the pipeline, prompts, receipts, and review tools."
+readme = "readme.md"
+license = "MIT"
+requires-python = ">=3.12,<3.13"
+# The video pipeline: concept art, keyframes and clips on fal, the compositor, and the review tools.
+dependencies = [
+  "fal-client>=1.0.3",
+  "numpy>=2.5.3",
+  "pillow>=12.3.0",
+  "requests>=2.34.2",
+]
+
+[dependency-groups]
+# Installed by default with `uv sync`: the offline smoke tests (tests/).
+dev = ["pytest>=8"]
+# The beat grid, word timings and vocal stem for the Suno take (scripts/suno_transcribe.py, beats.py, grid.py).
+timing = [
+  "audio-separator[cpu]>=0.47.0",
+  "beat-this",
+  "librosa>=1.0.0",
+  "mlx-whisper>=0.4.3; sys_platform == 'darwin' and platform_machine == 'arm64'",
+  "soundfile>=0.14.0",
+]
+# The song-anatomy numbers: bar positions, syllable counts, and rhyme vowels per line (scripts/vocal_map.py).
+analysis = [{ include-group = "timing" }, "pronouncing>=0.3.0", "pyphen>=0.18.1"]
+# Uploading the media backup to R2 (scripts/media_backup.py upload). Restoring it needs only the core install.
+backup = ["boto3>=1.40"]
+
+[tool.uv]
+package = false # a working directory of scripts, not an installable package
+
+[tool.uv.sources]
+beat-this = { git = "https://github.com/CPJKU/beat_this", rev = "b95c8ab0c58c2d9fcfd40508ae8dffbc05ac4f5c" }

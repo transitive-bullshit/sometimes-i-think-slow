@@ -1,0 +1,10 @@
+{
+ "id": "S24",
+ "prompt": "Create a new 16:9 storyboard keyframe for a music video. Image 1 is the style reference and the base composition to adapt: match its 1990s hand-painted cel anime look, ink line quality, film grain and VHS softness exactly. Image 2 is FAST's model sheet: draw FAST exactly on-model (same face, hair, skin tone, glasses, outfit and props). Image 3 is SLOW's model sheet: draw SLOW exactly on-model (same face, hair, skin tone, glasses, outfit and props). Dusk under a concrete highway overpass with sodium streetlights. Color split: the left side of the frame is warm and saturated (FAST's side), the right side cool and desaturated (SLOW's side).\nScene: The underpass wide from hook 1, same composition, but now a crowd of about ten kids fills the background, some on skateboards, one with a boombox; FAST and SLOW in front of their charts. SLOW appears exactly once, in the foreground right; no one in the crowd looks like him (no one else has a ponytail, glasses or a camel coat).\nCamera: Same wide as S02 (chorus anchor).\nCharacters: FAST and SLOW only, no one else unless the scene mentions extras. Their mouths are closed or relaxed (nobody is mid-word).\nThe only readable text in the image: 'train-time compute'; 'test-time compute', spelled exactly and rendered as part of the scene on real objects. No other text, captions, subtitles or speech bubbles.\nNo borders, no panel frames, not a comic page.",
+ "refs": [
+  "https://v3b.fal.media/files/b/0aac3e40/8Mzmdi9cYLhZslkiLvae5_k1-underpass-v2.png",
+  "https://v3b.fal.media/files/b/0aac3e40/C26xXEY7VtRtcYwvCYZ1q_sheet-fast-v2.png",
+  "https://v3b.fal.media/files/b/0aac3e41/lb7FieIWNh7pfyqWu-ZDY_sheet-slow-v2.png"
+ ],
+ "seconds": 33.9
+}

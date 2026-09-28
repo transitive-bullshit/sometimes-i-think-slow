@@ -1,0 +1,14 @@
+{
+ "id": "S31",
+ "model": "pixverse6",
+ "endpoint": "fal-ai/pixverse/v6/image-to-video",
+ "args": {
+  "prompt": "Rain streaks; the dryers spin. The approved sumi-e laundromat: 'ABILENE WASH & FOLD' neon in the rain, SLOW alone on the bench writing. Camera: Wide interior. monochrome Japanese sumi-e ink wash animation, calm and slow, ink texture on washi paper, film grain. Keep the art style, characters, faces, hair, outfits and any lettering exactly as in the first frame. Characters do not speak or sing; mouths stay closed or relaxed. No new text or subtitles.",
+  "negative_prompt": "3D render, CGI, photorealistic, morphing, warped faces, extra limbs, extra people, subtitles, captions, watermark, text changes",
+  "resolution": "1080p",
+  "style": "anime",
+  "duration": 2,
+  "generate_audio_switch": false
+ },
+ "seconds": 47.1
+}

@@ -1,0 +1,6 @@
+{
+ "name": "sheet-slow-nano",
+ "endpoint": "fal-ai/nano-banana-pro/edit",
+ "prompt": "Keep these exact two characters: the same faces, hair, outfits and the same 1990s cel anime look as the reference images. Character model sheet on plain warm-gray paper, 1990s cel anime production design. SLOW shown as a full-body turnaround (front, three-quarter, side, back) plus three head close-ups with expressions: calm half-smile, deadpan side-eye, one eyebrow raised over his glasses. Small prop callouts: composition notebook with pencil, Walkman cassette player with headphones, round gold pendant, flat cap. Title lettering at the top: 'SLOW - SYSTEM TWO'. Color swatches: camel, charcoal, black, cream.",
+ "seconds": 37.4
+}

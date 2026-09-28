@@ -1,0 +1,14 @@
+{
+ "job": "S46_b",
+ "shot": "S46",
+ "start": "",
+ "end": "video/storyboard/frames_r2/S46_end.png",
+ "args": {
+  "prompt": "FAST's foot shoots out on the banana peel, his legs fly up and he lands hard, flat on his backside; SLOW doesn't flinch and keeps reading, holding the newspaper perfectly still with its headline facing the camera. A rainy newsstand in monochrome ink wash; SLOW in the foreground reads a newspaper headlined 'GARY MARCUS: \"TOLD YOU IT WOULD SLIP\"'. The headline never changes. Camera: Medium. monochrome Japanese sumi-e ink wash animation, calm and slow, ink texture on washi paper, film grain. Keep the art style, characters, faces, hair, outfits and any lettering exactly as in the first frame. Characters do not speak or sing; mouths stay closed or relaxed. No new text or subtitles.",
+  "negative_prompt": "3D render, CGI, photorealistic, morphing, warped faces, extra limbs, extra people, subtitles, captions, watermark, text changes, new writing, changing letters or numbers, slow motion",
+  "generate_audio": false,
+  "duration": "3",
+  "cfg_scale": 0.5
+ },
+ "seconds": 133.4
+}

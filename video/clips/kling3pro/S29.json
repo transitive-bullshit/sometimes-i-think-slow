@@ -1,0 +1,13 @@
+{
+ "id": "S29",
+ "model": "kling3pro",
+ "endpoint": "fal-ai/kling-video/v3/pro/image-to-video",
+ "args": {
+  "prompt": "Color bleeds out left to right; the chant fades. Streetlights come on; SLOW walks away from the crowd into the dark end of the underpass, and the frame drains from color to black ink wash as he goes. Camera: Wide, SLOW walking away from camera. 1990s cel anime; color and monochrome ink wash bleeding into each other. Keep the art style, characters, faces, hair, outfits and any lettering exactly as in the first frame. Characters do not speak or sing; mouths stay closed or relaxed. No new text or subtitles.",
+  "negative_prompt": "3D render, CGI, photorealistic, morphing, warped faces, extra limbs, extra people, subtitles, captions, watermark, text changes",
+  "generate_audio": false,
+  "duration": "7",
+  "cfg_scale": 0.5
+ },
+ "seconds": 141.3
+}

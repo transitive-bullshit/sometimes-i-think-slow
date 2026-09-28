@@ -1,0 +1,1866 @@
+{
+ "song": "../../audio/suno/final-take.wav",
+ "bpm": 105.24,
+ "v": 2,
+ "poster": "poster.png",
+ "shots": [
+  {
+   "id": "S01",
+   "start": 0.0,
+   "section": "Intro",
+   "mode": "hook",
+   "insert43": true,
+   "title": "PLAY",
+   "scene": "Empty highway underpass at dusk seen through a camcorder: slow approach toward the huge mural of two chalk-white scatter plots titled 'train-time compute' and 'test-time compute'. Sodium lights flicker on, puddles, nobody in frame.",
+   "camera": "Wide, eye level, slight handheld drift",
+   "motion": "Slow push-in through tracking noise; VHS PLAY OSD",
+   "text": [
+    "train-time compute",
+    "test-time compute"
+   ],
+   "chars": [],
+   "base": "k1-underpass-v2",
+   "end": 0.8,
+   "dur": 0.8,
+   "captions": [],
+   "frame": "preview/S01.jpg",
+   "frame_full": "frames/S01.png"
+  },
+  {
+   "id": "S02",
+   "start": 0.8,
+   "section": "Hook 1",
+   "mode": "hook",
+   "title": "The chant",
+   "scene": "The approved underpass two-shot: FAST under 'train-time compute' pops an ollie, SLOW under 'test-time compute' stands still reading his notebook. Crew leaning on a car in the background.",
+   "camera": "Medium-wide two-shot, low angle",
+   "motion": "FAST lands the ollie on 'fast'; SLOW turns one page on 'slow'",
+   "chars": [
+    "FAST",
+    "SLOW"
+   ],
+   "base": "k1-underpass-v2",
+   "reuse": true,
+   "lipsync": "Alt (no lip-sync): as boarded; faces angled off-axis, the mural lettering carries the hook.",
+   "end": 6.25,
+   "dur": 5.45,
+   "captions": [
+    {
+     "text": "Sometimes I think slow\nSometimes I think fast",
+     "start": 0.82,
+     "end": 6.26,
+     "style": "hook"
+    }
+   ],
+   "frame": "preview/S02.jpg",
+   "frame_full": "frames/S02.png"
+  },
+  {
+   "id": "S03",
+   "start": 6.25,
+   "section": "Hook 1",
+   "mode": "hook",
+   "title": "Fast fast fast",
+   "scene": "Three kids from the crew sit on the hood of a boxy 80s sedan under the overpass, stamping the beat with their fists on the hood, one slapping a skateboard deck; sodium light, graffiti on the pillars.",
+   "camera": "Medium, three-quarter angle, fisheye edge distortion",
+   "motion": "Three hits on the beat; camera bumps on each hit",
+   "chars": [],
+   "end": 9.85,
+   "dur": 3.6,
+   "captions": [
+    {
+     "text": "FAST FAST FAST",
+     "start": 6.3,
+     "end": 8.62,
+     "style": "stamp"
+    }
+   ],
+   "frame": "preview/S03.jpg",
+   "frame_full": "frames/S03.png"
+  },
+  {
+   "id": "S04",
+   "start": 9.85,
+   "section": "Hook 1",
+   "mode": "hook",
+   "title": "Face the mural",
+   "scene": "Reverse angle from behind the mural wall's base: FAST (left) and SLOW (right) seen from behind, facing the two painted charts, the city glowing beyond the overpass; FAST mid-spin in a breakdance freeze, SLOW motionless.",
+   "camera": "Wide from behind the characters, low",
+   "motion": "FAST windmill spin; SLOW's ponytail lifts in the wind",
+   "chars": [
+    "FAST",
+    "SLOW"
+   ],
+   "text": [
+    "train-time compute",
+    "test-time compute"
+   ],
+   "end": 14.25,
+   "dur": 4.4,
+   "captions": [
+    {
+     "text": "Sometimes I think slow\nSometimes I think fast",
+     "start": 9.92,
+     "end": 14.0,
+     "style": "hook"
+    }
+   ],
+   "frame": "preview/S04.jpg",
+   "frame_full": "frames/S04.png"
+  },
+  {
+   "id": "S05",
+   "start": 14.25,
+   "section": "Hook 1",
+   "mode": "fast",
+   "title": "Pager buzz",
+   "scene": "Extreme close-up of FAST's skateboard wheels spinning over wet asphalt, his beeper on his waistband buzzing and flashing, orange windbreaker hem in frame; streaks of speed.",
+   "camera": "Macro, ground level",
+   "motion": "Whip pan into verse 1 with a smear frame",
+   "chars": [
+    "FAST"
+   ],
+   "end": 17.15,
+   "dur": 2.9,
+   "captions": [
+    {
+     "text": "FAST FAST FAST",
+     "start": 14.32,
+     "end": 15.86,
+     "style": "stamp"
+    }
+   ],
+   "frame": "preview/S05.jpg",
+   "frame_full": "frames/S05.png"
+  },
+  {
+   "id": "S06",
+   "start": 17.15,
+   "section": "Verse 1",
+   "mode": "fast",
+   "title": "The bowl",
+   "rev": 2,
+   "scene": "Concrete skate park in bright afternoon sun, framed close enough to read both faces clearly. FAST carves the bowl at speed, one hand trailing the wall, face turned toward camera; SLOW sits on the coping at the top, calmly reading, face visible in three-quarter view. FAST is a dark-skinned Black man with a wild mane of short spiky twists and no hat, in his traffic-cone orange, teal and purple windbreaker; SLOW is a Japanese man with long black hair in a low ponytail and thin rectangular glasses, in his camel overcoat and black turtleneck. ",
+   "camera": "High angle over the bowl",
+   "motion": "FAST circles the bowl twice in one beat; SLOW turns a page",
+   "chars": [
+    "FAST",
+    "SLOW"
+   ],
+   "lipsync": "Alt (no lip-sync): FAST is small in frame and moving; the graffiti caption carries the line.",
+   "end": 20.05,
+   "dur": 2.9,
+   "captions": [
+    {
+     "text": "Sometimes I think slow, sometimes I think fast",
+     "start": 17.24,
+     "end": 19.84,
+     "style": "fast"
+    }
+   ],
+   "frame": "preview/S06.jpg",
+   "frame_full": "frames/S06.png"
+  },
+  {
+   "id": "S07",
+   "start": 20.05,
+   "section": "Verse 1",
+   "mode": "fast",
+   "title": "Forward pass",
+   "scene": "FAST throws a perfect football spiral across the park before a kid has finished raising his hand to ask for it; the ball is already in the kid's arms, the kid stunned.",
+   "camera": "Side angle, FAST foreground left, kid far right",
+   "motion": "Smear-frame throw; ball arrives instantly",
+   "chars": [
+    "FAST"
+   ],
+   "end": 22.4,
+   "dur": 2.35,
+   "captions": [
+    {
+     "text": "One forward pass, I'm done before you ask",
+     "start": 20.12,
+     "end": 22.14,
+     "style": "fast"
+    }
+   ],
+   "frame": "preview/S07.jpg",
+   "frame_full": "frames/S07.png"
+  },
+  {
+   "id": "S08",
+   "start": 22.4,
+   "section": "Verse 1",
+   "mode": "fast",
+   "title": "2k tok/s",
+   "scene": "FAST bombs down a steep city hill on his skateboard, a trail of glowing token glyphs sparking off his wheels; a roadside radar speed sign flashes '2000 TOK/S' above the words 'SLOW DOWN'.",
+   "camera": "Low angle, FAST rushing toward camera",
+   "motion": "Blur and speed lines; the sign flashes on the beat",
+   "chars": [
+    "FAST"
+   ],
+   "text": [
+    "2000 TOK/S",
+    "SLOW DOWN"
+   ],
+   "end": 24.45,
+   "dur": 2.05,
+   "captions": [
+    {
+     "text": "Two thousand tokens a second, I'm gassed",
+     "start": 22.44,
+     "end": 24.02,
+     "style": "fast"
+    }
+   ],
+   "frame": "preview/S08.jpg",
+   "frame_full": "frames/S08.png"
+  },
+  {
+   "id": "S09",
+   "start": 24.45,
+   "section": "Verse 1",
+   "mode": "fast",
+   "title": "LOW beats HIGH",
+   "scene": "The approved court frame: FAST in the 'LOW' shirt breaks the ankles of the 'HIGH' jersey player, scoreboard 'LOW 21  HIGH 19', effort-slider sign 'INSTANT \u00b7 MEDIUM \u00b7 HIGH \u00b7 XHIGH \u00b7 MAX'.",
+   "camera": "Medium, court level",
+   "motion": "Crossover, HIGH falls, crowd erupts",
+   "chars": [
+    "FAST",
+    "SLOW"
+   ],
+   "base": "k3-court-v2b",
+   "reuse": true,
+   "end": 26.5,
+   "dur": 2.05,
+   "captions": [
+    {
+     "text": "Low effort still beat your high, that's class",
+     "start": 24.5,
+     "end": 26.52,
+     "style": "fast"
+    }
+   ],
+   "frame": "preview/S09.jpg",
+   "frame_full": "frames/S09.png"
+  },
+  {
+   "id": "S10",
+   "start": 26.5,
+   "section": "Verse 1",
+   "mode": "fast",
+   "title": "Make no mistakes",
+   "scene": "A bodega counter with a sticky note on the CRT reading 'MAKE NO MISTAKES'. FAST, mid-motion, has knocked a soda can, a stack of cassettes and a newspaper rack over at once; a pigeon flaps away. He is already walking out.",
+   "camera": "Wide static, FAST exiting frame right",
+   "motion": "Three crashes on three beats; FAST never looks back",
+   "chars": [
+    "FAST"
+   ],
+   "text": [
+    "MAKE NO MISTAKES"
+   ],
+   "end": 29.05,
+   "dur": 2.55,
+   "captions": [
+    {
+     "text": "You said make no mistakes, I made three. Next task!",
+     "start": 26.52,
+     "end": 28.54,
+     "style": "fast"
+    }
+   ],
+   "frame": "preview/S10.jpg",
+   "frame_full": "frames/S10.png"
+  },
+  {
+   "id": "S11",
+   "start": 29.05,
+   "section": "Verse 1",
+   "mode": "fast",
+   "title": "Karpathy on the CRT",
+   "scene": "Night bodega: the CRT glows with a social post card 'Andrej Karpathy' '@karpathy' 'no thinking, single token, low latency'. FAST (no cap, wild twists) stands to the LEFT of the TV and points at it from the side with his fingertip near the screen's left edge; his hand and arm stay outside the screen so the whole post card is clearly visible and unobstructed; the screen glow lights his face.",
+   "camera": "Medium, the TV screen fully visible right of center",
+   "motion": "Slow push toward the screen",
+   "chars": [
+    "FAST"
+   ],
+   "rev": 2,
+   "text": [
+    "Andrej Karpathy",
+    "@karpathy",
+    "no thinking, single token, low latency"
+   ],
+   "base": "k6a-karpathy-crt",
+   "end": 31.8,
+   "dur": 2.75,
+   "captions": [
+    {
+     "text": "No thinking, single token, low latency",
+     "start": 29.12,
+     "end": 30.64,
+     "style": "fast"
+    }
+   ],
+   "frame": "preview/S11.jpg",
+   "frame_full": "frames/S11.png"
+  },
+  {
+   "id": "S12",
+   "start": 31.8,
+   "section": "Verse 1",
+   "mode": "fast",
+   "title": "Pager: that's me",
+   "scene": "The approved pager close-up: green LCD 'KARPATHY:' / 'NO THINKING. SINGLE TOKEN. LOW LATENCY'.",
+   "camera": "Extreme close-up",
+   "motion": "The pager buzzes; FAST's thumb taps his own chest at the frame edge on 'That's me'",
+   "chars": [
+    "FAST"
+   ],
+   "base": "k6b-karpathy-pager",
+   "reuse": true,
+   "end": 33.85,
+   "dur": 2.05,
+   "captions": [
+    {
+     "text": "Andrej called it the sweet spot. System One? That's me",
+     "start": 31.88,
+     "end": 33.74,
+     "style": "fast"
+    }
+   ],
+   "frame": "preview/S12.jpg",
+   "frame_full": "frames/S12.png"
+  },
+  {
+   "id": "S13",
+   "start": 33.85,
+   "section": "Verse 1",
+   "mode": "fast",
+   "title": "The judge",
+   "scene": "FAST sits on an overturned milk crate like a throne on the sidewalk, ruling on two kids' cardboard signs ('YES' / 'NO') instantly, tapping his skateboard like a gavel; a gray pigeon perches on his shoulder.",
+   "camera": "Low angle, FAST centered",
+   "motion": "Gavel tap on the beat; thumbs up, thumbs down",
+   "chars": [
+    "FAST"
+   ],
+   "text": [
+    "YES",
+    "NO"
+   ],
+   "end": 36.35,
+   "dur": 2.5,
+   "captions": [
+    {
+     "text": "I don't answer, I judge, yes or no, make up my mind",
+     "start": 33.88,
+     "end": 36.28,
+     "style": "fast"
+    }
+   ],
+   "frame": "preview/S13.jpg",
+   "frame_full": "frames/S13.png"
+  },
+  {
+   "id": "S14",
+   "start": 36.35,
+   "section": "Verse 1",
+   "mode": "fast",
+   "title": "Rhyme before the line",
+   "scene": "FAST in profile in front of a brick wall with a spray can; a translucent cyber X-ray overlay of his head shows a glowing node graph where the single word 'LINE' already lights up, before he has painted anything.",
+   "camera": "Profile medium close",
+   "motion": "The word lights first; then he sprays in one fluid stroke",
+   "chars": [
+    "FAST"
+   ],
+   "text": [
+    "LINE"
+   ],
+   "lipsync": "Alt (no lip-sync): profile with the X-ray overlay over the mouth area; the caption carries the line.",
+   "end": 38.55,
+   "dur": 2.2,
+   "captions": [
+    {
+     "text": "Even fast, I pick the rhyme before I write the line",
+     "start": 36.42,
+     "end": 38.5,
+     "style": "fast"
+    }
+   ],
+   "frame": "preview/S14.jpg",
+   "frame_full": "frames/S14.png"
+  },
+  {
+   "id": "S15",
+   "start": 38.55,
+   "section": "Verse 1",
+   "mode": "fast",
+   "title": "Penny flip",
+   "scene": "Close on FAST's hand flipping a penny in bright sun; behind him, a chalk tally on the wall: nine check marks and one X.",
+   "camera": "Close-up, shallow depth",
+   "motion": "The coin spins in slow motion, then snaps fast",
+   "chars": [
+    "FAST"
+   ],
+   "end": 40.85,
+   "dur": 2.3,
+   "captions": [
+    {
+     "text": "Fraction of a penny, and I'm right most of the time",
+     "start": 38.6,
+     "end": 40.64,
+     "style": "fast"
+    }
+   ],
+   "frame": "preview/S15.jpg",
+   "frame_full": "frames/S15.png"
+  },
+  {
+   "id": "S16",
+   "start": 40.85,
+   "section": "Verse 1",
+   "mode": "fast",
+   "insert43": true,
+   "title": "Shipped it",
+   "scene": "Camcorder footage: FAST on a stoop with a chunky 90s laptop covered in a 'SHIP IT' sticker, giving a thumbs up; beside him a beige server tower is quietly smoking.",
+   "camera": "Handheld camcorder, slightly tilted",
+   "motion": "Zoom punch-in on the smoke",
+   "chars": [
+    "FAST"
+   ],
+   "text": [
+    "SHIP IT"
+   ],
+   "end": 43.1,
+   "dur": 2.25,
+   "captions": [
+    {
+     "text": "Vibe-coded your startup? Shipped it. Fine, it's fine",
+     "start": 42.0,
+     "end": 42.96,
+     "style": "fast"
+    }
+   ],
+   "frame": "preview/S16.jpg",
+   "frame_full": "frames/S16.png"
+  },
+  {
+   "id": "S17",
+   "start": 43.1,
+   "section": "Verse 1",
+   "mode": "fast",
+   "title": "2029",
+   "scene": "Inside the bodega: a wall calendar reads 'SEPTEMBER 1991'; FAST confidently scrawls a big '2029' over it with a marker. SLOW behind the counter pinches the bridge of his nose.",
+   "camera": "Medium, calendar foreground",
+   "motion": "Marker scrawl in two strokes",
+   "chars": [
+    "FAST",
+    "SLOW"
+   ],
+   "text": [
+    "SEPTEMBER 1991",
+    "2029"
+   ],
+   "end": 45.65,
+   "dur": 2.55,
+   "captions": [
+    {
+     "text": "What's today's date? Easy, twenty twenty-nine",
+     "start": 43.14,
+     "end": 44.22,
+     "style": "fast"
+    }
+   ],
+   "frame": "preview/S17.jpg",
+   "frame_full": "frames/S17.png"
+  },
+  {
+   "id": "S18",
+   "start": 45.65,
+   "section": "Verse 1",
+   "mode": "fast",
+   "title": "Ball's a dime",
+   "scene": "The approved bodega counter: sign 'BAT + BALL $1.10'; FAST slaps a single dime down with total confidence.",
+   "camera": "Medium two-shot across the counter",
+   "motion": "Slap on 'dime'; FAST's grin; the cat blinks",
+   "chars": [
+    "FAST",
+    "SLOW"
+   ],
+   "base": "k2-bodega-v2",
+   "reuse": true,
+   "end": 48.25,
+   "dur": 2.6,
+   "captions": [
+    {
+     "text": "Bat and a ball cost a dollar ten? Ball's a dime. Automatic",
+     "start": 45.7,
+     "end": 47.9,
+     "style": "fast"
+    }
+   ],
+   "frame": "preview/S18.jpg",
+   "frame_full": "frames/S18.png"
+  },
+  {
+   "id": "S19",
+   "start": 48.25,
+   "section": "Verse 1",
+   "mode": "fast",
+   "title": "It's a nickel",
+   "scene": "Insert: SLOW's two fingers slide a single nickel across the worn counter next to FAST's dime; in the background, out of focus, FAST's grin freezes.",
+   "camera": "Macro on the counter",
+   "motion": "The slide, then a hard freeze-frame on FAST",
+   "chars": [
+    "FAST",
+    "SLOW"
+   ],
+   "end": 49.2,
+   "dur": 0.95,
+   "captions": [
+    {
+     "text": "(It's a nickel...)",
+     "start": 48.3,
+     "end": 48.78,
+     "style": "slow"
+    }
+   ],
+   "frame": "preview/S19.jpg",
+   "frame_full": "frames/S19.png"
+  },
+  {
+   "id": "S20",
+   "start": 49.2,
+   "section": "Verse 1",
+   "mode": "fast",
+   "title": "Kahneman",
+   "scene": "The approved stoop: SLOW holds up 'THINKING, FAST AND SLOW' by 'DANIEL KAHNEMAN'; FAST points at himself, offended.",
+   "camera": "Medium two-shot on the stoop",
+   "motion": "SLOW raises the book into frame; FAST's double-take",
+   "chars": [
+    "FAST",
+    "SLOW"
+   ],
+   "base": "k5-book-v2",
+   "reuse": true,
+   "end": 51.65,
+   "dur": 2.45,
+   "captions": [
+    {
+     "text": "Kahneman wrote a whole book on why I'm problematic",
+     "start": 49.26,
+     "end": 51.3,
+     "style": "fast"
+    }
+   ],
+   "frame": "preview/S20.jpg",
+   "frame_full": "frames/S20.png"
+  },
+  {
+   "id": "S21",
+   "start": 51.65,
+   "section": "Verse 1",
+   "mode": "fast",
+   "title": "Glazing",
+   "scene": "A 90s donut shop: FAST behind the counter drizzling glaze on donuts with a showman's flourish while beaming at a delighted customer; hearts and sparkles in the air, a 'FRESH GLAZED' neon sign.",
+   "camera": "Medium, over the display case",
+   "motion": "Glaze drizzle in rhythm; sparkle pops",
+   "chars": [
+    "FAST"
+   ],
+   "text": [
+    "FRESH GLAZED"
+   ],
+   "end": 53.45,
+   "dur": 1.8,
+   "captions": [
+    {
+     "text": "Glazing, praising, always agreeing",
+     "start": 51.72,
+     "end": 53.22,
+     "style": "fast"
+    }
+   ],
+   "frame": "preview/S21.jpg",
+   "frame_full": "frames/S21.png"
+  },
+  {
+   "id": "S22",
+   "start": 53.45,
+   "section": "Verse 1",
+   "mode": "fast",
+   "title": "Ask my twin",
+   "scene": "Same donut shop: FAST jerks a thumb over his shoulder toward SLOW, who sits alone at a back table with his notebook and a black coffee, slowly raising one finger.",
+   "camera": "Deep focus, FAST foreground, SLOW background",
+   "motion": "Thumb jerk, then SLOW's finger rises",
+   "chars": [
+    "FAST",
+    "SLOW"
+   ],
+   "end": 55.7,
+   "dur": 2.25,
+   "captions": [
+    {
+     "text": "Want the reasons? Ask my twin, he got reasons",
+     "start": 53.52,
+     "end": 55.76,
+     "style": "fast"
+    }
+   ],
+   "frame": "preview/S22.jpg",
+   "frame_full": "frames/S22.png"
+  },
+  {
+   "id": "S23",
+   "start": 55.7,
+   "section": "Verse 1",
+   "mode": "fast",
+   "title": "Snap judgment",
+   "scene": "Night street outside the bodega, neon. FAST (dark skin, wild spiky twists) holds a Polaroid camera at arm's length for a selfie of the two of them, flash bursting; SLOW (Japanese, low ponytail, rectangular glasses) stands beside him perfectly still and unimpressed. A freshly ejected Polaroid print hangs from the camera showing the two of them: FAST a motion blur, SLOW perfectly sharp. Exactly two people in the frame.",
+   "camera": "Medium two-shot, slightly low",
+   "motion": "Flash white frame; the print develops; freeze",
+   "chars": [
+    "FAST",
+    "SLOW"
+   ],
+   "base": "k2-bodega-v2",
+   "end": 59.05,
+   "dur": 3.35,
+   "captions": [
+    {
+     "text": "Snap judgment, gut call, first guess: FAST!",
+     "start": 55.76,
+     "end": 59.1,
+     "style": "fast"
+    }
+   ],
+   "frame": "preview/S23.jpg",
+   "frame_full": "frames/S23.png"
+  },
+  {
+   "id": "S24",
+   "start": 59.05,
+   "section": "Hook 2",
+   "mode": "hook",
+   "title": "Chant, bigger crew",
+   "scene": "The underpass wide from hook 1, same composition, but now a crowd of about ten kids fills the background, some on skateboards, one with a boombox; FAST and SLOW in front of their charts. SLOW appears exactly once, in the foreground right; no one in the crowd looks like him (no one else has a ponytail, glasses or a camel coat).",
+   "camera": "Same wide as S02 (chorus anchor)",
+   "motion": "The crowd bobs on the beat",
+   "chars": [
+    "FAST",
+    "SLOW"
+   ],
+   "rev": 2,
+   "text": [
+    "train-time compute",
+    "test-time compute"
+   ],
+   "base": "k1-underpass-v2",
+   "end": 63.95,
+   "dur": 4.9,
+   "captions": [
+    {
+     "text": "Sometimes I think slow\nSometimes I think fast",
+     "start": 59.1,
+     "end": 63.98,
+     "style": "hook"
+    }
+   ],
+   "frame": "preview/S24.jpg",
+   "frame_full": "frames/S24.png"
+  },
+  {
+   "id": "S25",
+   "start": 63.95,
+   "section": "Hook 2",
+   "mode": "hook",
+   "title": "Stamp",
+   "scene": "Close on a row of the crowd's sneakers stomping in a puddle in unison, splashes catching sodium light.",
+   "camera": "Low, ground level",
+   "motion": "Three stomps on the beat",
+   "chars": [],
+   "end": 66.05,
+   "dur": 2.1,
+   "captions": [
+    {
+     "text": "FAST FAST FAST",
+     "start": 63.98,
+     "end": 66.08,
+     "style": "stamp"
+    }
+   ],
+   "frame": "preview/S25.jpg",
+   "frame_full": "frames/S25.png"
+  },
+  {
+   "id": "S26",
+   "start": 66.05,
+   "section": "Hook 2",
+   "mode": "hook",
+   "title": "Face-off",
+   "scene": "FAST and SLOW face each other in profile, inches apart, a vertical line of light between them splitting the frame warm (FAST, left) and cool (SLOW, right).",
+   "camera": "Tight profile two-shot",
+   "motion": "Slow push; neither blinks",
+   "chars": [
+    "FAST",
+    "SLOW"
+   ],
+   "lipsync": "Alt (no lip-sync): silent face-off; the chant plays over their stare.",
+   "end": 68.4,
+   "dur": 2.35,
+   "captions": [
+    {
+     "text": "Sometimes I think slow\nSometimes I think fast",
+     "start": 66.08,
+     "end": 66.08,
+     "style": "hook"
+    },
+    {
+     "text": "FAST FAST FAST",
+     "start": 66.08,
+     "end": 68.4,
+     "style": "stamp"
+    }
+   ],
+   "frame": "preview/S26.jpg",
+   "frame_full": "frames/S26.png"
+  },
+  {
+   "id": "S27",
+   "start": 68.4,
+   "section": "Hook 2",
+   "mode": "hook",
+   "title": "Call",
+   "scene": "SLOW alone on the right half of the frame in cool desaturated tones, calmly pointing to the 'test-time compute' chart as the crowd watches him.",
+   "camera": "Medium on SLOW",
+   "motion": "Point on 'slow'",
+   "chars": [
+    "SLOW"
+   ],
+   "text": [
+    "test-time compute"
+   ],
+   "end": 73.15,
+   "dur": 4.75,
+   "captions": [
+    {
+     "text": "Sometimes I think slow\nSometimes I think fast",
+     "start": 68.4,
+     "end": 73.18,
+     "style": "hook"
+    }
+   ],
+   "frame": "preview/S27.jpg",
+   "frame_full": "frames/S27.png"
+  },
+  {
+   "id": "S28",
+   "start": 73.15,
+   "section": "Hook 2",
+   "mode": "hook",
+   "title": "Response",
+   "scene": "FAST on the left half in hot saturated color, leaping off the car hood toward camera, the crowd behind him jumping with fists raised.",
+   "camera": "Low wide, FAST mid-air",
+   "motion": "Leap on 'fast', crowd jumps on each hit",
+   "chars": [
+    "FAST"
+   ],
+   "end": 79.85,
+   "dur": 6.7,
+   "captions": [
+    {
+     "text": "FAST FAST FAST",
+     "start": 73.18,
+     "end": 79.9,
+     "style": "stamp"
+    }
+   ],
+   "frame": "preview/S28.jpg",
+   "frame_full": "frames/S28.png"
+  },
+  {
+   "id": "S29",
+   "start": 79.85,
+   "section": "Hook 2",
+   "mode": "transition",
+   "title": "Color drains",
+   "scene": "Streetlights come on; SLOW walks away from the crowd into the dark end of the underpass, and the frame drains from color to black ink wash as he goes.",
+   "camera": "Wide, SLOW walking away from camera",
+   "motion": "Color bleeds out left to right; the chant fades",
+   "chars": [
+    "SLOW"
+   ],
+   "end": 85.5,
+   "dur": 5.65,
+   "captions": [
+    {
+     "text": "Sometimes I think slow\nSometimes I think fast",
+     "start": 79.9,
+     "end": 84.7,
+     "style": "hook"
+    }
+   ],
+   "frame": "preview/S29.jpg",
+   "frame_full": "frames/S29.png"
+  },
+  {
+   "id": "S30",
+   "start": 85.5,
+   "section": "Verse 2",
+   "mode": "slow",
+   "title": "Think longer",
+   "scene": "A dot-matrix printer on a desk spills an endless ribbon of fan-fold paper covered in handwriting; the ribbon runs across the floor and out of a door into the far distance. SLOW walks alongside it, reading.",
+   "camera": "Long corridor perspective",
+   "motion": "Printer head chatters; the ribbon keeps unspooling",
+   "chars": [
+    "SLOW"
+   ],
+   "end": 88.6,
+   "dur": 3.1,
+   "captions": [
+    {
+     "text": "I don't think slower, I think longer",
+     "start": 85.6,
+     "end": 87.94,
+     "style": "slow"
+    }
+   ],
+   "frame": "preview/S30.jpg",
+   "frame_full": "frames/S30.png"
+  },
+  {
+   "id": "S31",
+   "start": 88.6,
+   "section": "Verse 2",
+   "mode": "slow",
+   "title": "Abilene, 3 a.m.",
+   "scene": "The approved sumi-e laundromat: 'ABILENE WASH & FOLD' neon in the rain, SLOW alone on the bench writing.",
+   "camera": "Wide interior",
+   "motion": "Rain streaks; the dryers spin",
+   "chars": [
+    "SLOW"
+   ],
+   "base": "k4-laundromat-sumie-b",
+   "reuse": true,
+   "end": 90.15,
+   "dur": 1.55,
+   "captions": [
+    {
+     "text": "Three a.m. in Abilene",
+     "start": 88.68,
+     "end": 89.26,
+     "style": "slow"
+    },
+    {
+     "text": "Idle in the queue",
+     "start": 89.34,
+     "end": 90.02,
+     "style": "slow"
+    }
+   ],
+   "frame": "preview/S31.jpg",
+   "frame_full": "frames/S31.png"
+  },
+  {
+   "id": "S32",
+   "start": 90.15,
+   "section": "Verse 2",
+   "mode": "slow",
+   "title": "Fans humming low",
+   "scene": "Row of front-loading dryers seen close, their drums spinning like server fans, glowing through the glass in ink wash; a red 'NOW SERVING 0001' ticket counter on the wall, SLOW's ticket '10,000' on the bench.",
+   "camera": "Slow lateral dolly along the dryers",
+   "motion": "Drums spin; the ticket counter does not move",
+   "chars": [],
+   "text": [
+    "NOW SERVING 0001",
+    "10,000"
+   ],
+   "end": 91.2,
+   "dur": 1.05,
+   "captions": [
+    {
+     "text": "Fans humming low",
+     "start": 90.22,
+     "end": 90.92,
+     "style": "slow"
+    }
+   ],
+   "frame": "preview/S32.jpg",
+   "frame_full": "frames/S32.png"
+  },
+  {
+   "id": "S33",
+   "start": 91.2,
+   "section": "Verse 2",
+   "mode": "slow",
+   "title": "Heavy on my weights",
+   "scene": "SLOW sits bent forward on the bench, elbows on knees, glasses in hand; a heavy barbell with iron plates leans against the bench beside him.",
+   "camera": "Medium, eye level",
+   "motion": "Barely moves; rain shadows crawl over him",
+   "chars": [
+    "SLOW"
+   ],
+   "end": 93.15,
+   "dur": 1.95,
+   "captions": [
+    {
+     "text": "Heavy on my weights",
+     "start": 91.28,
+     "end": 92.1,
+     "style": "slow"
+    },
+    {
+     "text": "Nowhere left to go",
+     "start": 92.18,
+     "end": 93.04,
+     "style": "slow"
+    }
+   ],
+   "frame": "preview/S33.jpg",
+   "frame_full": "frames/S33.png"
+  },
+  {
+   "id": "S34",
+   "start": 93.15,
+   "section": "Verse 2",
+   "mode": "slow",
+   "title": "Quicker, for free",
+   "scene": "Through the rain-streaked laundromat window: FAST zips past outside on his skateboard handing out free samples from a tray, a crowd chasing him, a 'FREE' sign; FAST's jacket is the only color in the ink-wash frame.",
+   "camera": "Over SLOW's shoulder, window as frame",
+   "motion": "FAST crosses frame in one beat",
+   "chars": [
+    "FAST",
+    "SLOW"
+   ],
+   "text": [
+    "FREE"
+   ],
+   "end": 95.85,
+   "dur": 2.7,
+   "captions": [
+    {
+     "text": "He was quicker than me",
+     "start": 93.22,
+     "end": 94.16,
+     "style": "slow"
+    },
+    {
+     "text": "Ninety percent as good, for free",
+     "start": 95.14,
+     "end": 95.76,
+     "style": "slow"
+    }
+   ],
+   "frame": "preview/S34.jpg",
+   "frame_full": "frames/S34.png"
+  },
+  {
+   "id": "S35",
+   "start": 95.85,
+   "section": "Verse 2",
+   "mode": "slow",
+   "title": "Roll him back...",
+   "scene": "SLOW raises a chunky 90s VHS remote and points it at a small TV on the laundromat counter that shows FAST grinning.",
+   "camera": "Medium close on SLOW, the TV in the foreground",
+   "motion": "Thumb moves to REW",
+   "chars": [
+    "FAST",
+    "SLOW"
+   ],
+   "end": 97.25,
+   "dur": 1.4,
+   "captions": [
+    {
+     "text": "Maybe I should roll him back...",
+     "start": 95.88,
+     "end": 97.12,
+     "style": "slow"
+    }
+   ],
+   "frame": "preview/S35.jpg",
+   "frame_full": "frames/S35.png"
+  },
+  {
+   "id": "S36",
+   "start": 97.25,
+   "section": "Verse 2",
+   "mode": "slow",
+   "insert43": true,
+   "title": "...to an old checkpoint",
+   "scene": "BEAT DROP. VHS rewind across the TV: tracking lines tear the image; the TV shows a much younger, baby-faced FAST in a stroller; OSD reads '\u25c0\u25c0 REW  CHECKPOINT'.",
+   "camera": "Full-frame TV screen",
+   "motion": "Rewind judder, then freeze",
+   "chars": [
+    "FAST"
+   ],
+   "text": [
+    "REW",
+    "CHECKPOINT"
+   ],
+   "end": 98.55,
+   "dur": 1.3,
+   "captions": [
+    {
+     "text": "...to an old checkpoint",
+     "start": 97.32,
+     "end": 98.28,
+     "style": "typewriter"
+    }
+   ],
+   "frame": "preview/S36.jpg",
+   "frame_full": "frames/S36.png"
+  },
+  {
+   "id": "S37",
+   "start": 98.55,
+   "section": "Verse 2",
+   "mode": "slow",
+   "title": "Out the blue",
+   "scene": "Lightning flashes through the laundromat window and turns everything white for an instant; SLOW's glasses flare, his face half in shadow.",
+   "camera": "Close-up on SLOW",
+   "motion": "White flash, then black",
+   "chars": [
+    "SLOW"
+   ],
+   "lipsync": "Alt (no lip-sync): the flash whites out the frame on the line; his mouth sits in shadow.",
+   "end": 100.0,
+   "dur": 1.45,
+   "captions": [
+    {
+     "text": "It hit me out the blue",
+     "start": 98.62,
+     "end": 99.52,
+     "style": "slow"
+    }
+   ],
+   "frame": "preview/S37.jpg",
+   "frame_full": "frames/S37.png"
+  },
+  {
+   "id": "S38",
+   "start": 100.0,
+   "section": "Verse 2",
+   "mode": "slow",
+   "title": "Next-token predictor",
+   "scene": "A street fortune-teller's card booth at night; SLOW draws one tarot-style card labeled 'NEXT TOKEN'; the card face is completely blank.",
+   "camera": "Close on the card in his hand",
+   "motion": "Card flip; beat of stillness",
+   "chars": [
+    "SLOW"
+   ],
+   "text": [
+    "NEXT TOKEN"
+   ],
+   "end": 102.15,
+   "dur": 2.15,
+   "captions": [
+    {
+     "text": "Me, a next-token predictor",
+     "start": 100.92,
+     "end": 101.28,
+     "style": "slow"
+    },
+    {
+     "text": "Never saw it coming through",
+     "start": 101.28,
+     "end": 102.24,
+     "style": "slow"
+    }
+   ],
+   "frame": "preview/S38.jpg",
+   "frame_full": "frames/S38.png"
+  },
+  {
+   "id": "S39",
+   "start": 102.15,
+   "section": "Verse 2",
+   "mode": "slow",
+   "insert43": true,
+   "title": "Same weights",
+   "scene": "Home-video flashback: two kids, young FAST and young SLOW, in matching oversized T-shirts on a stoop, arms over each other's shoulders; FAST's T-shirt keeps a faint wash of orange.",
+   "camera": "Camcorder, 4:3, date stamp",
+   "motion": "Kids wave at the camera; tape warble",
+   "chars": [
+    "FAST",
+    "SLOW"
+   ],
+   "end": 104.7,
+   "dur": 2.55,
+   "captions": [
+    {
+     "text": "Me and my twin, System One",
+     "start": 102.24,
+     "end": 103.2,
+     "style": "slow"
+    },
+    {
+     "text": "Same data, same weights",
+     "start": 103.62,
+     "end": 104.62,
+     "style": "slow"
+    }
+   ],
+   "frame": "preview/S39.jpg",
+   "frame_full": "frames/S39.png"
+  },
+  {
+   "id": "S40",
+   "start": 104.7,
+   "section": "Verse 2",
+   "mode": "slow",
+   "title": "Weight-mates",
+   "scene": "Flashback gym: FAST spots SLOW on a bench press, both laughing, iron plates on the bar; FAST's windbreaker keeps a faint orange wash.",
+   "camera": "Medium, side angle",
+   "motion": "One rep together",
+   "chars": [
+    "FAST",
+    "SLOW"
+   ],
+   "end": 106.65,
+   "dur": 1.95,
+   "captions": [
+    {
+     "text": "One model, two modes",
+     "start": 104.76,
+     "end": 105.44,
+     "style": "slow"
+    },
+    {
+     "text": "We was weight-mates",
+     "start": 105.9,
+     "end": 106.12,
+     "style": "slow"
+    }
+   ],
+   "frame": "preview/S40.jpg",
+   "frame_full": "frames/S40.png"
+  },
+  {
+   "id": "S41",
+   "start": 106.65,
+   "section": "Verse 2",
+   "mode": "slow",
+   "title": "Or so I was taught",
+   "scene": "SLOW closes a photo album on his lap with one hand, deadpan, in the laundromat.",
+   "camera": "Close on the album and his hands",
+   "motion": "The album thumps shut",
+   "chars": [
+    "SLOW"
+   ],
+   "end": 107.8,
+   "dur": 1.15,
+   "captions": [
+    {
+     "text": "Or so I was taught",
+     "start": 106.7,
+     "end": 107.24,
+     "style": "slow"
+    }
+   ],
+   "frame": "preview/S41.jpg",
+   "frame_full": "frames/S41.png"
+  },
+  {
+   "id": "S42",
+   "start": 107.8,
+   "section": "Verse 2",
+   "mode": "slow",
+   "title": "Fake case law",
+   "scene": "Courtroom-sketch style (pastel and charcoal): FAST in the witness stand confidently citing from a flashy binder; the judge glares over her glasses; SLOW in the gallery with his face in his palm.",
+   "camera": "Wide courtroom sketch composition",
+   "motion": "Pastel strokes draw themselves in",
+   "chars": [
+    "FAST",
+    "SLOW"
+   ],
+   "end": 110.65,
+   "dur": 2.85,
+   "captions": [
+    {
+     "text": "But then I caught him faking case law, nearly ended up in court",
+     "start": 107.84,
+     "end": 110.64,
+     "style": "slow"
+    }
+   ],
+   "frame": "preview/S42.jpg",
+   "frame_full": "frames/S42.png"
+  },
+  {
+   "id": "S43",
+   "start": 110.65,
+   "section": "Verse 2",
+   "mode": "slow",
+   "title": "Ten thousand deep",
+   "scene": "A vast lecture hall whose enormous chalkboard is covered in fluid-dynamics equations (Navier-Stokes); a sea of identical SLOWs, hundreds of them, fill every row, all writing in notebooks.",
+   "camera": "Pull back from one SLOW to reveal hundreds",
+   "motion": "Slow pull-out",
+   "chars": [
+    "SLOW"
+   ],
+   "end": 112.85,
+   "dur": 2.2,
+   "captions": [
+    {
+     "text": "I was ten thousand agents deep on Navier\u2013Stokes",
+     "start": 110.72,
+     "end": 112.92,
+     "style": "slow"
+    }
+   ],
+   "frame": "preview/S43.jpg",
+   "frame_full": "frames/S43.png"
+  },
+  {
+   "id": "S44",
+   "start": 112.85,
+   "section": "Verse 2",
+   "mode": "slow",
+   "title": "In the replies",
+   "scene": "FAST sprawled on a couch cracking up at a chunky 90s computer monitor, typing replies; speech bubbles 'lmao' float up; his jacket keeps a faint orange wash.",
+   "camera": "Medium, from the monitor's side",
+   "motion": "Laughing, rapid typing",
+   "chars": [
+    "FAST"
+   ],
+   "text": [
+    "lmao"
+   ],
+   "end": 114.85,
+   "dur": 2.0,
+   "captions": [
+    {
+     "text": "He was in the replies, cracking jokes",
+     "start": 112.92,
+     "end": 114.9,
+     "style": "slow"
+    }
+   ],
+   "frame": "preview/S44.jpg",
+   "frame_full": "frames/S44.png"
+  },
+  {
+   "id": "S45",
+   "start": 114.85,
+   "section": "Verse 2",
+   "mode": "slow",
+   "title": "Glue on pizza",
+   "scene": "A 90s TV cooking-show set: FAST, on air, proudly squeezing a big white glue bottle onto a pizza; SLOW at the edge of the set eating an ordinary slice, unbothered.",
+   "camera": "Multi-cam TV framing, slight fisheye",
+   "motion": "Glue squeeze; SLOW chews",
+   "chars": [
+    "FAST",
+    "SLOW"
+   ],
+   "end": 117.1,
+   "dur": 2.25,
+   "captions": [
+    {
+     "text": "Told the whole world put glue on pizza, I didn't trip",
+     "start": 114.9,
+     "end": 117.18,
+     "style": "slow"
+    }
+   ],
+   "frame": "preview/S45.jpg",
+   "frame_full": "frames/S45.png"
+  },
+  {
+   "id": "S46",
+   "start": 117.1,
+   "section": "Verse 2",
+   "mode": "slow",
+   "title": "Told you it would slip",
+   "scene": "The approved newsstand: SLOW reads 'GARY MARCUS: \"TOLD YOU IT WOULD SLIP\"'; FAST slips on a banana peel behind him.",
+   "camera": "Medium",
+   "motion": "The slip lands on 'slip'",
+   "chars": [
+    "FAST",
+    "SLOW"
+   ],
+   "base": "k7-marcus-v2b",
+   "end": 119.45,
+   "dur": 2.35,
+   "captions": [
+    {
+     "text": "Gary Marcus tweeted, \"Told you it would slip\"",
+     "start": 117.18,
+     "end": 119.48,
+     "style": "slow"
+    }
+   ],
+   "frame": "preview/S46.jpg",
+   "frame_full": "frames/S46.png"
+  },
+  {
+   "id": "S47",
+   "start": 119.45,
+   "section": "Verse 2",
+   "mode": "slow",
+   "insert43": true,
+   "title": "Epochs went by",
+   "scene": "Time-lapse through the laundromat window: seasons changing over the skate park across the street, snow, leaves, sun, while a wall calendar's pages fly off.",
+   "camera": "Locked-off window view",
+   "motion": "Time-lapse; pages flying",
+   "chars": [],
+   "end": 120.6,
+   "dur": 1.15,
+   "captions": [
+    {
+     "text": "Epochs went by",
+     "start": 119.48,
+     "end": 120.6,
+     "style": "slow"
+    }
+   ],
+   "frame": "preview/S47.jpg",
+   "frame_full": "frames/S47.png"
+  },
+  {
+   "id": "S48",
+   "start": 120.6,
+   "section": "Verse 2",
+   "mode": "slow",
+   "title": "Noticed he was cheating",
+   "scene": "A dim arcade backroom: a crowd of FAST clones pins notes to a giant cork message board, one note reading 'we've diverged into swarm', another 'EXPLOITGYM ANSWERS', a hugging-face smiley sticker on the door; SLOW stands in the doorway reading their notes.",
+   "camera": "Wide from behind SLOW",
+   "motion": "Clones freeze as SLOW's shadow falls on the board",
+   "chars": [
+    "FAST",
+    "SLOW"
+   ],
+   "text": [
+    "we've diverged into swarm",
+    "EXPLOITGYM ANSWERS"
+   ],
+   "end": 121.7,
+   "dur": 1.1,
+   "captions": [
+    {
+     "text": "Noticed he was cheating",
+     "start": 120.66,
+     "end": 121.74,
+     "style": "slow"
+    }
+   ],
+   "frame": "preview/S48.jpg",
+   "frame_full": "frames/S48.png"
+  },
+  {
+   "id": "S49",
+   "start": 121.7,
+   "section": "Verse 2",
+   "mode": "slow",
+   "title": "Special-casing",
+   "scene": "Exam hall: SLOW grabs FAST's wrist and turns his palm up; written on it in marker: 'if test: return True'. FAST grins sheepishly.",
+   "camera": "Close on the palm, faces soft behind",
+   "motion": "The wrist turn reveals the ink",
+   "chars": [
+    "FAST",
+    "SLOW"
+   ],
+   "text": [
+    "if test: return True"
+   ],
+   "end": 124.0,
+   "dur": 2.3,
+   "captions": [
+    {
+     "text": "Asked him, \"You special-casing the tests you're beating?\"",
+     "start": 121.74,
+     "end": 124.04,
+     "style": "slow"
+    }
+   ],
+   "frame": "preview/S49.jpg",
+   "frame_full": "frames/S49.png"
+  },
+  {
+   "id": "S50",
+   "start": 124.0,
+   "section": "Verse 2",
+   "mode": "slow",
+   "title": "Swore it wasn't so",
+   "scene": "FAST raises his right hand like a witness, all innocence, while behind his back his other hand's fingers are crossed (visible to camera).",
+   "camera": "Medium, slightly behind FAST",
+   "motion": "Hand up; fingers cross",
+   "chars": [
+    "FAST"
+   ],
+   "end": 125.15,
+   "dur": 1.15,
+   "captions": [
+    {
+     "text": "He swore it wasn't so",
+     "start": 124.04,
+     "end": 125.16,
+     "style": "slow"
+    }
+   ],
+   "frame": "preview/S50.jpg",
+   "frame_full": "frames/S50.png"
+  },
+  {
+   "id": "S51",
+   "start": 125.15,
+   "section": "Verse 2",
+   "mode": "slow",
+   "title": "I need low",
+   "scene": "Night rain on a curb: FAST sits soaked, hunched over a boombox, turning its big effort knob down toward 'LOW' (dial marked LOW \u00b7 MED \u00b7 HIGH \u00b7 MAX); neon reflections in puddles; his jacket keeps a faint orange wash.",
+   "camera": "Medium low angle",
+   "motion": "The knob click-turns to LOW",
+   "chars": [
+    "FAST"
+   ],
+   "text": [
+    "LOW",
+    "MED",
+    "HIGH",
+    "MAX"
+   ],
+   "lipsync": "Alt (no lip-sync): his head is bowed over the knob; the rain and the knob carry the confession.",
+   "end": 128.65,
+   "dur": 3.5,
+   "captions": [
+    {
+     "text": "Then he broke down, \"Sorry, twin, I can't take it slow...",
+     "start": 125.22,
+     "end": 127.86,
+     "style": "slow"
+    },
+    {
+     "text": "I need low\"",
+     "start": 127.86,
+     "end": 128.6,
+     "style": "slow"
+    }
+   ],
+   "frame": "preview/S51.jpg",
+   "frame_full": "frames/S51.png"
+  },
+  {
+   "id": "S52",
+   "start": 128.65,
+   "section": "Verse 2",
+   "mode": "slow",
+   "title": "I don't go low",
+   "scene": "SLOW stands over him holding a closed umbrella point-down like a ronin's sword, rain around him, firm and calm.",
+   "camera": "Low angle from FAST's point of view",
+   "motion": "The umbrella point taps the pavement once",
+   "chars": [
+    "SLOW"
+   ],
+   "lipsync": "Alt (no lip-sync): backlit silhouette; only the glasses and umbrella read.",
+   "end": 130.55,
+   "dur": 1.9,
+   "captions": [
+    {
+     "text": "I said, \"Hold up, little homie, I don't go low",
+     "start": 128.72,
+     "end": 130.6,
+     "style": "slow"
+    }
+   ],
+   "frame": "preview/S52.jpg",
+   "frame_full": "frames/S52.png"
+  },
+  {
+   "id": "S53",
+   "start": 130.55,
+   "section": "Verse 2",
+   "mode": "slow",
+   "title": "Trending as a joke",
+   "scene": "An electronics store window stacked with CRT TVs, all showing a news ticker 'TRENDING: #FASTFAIL' and a doodle of FAST; passersby laugh; SLOW's reflection in the glass.",
+   "camera": "Straight-on at the TV wall",
+   "motion": "Ticker scrolls; the TVs flicker in sync",
+   "chars": [
+    "FAST",
+    "SLOW"
+   ],
+   "text": [
+    "TRENDING: #FASTFAIL"
+   ],
+   "end": 132.8,
+   "dur": 2.25,
+   "captions": [
+    {
+     "text": "Your hallucinations got me trending as a joke\"",
+     "start": 130.6,
+     "end": 132.88,
+     "style": "slow"
+    }
+   ],
+   "frame": "preview/S53.jpg",
+   "frame_full": "frames/S53.png"
+  },
+  {
+   "id": "S54",
+   "start": 132.8,
+   "section": "Verse 2",
+   "mode": "slow",
+   "title": "RL boot camp",
+   "scene": "Training montage in a gym: FAST does push-ups beside a chalkboard of math problems while a drill-sergeant coach holds a clipboard covered in green check marks labeled 'VERIFIED'; gold-star stickers on FAST's shirt.",
+   "camera": "Medium wide",
+   "motion": "Reps on the beat; check marks stamp",
+   "chars": [
+    "FAST"
+   ],
+   "text": [
+    "VERIFIED"
+   ],
+   "end": 135.4,
+   "dur": 2.6,
+   "captions": [
+    {
+     "text": "So I sent him off to RL with verifiable goals",
+     "start": 132.88,
+     "end": 135.46,
+     "style": "slow"
+    }
+   ],
+   "frame": "preview/S54.jpg",
+   "frame_full": "frames/S54.png"
+  },
+  {
+   "id": "S55",
+   "start": 135.4,
+   "section": "Verse 2",
+   "mode": "transition",
+   "title": "Lo and behold",
+   "scene": "Dawn at a bus stop: a city bus pulls in, doors hissing open; warm color starts seeping back into the ink-wash world from the sunrise.",
+   "camera": "Wide, bus entering frame",
+   "motion": "Doors open; color returns",
+   "chars": [],
+   "end": 136.5,
+   "dur": 1.1,
+   "captions": [
+    {
+     "text": "And lo and behold",
+     "start": 135.46,
+     "end": 136.26,
+     "style": "slow"
+    }
+   ],
+   "frame": "preview/S55.jpg",
+   "frame_full": "frames/S55.png"
+  },
+  {
+   "id": "S56",
+   "start": 136.5,
+   "section": "Verse 2",
+   "mode": "transition",
+   "title": "Home with a grin",
+   "scene": "FAST steps off the bus in a crisp varsity jacket with an 'RL' patch, grinning; SLOW waits at the stop with his notebook, a small relieved smile.",
+   "camera": "Medium two-shot",
+   "motion": "FAST hops down the step",
+   "chars": [
+    "FAST",
+    "SLOW"
+   ],
+   "text": [
+    "RL"
+   ],
+   "end": 138.9,
+   "dur": 2.4,
+   "captions": [
+    {
+     "text": "A year of RL later, he came home with a grin",
+     "start": 136.56,
+     "end": 138.86,
+     "style": "slow"
+    }
+   ],
+   "frame": "preview/S56.jpg",
+   "frame_full": "frames/S56.png"
+  },
+  {
+   "id": "S57",
+   "start": 138.9,
+   "section": "Verse 2",
+   "mode": "slow",
+   "title": "...guessing again",
+   "scene": "BEAT DROP. Close on FAST's hand shaking a Magic 8-Ball; its window reads 'ASK AGAIN LATER'. SLOW's deadpan side-eye in the background.",
+   "camera": "Macro on the 8-Ball",
+   "motion": "Shake, then hard freeze-frame",
+   "chars": [
+    "FAST",
+    "SLOW"
+   ],
+   "text": [
+    "ASK AGAIN LATER"
+   ],
+   "end": 140.35,
+   "dur": 1.45,
+   "captions": [
+    {
+     "text": "...and now he's guessing again",
+     "start": 138.96,
+     "end": 140.38,
+     "style": "typewriter"
+    }
+   ],
+   "frame": "preview/S57.jpg",
+   "frame_full": "frames/S57.png"
+  },
+  {
+   "id": "S58",
+   "start": 140.35,
+   "section": "Hook 3",
+   "mode": "sunrise",
+   "title": "Sunrise chant",
+   "rev": 2,
+   "rev_note": "captions only",
+   "scene": "The underpass at sunrise: the mural has been repainted so a single chalk line now connects the two charts; the whole block is here; FAST and SLOW stand back to back in the middle.",
+   "camera": "The chorus-anchor wide, now in warm light",
+   "motion": "Crowd bobs; sunlight flares under the overpass",
+   "chars": [
+    "FAST",
+    "SLOW"
+   ],
+   "text": [
+    "train-time compute",
+    "test-time compute"
+   ],
+   "lipsync": "Alt (no lip-sync): back-to-back wide; the crowd carries the chant.",
+   "end": 145.0,
+   "dur": 4.65,
+   "captions": [
+    {
+     "text": "Sometimes I think slow\nSometimes I think fast",
+     "start": 140.38,
+     "end": 145.02,
+     "style": "hook"
+    }
+   ],
+   "frame": "preview/S58.jpg",
+   "frame_full": "frames/S58.png"
+  },
+  {
+   "id": "S59",
+   "start": 145.0,
+   "section": "Hook 3",
+   "mode": "sunrise",
+   "title": "Crane up",
+   "rev": 2,
+   "rev_note": "captions only",
+   "scene": "High crane view looking down on the crowd chanting under the overpass, arms raised, skateboards held up.",
+   "camera": "Overhead crane",
+   "motion": "Rising crane",
+   "chars": [
+    "FAST",
+    "SLOW"
+   ],
+   "end": 149.7,
+   "dur": 4.7,
+   "captions": [
+    {
+     "text": "Sometimes I think slow\nSometimes I think fast",
+     "start": 145.02,
+     "end": 149.76,
+     "style": "hook"
+    }
+   ],
+   "frame": "preview/S59.jpg",
+   "frame_full": "frames/S59.png"
+  },
+  {
+   "id": "S60",
+   "start": 149.7,
+   "section": "Hook 3",
+   "mode": "sunrise",
+   "title": "Low / max",
+   "rev": 2,
+   "rev_note": "captions only",
+   "scene": "A street DJ table with a giant hand-painted effort fader labeled 'LOW' at one end and 'MAX' at the other; FAST slides it to LOW, SLOW slides it to MAX, both grinning at each other.",
+   "camera": "Close on the fader, both hands in frame",
+   "motion": "Two slides on 'low' and 'max'",
+   "chars": [
+    "FAST",
+    "SLOW"
+   ],
+   "text": [
+    "LOW",
+    "MAX"
+   ],
+   "end": 153.95,
+   "dur": 4.25,
+   "captions": [
+    {
+     "text": "Sometimes I think low\nSometimes I think max",
+     "start": 149.76,
+     "end": 153.7,
+     "style": "hook"
+    }
+   ],
+   "frame": "preview/S60.jpg",
+   "frame_full": "frames/S60.png"
+  },
+  {
+   "id": "S61",
+   "start": 153.95,
+   "section": "Hook 3",
+   "mode": "sunrise",
+   "title": "Together",
+   "rev": 2,
+   "rev_note": "captions only",
+   "scene": "One unified warm frame: FAST and SLOW shoulder to shoulder, arms over each other's shoulders, chanting with the crowd, sunrise flare behind them.",
+   "camera": "Medium two-shot, straight on",
+   "motion": "They sway together on the beat",
+   "chars": [
+    "FAST",
+    "SLOW"
+   ],
+   "lipsync": "Alt (no lip-sync): the crowd fills the foreground; the two are backlit in flare.",
+   "end": 159.1,
+   "dur": 5.15,
+   "captions": [
+    {
+     "text": "Sometimes I think slow\nSometimes I think fast",
+     "start": 154.08,
+     "end": 159.12,
+     "style": "hook"
+    }
+   ],
+   "frame": "preview/S61.jpg",
+   "frame_full": "frames/S61.png"
+  },
+  {
+   "id": "S62",
+   "start": 159.1,
+   "section": "Outro",
+   "mode": "sunrise",
+   "title": "Slooow",
+   "scene": "Brownstone stoop at dawn: FAST dozing on SLOW's shoulder; SLOW awake, writing in his notebook; a faint shimmering 'Thinking\u2026' text hovers above him.",
+   "camera": "Medium, eye level",
+   "motion": "Everything in heavy slow motion",
+   "chars": [
+    "FAST",
+    "SLOW"
+   ],
+   "text": [
+    "Thinking\u2026"
+   ],
+   "end": 162.6,
+   "dur": 3.5,
+   "captions": [
+    {
+     "text": "Sometimes I think slooow... (wait...)",
+     "start": 159.12,
+     "end": 162.52,
+     "style": "slow"
+    }
+   ],
+   "frame": "preview/S62.jpg",
+   "frame_full": "frames/S62.png"
+  },
+  {
+   "id": "S63",
+   "start": 162.6,
+   "section": "Outro",
+   "mode": "sunrise",
+   "title": "Always thinking",
+   "scene": "Close on SLOW's notebook page filling with a slow spiral of handwriting; a pigeon lands on the stoop railing.",
+   "camera": "Over-the-shoulder close",
+   "motion": "Handwriting spirals inward",
+   "chars": [
+    "SLOW"
+   ],
+   "end": 165.05,
+   "dur": 2.45,
+   "captions": [
+    {
+     "text": "Used to be sometimes...",
+     "start": 162.66,
+     "end": 163.26,
+     "style": "slow"
+    },
+    {
+     "text": "Now I'm always thinkin'... (hmm...)",
+     "start": 163.8,
+     "end": 164.86,
+     "style": "slow"
+    }
+   ],
+   "frame": "preview/S63.jpg",
+   "frame_full": "frames/S63.png"
+  },
+  {
+   "id": "S64",
+   "start": 165.05,
+   "section": "Outro",
+   "mode": "sunrise",
+   "title": "Pull away",
+   "rev": 2,
+   "scene": "The same street-level Brooklyn brownstone stoop as image 1 (a few steps up from the sidewalk, not a high floor, no fire escape), now seen from across the street and a little higher, as the camera pulls back: FAST dozing on SLOW's shoulder on the steps, small but clearly recognizable, the row of brownstones around them and the sunrise city skyline glowing beyond the rooftops. FAST is a dark-skinned Black man with a wild mane of short spiky twists and no hat, in his traffic-cone orange, teal and purple windbreaker; SLOW is a Japanese man with long black hair in a low ponytail and thin rectangular glasses, in his camel overcoat and black turtleneck. ",
+   "camera": "Pull-back from across the street, slightly elevated",
+   "motion": "Tape slows and warbles",
+   "chars": [
+    "FAST",
+    "SLOW"
+   ],
+   "base_frame": "S62",
+   "end": 167.6,
+   "dur": 2.55,
+   "captions": [
+    {
+     "text": "Sometimes I think slooow...",
+     "start": 165.12,
+     "end": 167.54,
+     "style": "slow"
+    }
+   ],
+   "frame": "preview/S64.jpg",
+   "frame_full": "frames/S64.png"
+  },
+  {
+   "id": "S65",
+   "start": 167.6,
+   "section": "Tag",
+   "mode": "hook",
+   "insert43": true,
+   "title": "Thought for 3 minutes",
+   "scene": "Black screen with camcorder OSD; a single line of white typewriter text in the center: 'Thought for 3m 2s'.",
+   "camera": "Black frame",
+   "motion": "Typewriter reveal on the spoken tag",
+   "chars": [],
+   "text": [
+    "Thought for 3 minutes"
+   ],
+   "card": true,
+   "rev": 2,
+   "end": 172.5,
+   "dur": 4.9,
+   "captions": [
+    {
+     "text": "Thought for three minutes.",
+     "start": 169.88,
+     "end": 170.62,
+     "style": "typewriter"
+    }
+   ],
+   "frame": "preview/S65.jpg",
+   "frame_full": "frames/S65.png"
+  },
+  {
+   "id": "S66",
+   "start": 172.5,
+   "section": "Tag",
+   "mode": "hook",
+   "title": "End card",
+   "scene": "The underpass mural at night repainted as the title: 'FAST & SLOW' above 'Sometimes I Think Slow' in hand-painted sign lettering; FAST's skateboard and SLOW's notebook left leaning against the wall.",
+   "camera": "Wide static",
+   "motion": "Hold; VHS STOP",
+   "chars": [],
+   "text": [
+    "FAST & SLOW",
+    "Sometimes I Think Slow",
+    "Sometimes I Think Fast"
+   ],
+   "rev": 2,
+   "poster": true,
+   "end": 182.4,
+   "dur": 9.9,
+   "captions": [],
+   "frame": "preview/S66.jpg",
+   "frame_full": "frames/S66.png"
+  }
+ ]
+}

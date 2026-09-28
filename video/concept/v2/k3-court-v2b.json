@@ -1,0 +1,6 @@
+{
+ "name": "k3-court-v2b",
+ "endpoint": "fal-ai/nano-banana-pro/edit",
+ "source": "k3-court-v2.png",
+ "prompt": "Image 2 is FAST's model sheet. Edit image 1: FAST's white T-shirt under his open windbreaker now has the big block letters 'LOW' printed across the chest, like a basketball jersey number. Keep everything else exactly as is, including the scoreboard 'LOW 21  HIGH 19', the effort slider sign and the 'HIGH' jersey on the other player. Same 1990s cel anime style."
+}

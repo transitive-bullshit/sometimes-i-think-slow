@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fast &amp; Slow Storyboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Caveat:wght@600;700&family=Permanent+Marker&family=Special+Elite&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root { --bg:#0f0e0d; --panel:#181614; --card:#1d1a17; --line:#2f2a25; --fg:#efe8dc; --muted:#a0978a; --fast:#ff6a13; --teal:#12a4a0;
+  --slow:#bdb6aa; --hook:#f2b33d; --sunrise:#ffb86b; --ok:#3fbf7f; --rev:#f2b33d; --regen:#ff5d5d; }
+@media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) { --bg:#f4efe6; --panel:#fffdf8; --card:#fffdf8; --line:#e2d9ca; --fg:#1b1814; --muted:#6d655a; } }
+:root[data-theme="light"] { --bg:#f4efe6; --panel:#fffdf8; --card:#fffdf8; --line:#e2d9ca; --fg:#1b1814; --muted:#6d655a; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font:15px/1.5 "Space Grotesk", ui-sans-serif, system-ui, sans-serif; }
+main { max-width:1280px; margin:0 auto; padding:20px 16px 90px; }
+header.top { display:flex; flex-wrap:wrap; gap:10px 18px; align-items:center; justify-content:space-between; margin-bottom:14px; }
+h1 { font-family:Bungee, sans-serif; font-weight:400; font-size:clamp(24px,4vw,40px); margin:0; line-height:1; }
+h1 .f { color:var(--fast); } h1 .s { color:var(--slow); }
+.sub { color:var(--muted); font-size:14px; }
+.btn { font:inherit; font-size:14px; padding:7px 12px; border-radius:9px; border:1px solid var(--line); background:var(--panel); color:var(--fg); cursor:pointer; }
+.btn:hover { border-color:var(--muted); } .btn.primary { background:var(--fast); border-color:var(--fast); color:#1b0c02; font-weight:700; }
+.btn:focus-visible, textarea:focus-visible, .seg:focus-visible, .pill:focus-visible { outline:2px solid var(--teal); outline-offset:2px; }
+.counts { display:flex; gap:8px; flex-wrap:wrap; font-size:13px; }
+.counts span { padding:2px 9px; border-radius:99px; border:1px solid var(--line); }
+/* animatic */
+.anim { background:#000; border-radius:14px; overflow:hidden; border:1px solid var(--line); }
+.stage { position:relative; aspect-ratio:16/9; background:#000; overflow:hidden; }
+.stage img { position:absolute; inset:0; width:100%; height:100%; object-fit:contain; transition:opacity .12s; }
+.stage .grain { position:absolute; inset:0; pointer-events:none; background:repeating-linear-gradient(0deg, rgba(255,255,255,.035) 0 1px, transparent 1px 3px); mix-blend-mode:overlay; }
+.stage .osd { position:absolute; left:3%; top:4%; font-family:"Special Elite", monospace; color:#fff; font-size:clamp(11px,1.6vw,18px); text-shadow:0 0 4px #000; letter-spacing:1px; }
+.stage .shotlabel { position:absolute; right:3%; top:4%; font:600 clamp(10px,1.3vw,14px) "Space Grotesk"; color:#fff; background:rgba(0,0,0,.55); padding:3px 8px; border-radius:6px; }
+.cap { position:absolute; left:6%; right:6%; bottom:7%; text-align:center; pointer-events:none; line-height:1.12; white-space:pre-line; }
+.cap.fast { font-family:"Permanent Marker", cursive; color:#ff7a1a; font-size:clamp(16px,3.2vw,40px); text-shadow:0 0 1px #3a0d00, 3px 3px 0 #0f6f6c, 0 0 18px rgba(255,120,20,.35); transform:rotate(-2.5deg); }
+.cap.slow { font-family:Caveat, cursive; font-weight:700; color:#f5efe2; font-size:clamp(18px,3.4vw,44px); text-shadow:0 2px 3px rgba(0,0,0,.85); }
+.cap.hook { font-family:Bungee, sans-serif; color:#fff7e0; font-size:clamp(15px,3vw,38px); text-shadow:4px 4px 0 #1b1814; letter-spacing:1px; }
+.cap.stamp { font-family:"Special Elite", monospace; color:#ff4d2e; font-size:clamp(16px,3.3vw,42px); left:auto; right:8%; bottom:auto; top:12%; border:3px solid #ff4d2e; padding:2px 12px; transform:rotate(-8deg); text-shadow:none; }
+.cap.typewriter { font-family:"Special Elite", monospace; color:#fff; font-size:clamp(15px,2.8vw,34px); text-shadow:0 0 6px #000; }
+.transport { display:flex; align-items:center; gap:10px; padding:10px 12px; background:var(--panel); flex-wrap:wrap; }
+.time { font-variant-numeric:tabular-nums; color:var(--muted); font-size:13px; min-width:92px; }
+.timeline { position:relative; flex:1 1 400px; height:30px; background:var(--card); border-radius:8px; overflow:hidden; cursor:pointer; }
+.seg { position:absolute; top:0; bottom:0; border-right:1px solid rgba(0,0,0,.35); opacity:.8; }
+.seg:hover { opacity:1; }
+.seg.m-hook { background:var(--hook); } .seg.m-fast { background:var(--fast); } .seg.m-slow { background:#77716a; }
+.seg.m-sunrise { background:var(--sunrise); } .seg.m-transition { background:linear-gradient(90deg, #77716a, var(--hook)); }
+.seg.s-ok::after, .seg.s-revise::after, .seg.s-regen::after { content:""; position:absolute; left:0; right:0; bottom:0; height:5px; }
+.seg.s-ok::after { background:var(--ok); } .seg.s-revise::after { background:var(--rev); } .seg.s-regen::after { background:var(--regen); }
+.playhead { position:absolute; top:0; bottom:0; width:2px; background:#fff; box-shadow:0 0 6px #fff; pointer-events:none; }
+.legend { display:flex; gap:12px; flex-wrap:wrap; font-size:12px; color:var(--muted); padding:6px 12px 10px; background:var(--panel); }
+.legend i { display:inline-block; width:10px; height:10px; border-radius:2px; margin-right:4px; vertical-align:-1px; }
+/* filters + cards */
+.filters { display:flex; gap:6px; flex-wrap:wrap; margin:18px 0 10px; }
+.pill { font:inherit; font-size:13px; padding:4px 11px; border-radius:99px; border:1px solid var(--line); background:transparent; color:var(--muted); cursor:pointer; }
+.pill.on { background:var(--fg); color:var(--bg); border-color:var(--fg); }
+.grid { display:grid; gap:14px; grid-template-columns:repeat(auto-fill, minmax(min(380px, 100%), 1fr)); }
+.shot { background:var(--card); border:1px solid var(--line); border-radius:12px; overflow:hidden; display:flex; flex-direction:column; }
+.shot.cur { border-color:var(--teal); box-shadow:0 0 0 2px var(--teal); }
+.thumb { position:relative; aspect-ratio:16/9; background:#000; cursor:pointer; }
+.thumb img { width:100%; height:100%; object-fit:contain; display:block; }
+.thumb .play { position:absolute; left:8px; bottom:8px; background:rgba(0,0,0,.65); color:#fff; border-radius:7px; padding:3px 9px; font-size:12px; }
+.body { padding:10px 12px 12px; display:flex; flex-direction:column; gap:6px; flex:1; }
+.row1 { display:flex; gap:8px; align-items:baseline; flex-wrap:wrap; }
+.sid { font-family:Bungee, sans-serif; font-size:15px; } .ttl { font-weight:700; }
+.meta { color:var(--muted); font-size:12.5px; }
+.badge { font-size:11px; padding:1px 7px; border-radius:99px; border:1px solid var(--line); color:var(--muted); }
+.badge.m-fast { color:var(--fast); border-color:var(--fast); } .badge.m-hook { color:var(--hook); border-color:var(--hook); }
+.badge.m-slow { color:var(--slow); } .badge.m-sunrise { color:var(--sunrise); border-color:var(--sunrise); }
+.badge.lip { color:#c79bff; border-color:#c79bff; }
+.lyr { font-size:13.5px; border-left:3px solid var(--line); padding-left:8px; white-space:pre-line; }
+.badge.upd { color:#0f0e0d; background:var(--teal); border-color:var(--teal); font-weight:700; }
+.poster { display:grid; grid-template-columns:minmax(0,2fr) minmax(0,1fr); gap:14px; align-items:center; margin:16px 0 4px; background:var(--card); border:1px solid var(--line); border-radius:12px; padding:12px; }
+.poster img { width:100%; border-radius:8px; display:block; }
+@media (max-width:700px) { .poster { grid-template-columns:1fr; } }
+.banner { margin:14px 0 0; padding:10px 14px; border-radius:10px; background:rgba(18,164,160,.12); border:1px solid var(--teal); font-size:14px; }
+.lyr .st { color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.5px; margin-right:6px; }
+.desc { font-size:13.5px; } .desc b { font-weight:600; color:var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:.4px; }
+.alt { font-size:12.5px; color:#c79bff; }
+.fb { margin-top:auto; display:flex; flex-direction:column; gap:6px; padding-top:8px; border-top:1px dashed var(--line); }
+.status { display:flex; gap:6px; flex-wrap:wrap; }
+.status button { font:inherit; font-size:12.5px; padding:4px 10px; border-radius:8px; border:1px solid var(--line); background:transparent; color:var(--fg); cursor:pointer; }
+.status button[aria-pressed="true"].ok { background:var(--ok); border-color:var(--ok); color:#06150d; }
+.status button[aria-pressed="true"].revise { background:var(--rev); border-color:var(--rev); color:#1b1302; }
+.status button[aria-pressed="true"].regen { background:var(--regen); border-color:var(--regen); color:#1b0303; }
+textarea { font:inherit; font-size:13.5px; width:100%; min-height:52px; resize:vertical; border-radius:8px; border:1px solid var(--line); background:var(--panel); color:var(--fg); padding:7px 9px; }
+.global { margin-top:26px; background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px; }
+.toast { position:fixed; left:50%; bottom:22px; transform:translateX(-50%); background:var(--fg); color:var(--bg); padding:8px 14px; border-radius:10px; font-size:14px; opacity:0; transition:opacity .2s; pointer-events:none; }
+.toast.show { opacity:1; }
+.missing { position:absolute; inset:0; display:grid; place-items:center; color:var(--muted); font-size:13px; }
+kbd { font:12px "Space Grotesk"; border:1px solid var(--line); border-radius:4px; padding:0 4px; }
+</style>
+</head>
+<body>
+<main>
+  <header class="top">
+    <div>
+      <h1><span class="f">FAST</span> &amp; <span class="s">SLOW</span> · storyboard <span style="font-size:.5em;vertical-align:middle;color:var(--teal)">ROUND 2</span></h1>
+      <div class="sub">"Sometimes I Think Slow": <span id="nshots"></span> shots on the song's timeline. The default cut uses no lip-sync; <span style="color:#c79bff">purple</span> shots also get a lip-synced version.</div>
+    </div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+      <div class="counts" id="counts"></div>
+      <button class="btn" id="copyBtn">Copy as text</button>
+      <button class="btn primary" id="saveBtn">Save feedback</button>
+    </div>
+  </header>
+
+  <section class="anim" aria-label="Animatic">
+    <div class="stage" id="stage">
+      <img id="frameA" alt=""><img id="frameB" alt="">
+      <div class="grain"></div>
+      <div class="osd" id="osd">▶ PLAY</div>
+      <div class="shotlabel" id="shotlabel"></div>
+      <div class="cap" id="cap"></div>
+    </div>
+    <div class="transport">
+      <button class="btn" id="playBtn" aria-label="Play or pause">▶ Play</button>
+      <button class="btn" id="prevBtn" aria-label="Previous shot">◀◀</button>
+      <button class="btn" id="nextBtn" aria-label="Next shot">▶▶</button>
+      <span class="time" id="time">0:00 / 3:02</span>
+      <div class="timeline" id="timeline" role="slider" aria-label="Song timeline" tabindex="0"><div class="playhead" id="playhead"></div></div>
+    </div>
+    <div class="legend"><span><i style="background:var(--hook)"></i>hook</span><span><i style="background:var(--fast)"></i>FAST</span><span><i style="background:#77716a"></i>SLOW (sumi-e)</span><span><i style="background:var(--sunrise)"></i>sunrise</span><span><i style="background:var(--ok)"></i>approved</span><span><i style="background:var(--rev)"></i>revise</span><span><i style="background:var(--regen)"></i>regenerate</span><span><kbd>Space</kbd> play · <kbd>←</kbd>/<kbd>→</kbd> shot</span></div>
+    <audio id="audio" preload="auto"></audio>
+  </section>
+
+  <section class="poster" aria-label="Poster">
+    <img src="../poster.jpg" alt="Poster: FAST &amp; SLOW, Sometimes I Think Slow, Sometimes I Think Fast">
+    <div><h3 style="margin:0 0 6px">Poster = first frame</h3><div class="meta" style="font-size:14px">S66 with the added line "Sometimes I Think Fast". Only that line was composited in; the rest is your original frame, pixel for pixel. It's the featured image and a single opening frame of the video.</div></div>
+  </section>
+  <div class="banner" id="banner"></div>
+  <div class="filters" id="filters" role="group" aria-label="Filter shots"></div>
+  <div class="grid" id="grid"></div>
+
+  <section class="global">
+    <h3 style="margin:0 0 6px">Overall notes</h3>
+    <textarea id="globalNotes" placeholder="Pacing, story, anything that spans multiple shots…"></textarea>
+  </section>
+</main>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+const KEY = "fastslow-storyboard-v1";
+let DATA, SHOTS = [], FB = { shots:{}, global:"" }, cur = -1, filter = "Updated (round 2)";
+const $ = s => document.querySelector(s);
+const audio = $("#audio"), stage = $("#stage");
+const fmt = t => `${Math.floor(t/60)}:${String(Math.floor(t%60)).padStart(2,"0")}`;
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function toast(msg){ const t=$("#toast"); t.textContent=msg; t.classList.add("show"); clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove("show"),1800); }
+function persist(){ try { localStorage.setItem(KEY, JSON.stringify(FB)); } catch(e){} renderCounts(); paintTimelineStatus(); }
+
+async function load(){
+  DATA = await (await fetch("shots.json", {cache:"no-store"})).json();
+  SHOTS = DATA.shots; audio.src = DATA.song;
+  $("#nshots").textContent = SHOTS.length;
+  try { const local = JSON.parse(localStorage.getItem(KEY) || "null"); if (local) FB = local; } catch(e){}
+  try { const srv = await (await fetch("/api/feedback/storyboard", {cache:"no-store"})).json();
+        if (srv && srv.shots && Object.keys(srv.shots).length && !Object.keys(FB.shots).length) FB = srv; } catch(e){}
+  FB.shots = FB.shots || {};
+  // round 2: revised shots start unreviewed again (round-1 notes kept for reference)
+  SHOTS.filter(s => s.rev === 2).forEach(s => { const f = FB.shots[s.id]; if (!f || f.round !== 2) FB.shots[s.id] = { round:2, prev:(f && f.notes) || "" }; });
+  const upd = SHOTS.filter(s => s.rev === 2).map(s => s.id);
+  $("#banner").innerHTML = `<b>Round 2:</b> ${upd.length} updated shots (${upd.join(", ")}). They're shown first and reset to unreviewed; everything you approved stays approved. Choose <i>All</i> to see the whole board.`;
+  persist();
+  $("#globalNotes").value = FB.global || "";
+  buildTimeline(); buildFilters(); renderGrid(); renderCounts(); showShot(0, false);
+}
+
+function buildTimeline(){
+  const tl = $("#timeline"), total = 182.4;
+  SHOTS.forEach((s,i) => {
+    const d = document.createElement("div");
+    d.className = `seg m-${s.mode}`; d.style.left = (s.start/total*100)+"%"; d.style.width = ((s.end-s.start)/total*100)+"%";
+    d.title = `${s.id} · ${s.title} · ${fmt(s.start)}`; d.dataset.i = i;
+    tl.appendChild(d);
+  });
+  tl.addEventListener("click", e => { const r = tl.getBoundingClientRect(); seek((e.clientX-r.left)/r.width*182.4); });
+  paintTimelineStatus();
+}
+function paintTimelineStatus(){
+  document.querySelectorAll(".seg").forEach(d => { const s = SHOTS[+d.dataset.i], st = (FB.shots[s.id]||{}).status;
+    d.classList.remove("s-ok","s-revise","s-regen"); if (st) d.classList.add("s-"+st); });
+}
+
+function buildFilters(){
+  const sections = ["Updated (round 2)", "All", ...new Set(SHOTS.map(s => s.section)), "Lip-sync candidates", "Needs attention"];
+  $("#filters").innerHTML = sections.map(s => `<button class="pill ${s===filter?"on":""}" data-f="${esc(s)}">${esc(s)}</button>`).join("");
+  $("#filters").onclick = e => { const b = e.target.closest(".pill"); if (!b) return; filter = b.dataset.f; buildFilters(); renderGrid(); };
+}
+function visible(s){
+  if (filter==="All") return true;
+  if (filter==="Updated (round 2)") return s.rev === 2;
+  if (filter==="Lip-sync candidates") return !!s.lipsync;
+  if (filter==="Needs attention") { const st=(FB.shots[s.id]||{}).status; return st==="revise"||st==="regen"; }
+  return s.section===filter;
+}
+function renderGrid(){
+  const g = $("#grid");
+  g.innerHTML = SHOTS.map((s,i) => visible(s) ? card(s,i) : "").join("");
+  g.querySelectorAll(".thumb").forEach(el => el.onclick = () => { seek(SHOTS[+el.dataset.i].start + 0.01); audio.play(); window.scrollTo({top:0, behavior:"smooth"}); });
+  g.querySelectorAll(".status button").forEach(b => b.onclick = () => {
+    const id = b.closest(".shot").dataset.id, f = FB.shots[id] = FB.shots[id] || {};
+    f.status = f.status === b.dataset.s ? undefined : b.dataset.s;
+    b.parentElement.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", String(x.dataset.s === f.status)));
+    persist();
+  });
+  g.querySelectorAll("textarea").forEach(t => t.oninput = () => { const id = t.closest(".shot").dataset.id; (FB.shots[id] = FB.shots[id] || {}).notes = t.value; persist(); });
+}
+function card(s,i){
+  const f = FB.shots[s.id] || {}, st = f.status;
+  const caps = s.captions.map(c => `<div class="lyr"><span class="st">${esc(c.style)}</span>${esc(c.text)}</div>`).join("") || `<div class="lyr meta">(instrumental)</div>`;
+  const text = s.text && s.text.length ? `<div class="desc"><b>In-frame text</b> ${s.text.map(t=>"“"+esc(t)+"”").join(" · ")}</div>` : "";
+  const lip = s.lipsync ? `<div class="alt">◆ Lip-sync candidate. The final cut ships two versions: lip-synced close-up, and ${esc(s.lipsync.replace(/^Alt \(no lip-sync\):\s*/,"a no-lip-sync alternate: "))}</div>` : "";
+  return `<article class="shot ${i===cur?"cur":""}" data-id="${s.id}" id="card-${s.id}">
+    <div class="thumb" data-i="${i}" title="Play from this shot"><img loading="lazy" src="${s.frame}?v=${(DATA.v||1)}" alt="${esc(s.title)}" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'missing',textContent:'rendering…'}))"><span class="play">▶ ${fmt(s.start)}–${fmt(s.end)} · ${s.dur.toFixed(1)}s</span></div>
+    <div class="body">
+      <div class="row1"><span class="sid">${s.id}</span><span class="ttl">${esc(s.title)}</span><span class="badge m-${s.mode}">${s.mode==="slow"?"sumi-e":s.mode}</span>${s.insert43?'<span class="badge">4:3 camcorder</span>':""}${s.lipsync?'<span class="badge lip">lip-sync ×2</span>':""}${s.rev===2?`<span class="badge upd">UPDATED${s.rev_note?" · "+esc(s.rev_note):""}</span>`:""}<span class="meta">${esc(s.section)}</span></div>
+      ${caps}
+      <div class="desc">${esc(s.scene)}</div>
+      <div class="desc"><b>Camera</b> ${esc(s.camera)} · <b>Motion</b> ${esc(s.motion)}</div>
+      ${text}${lip}
+      <div class="fb">
+        <div class="status" role="group" aria-label="Status for ${s.id}">
+          <button class="ok" data-s="ok" aria-pressed="${st==="ok"}">✓ Approve</button>
+          <button class="revise" data-s="revise" aria-pressed="${st==="revise"}">✎ Revise</button>
+          <button class="regen" data-s="regen" aria-pressed="${st==="regen"}">↻ Regenerate</button>
+        </div>
+        ${f.prev ? `<div class="meta">Round-1 note: ${esc(f.prev)}</div>` : ""}<textarea placeholder="Notes for ${s.id}…">${esc(f.notes||"")}</textarea>
+      </div>
+    </div></article>`;
+}
+function renderCounts(){
+  const v = Object.values(FB.shots), n = k => v.filter(x => x.status===k).length;
+  $("#counts").innerHTML = `<span>✓ ${n("ok")}</span><span>✎ ${n("revise")}</span><span>↻ ${n("regen")}</span><span>${SHOTS.length - n("ok") - n("revise") - n("regen")} unreviewed</span>`;
+}
+
+// animatic
+let showing = "A";
+function shotAt(t){ let i = SHOTS.findIndex(s => t >= s.start && t < s.end); return i < 0 ? (t >= 182 ? SHOTS.length-1 : 0) : i; }
+function showShot(i, scroll=true){
+  if (i === cur) return; cur = i; const s = SHOTS[i];
+  const a = $("#frame"+showing), b = $("#frame"+(showing==="A"?"B":"A"));
+  b.src = s.frame + "?v=" + (DATA.v||1); b.style.opacity = 1; a.style.opacity = 0; showing = showing==="A"?"B":"A";
+  $("#shotlabel").textContent = `${s.id} · ${s.title}`;
+  $("#osd").textContent = s.insert43 ? "▶ PLAY  SP  CAMCORDER" : (s.mode==="slow" ? "▶ PLAY  3:00 AM" : "▶ PLAY");
+  document.querySelectorAll(".shot.cur").forEach(el => el.classList.remove("cur"));
+  const el = document.getElementById("card-"+s.id); if (el) el.classList.add("cur");
+}
+function showCaption(t){
+  const s = SHOTS[cur], cap = $("#cap");
+  const c = SHOTS.flatMap(x => x.captions).find(c => t >= c.start - 0.05 && t <= c.end + 0.35);
+  const key = c ? c.text : "";
+  if (cap.dataset.k !== key){ cap.dataset.k = key; cap.className = "cap " + (c ? c.style : ""); cap.textContent = key; }
+}
+function seek(t){ audio.currentTime = Math.max(0, Math.min(182.3, t)); tick(true); }
+function tick(force){
+  const t = audio.currentTime || 0;
+  const i = shotAt(t); if (i !== cur) showShot(i);
+  showCaption(t);
+  $("#playhead").style.left = (t/182.4*100)+"%";
+  $("#time").textContent = `${fmt(t)} / 3:02`;
+  if (!audio.paused || force) requestAnimationFrame(() => { if (!audio.paused) tick(); });
+}
+audio.addEventListener("play", () => { $("#playBtn").textContent = "❚❚ Pause"; tick(); });
+audio.addEventListener("pause", () => { $("#playBtn").textContent = "▶ Play"; });
+audio.addEventListener("seeked", () => tick(true));
+$("#playBtn").onclick = () => audio.paused ? audio.play() : audio.pause();
+$("#prevBtn").onclick = () => seek(SHOTS[Math.max(0, cur-1)].start + 0.01);
+$("#nextBtn").onclick = () => seek(SHOTS[Math.min(SHOTS.length-1, cur+1)].start + 0.01);
+document.addEventListener("keydown", e => {
+  if (e.target.matches("textarea, input")) return;
+  if (e.code === "Space") { e.preventDefault(); $("#playBtn").click(); }
+  if (e.key === "ArrowRight") $("#nextBtn").click();
+  if (e.key === "ArrowLeft") $("#prevBtn").click();
+});
+$("#globalNotes").oninput = e => { FB.global = e.target.value; persist(); };
+
+function asText(){
+  const lines = [`Storyboard feedback (${new Date().toLocaleString()})`];
+  if (FB.global) lines.push(`Overall: ${FB.global}`);
+  SHOTS.forEach(s => { const f = FB.shots[s.id]; if (f && (f.status || f.notes)) lines.push(`${s.id} ${s.title} [${f.status||"note"}]: ${f.notes||""}`); });
+  return lines.join("\n");
+}
+$("#copyBtn").onclick = async () => { try { await navigator.clipboard.writeText(asText()); toast("Copied feedback as text"); } catch(e){ toast("Copy failed. Use Save instead"); } };
+$("#saveBtn").onclick = async () => {
+  try {
+    const r = await fetch("/api/feedback/storyboard", {method:"POST", headers:{"Content-Type":"application/json"}, body: JSON.stringify(FB)});
+    const j = await r.json(); toast(j.ok ? `Saved ${j.saved_at}. Tell Claude it's ready.` : "Save failed");
+  } catch(e){ toast("Save failed (is the local server running?)"); }
+};
+load();
+</script>
+</body>
+</html>

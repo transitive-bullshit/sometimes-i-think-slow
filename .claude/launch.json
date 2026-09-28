@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "fast-slow-review",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["scripts/serve.py", "."],
+      "port": 8775,
+      "autoPort": true
+    }
+  ]
+}

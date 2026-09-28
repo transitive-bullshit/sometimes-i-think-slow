@@ -1,0 +1,9 @@
+{
+ "id": "S16",
+ "prompt": "Create a new 16:9 storyboard keyframe for a music video. Image 1 is the style reference: match its 1990s hand-painted cel anime look, ink line quality, film grain and VHS softness exactly. Image 2 is FAST's model sheet: draw FAST exactly on-model (same face, hair, skin tone, glasses, outfit and props). FAST's world: bright, saturated 90s colors (traffic-cone orange, teal, purple; neon if it is night), energetic diagonal composition, speed lines only where something moves fast.\nScene: Camcorder footage: FAST on a stoop with a chunky 90s laptop covered in a 'SHIP IT' sticker, giving a thumbs up; beside him a beige server tower is quietly smoking.\nCamera: Handheld camcorder, slightly tilted.\nCharacters: FAST only, no one else unless the scene mentions extras. Their mouths are closed or relaxed (nobody is mid-word).\nThe only readable text in the image: 'SHIP IT', spelled exactly and rendered as part of the scene on real objects. No other text, captions, subtitles or speech bubbles.\nNo borders, no panel frames, not a comic page.",
+ "refs": [
+  "https://v3b.fal.media/files/b/0aac3da0/Km4u1h-i3-WvLvZQmQgyy_k3-court-v2b.png",
+  "https://v3b.fal.media/files/b/0aac3da1/jhalTAv9tOgD0h36Ez6fs_sheet-fast-v2.png"
+ ],
+ "seconds": 39.0
+}

@@ -1,0 +1,14 @@
+{
+ "job": "S14_b",
+ "shot": "S14",
+ "start": "video/storyboard/frames_r2/S14.png",
+ "end": "video/storyboard/frames_r2/S14.png",
+ "args": {
+  "prompt": "The word JEV glows brighter first; then FAST sprays the wall in one fluid stroke. FAST in profile in front of a brick wall with a spray can; a translucent holographic X-ray of his head shows a glowing node graph with the neon word 'JEV' lit up. The word 'JEV' never changes. Camera: Profile medium close. 1990s hand-painted cel anime, saturated colors, energetic limited animation with smear frames, film grain. Keep the art style, characters, faces, hair, outfits and any lettering exactly as in the first frame. Characters do not speak or sing; mouths stay closed or relaxed. No new text or subtitles.",
+  "negative_prompt": "3D render, CGI, photorealistic, morphing, warped faces, extra limbs, extra people, subtitles, captions, watermark, text changes, new writing, changing letters or numbers, slow motion",
+  "generate_audio": false,
+  "duration": "3",
+  "cfg_scale": 0.5
+ },
+ "seconds": 131.0
+}

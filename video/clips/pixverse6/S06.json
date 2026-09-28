@@ -1,0 +1,14 @@
+{
+ "id": "S06",
+ "model": "pixverse6",
+ "endpoint": "fal-ai/pixverse/v6/image-to-video",
+ "args": {
+  "prompt": "FAST circles the bowl twice in one beat; SLOW turns a page. Concrete skate park in bright afternoon sun, framed close enough to read both faces clearly. FAST carves the bowl at speed, one hand trailing the wall, face turned toward camera; SLOW sits on the coping at the top, calmly reading, face visible in three-quarter view. FAST is a dark-skinned Black man with a wild mane of short spiky twists and no hat, in his traffic-cone orange, teal and purple windbreaker; SLOW is a Japanese man with long black hair in a low ponytail and thin rectangular glasses, in his camel overcoat and black turtleneck.  Camera: High angle over the bowl. 1990s hand-painted cel anime, saturated colors, energetic limited animation with smear frames, film grain. Keep the art style, characters, faces, hair, outfits and any lettering exactly as in the first frame. Characters do not speak or sing; mouths stay closed or relaxed. No new text or subtitles.",
+  "negative_prompt": "3D render, CGI, photorealistic, morphing, warped faces, extra limbs, extra people, subtitles, captions, watermark, text changes",
+  "resolution": "1080p",
+  "style": "anime",
+  "duration": 4,
+  "generate_audio_switch": false
+ },
+ "seconds": 62.2
+}

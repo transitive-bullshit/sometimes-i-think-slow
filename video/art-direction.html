@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fast &amp; Slow Art Direction</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Caveat:wght@500;700&family=Permanent+Marker&family=Special+Elite&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root { --bg:#f4efe6; --fg:#1b1814; --muted:#6d655a; --card:#fffdf8; --line:#e2d9ca; --fast:#ff6a13; --teal:#12a4a0; --slow:#2b2a28; --accent:#b4541e; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#121110; --fg:#efe8dc; --muted:#a39a8c; --card:#1c1a17; --line:#2f2b26; --accent:#f08a4b; } }
+:root[data-theme="dark"] { --bg:#121110; --fg:#efe8dc; --muted:#a39a8c; --card:#1c1a17; --line:#2f2b26; --accent:#f08a4b; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.55 "Space Grotesk", ui-sans-serif, system-ui, sans-serif; }
+main { max-width:1180px; margin:0 auto; padding:36px 16px 80px; }
+h1 { font-family:Bungee, sans-serif; font-weight:400; font-size:clamp(30px,5vw,54px); line-height:1; margin:0 0 6px; letter-spacing:.5px; }
+h1 .f { color:var(--fast); } h1 .s { color:var(--muted); }
+h2 { font-size:22px; margin:48px 0 12px; padding-bottom:6px; border-bottom:1px solid var(--line); }
+h3 { font-size:16px; margin:0 0 4px; }
+p, li { max-width:78ch; } .muted { color:var(--muted); }
+.lede { font-size:18px; color:var(--muted); margin-top:8px; }
+.grid { display:grid; gap:14px; grid-template-columns:repeat(auto-fill, minmax(min(340px, 100%), 1fr)); }
+.grid.two { grid-template-columns:repeat(auto-fill, minmax(min(460px, 100%), 1fr)); }
+figure { margin:0; background:var(--card); border:1px solid var(--line); border-radius:12px; overflow:hidden; }
+figure img { display:block; width:100%; height:auto; }
+figcaption { padding:10px 12px 12px; font-size:14px; }
+figcaption > b:first-child { display:block; font-size:15px; margin-bottom:2px; }
+.frame { position:relative; overflow:hidden; }
+.tag { display:inline-block; font-size:12px; padding:1px 8px; border-radius:99px; border:1px solid var(--line); margin-right:4px; color:var(--muted); }
+.palette { display:flex; gap:6px; margin:6px 0 2px; } .palette span { width:28px; height:18px; border-radius:4px; border:1px solid rgba(0,0,0,.15); }
+.callout { border-left:3px solid var(--accent); padding:4px 0 4px 14px; margin:14px 0; }
+.tablewrap { overflow-x:auto; -webkit-overflow-scrolling:touch; border-radius:12px; }
+table { width:100%; min-width:560px; border-collapse:collapse; font-size:14px; background:var(--card); border:1px solid var(--line); border-radius:12px; overflow:hidden; }
+th, td { text-align:left; padding:8px 10px; border-bottom:1px solid var(--line); vertical-align:top; }
+th { font-size:13px; color:var(--muted); font-weight:500; }
+td.t { white-space:nowrap; font-variant-numeric:tabular-nums; color:var(--muted); }
+/* caption mockups */
+.mock { position:relative; }
+.cap { position:absolute; pointer-events:none; }
+.cap.fast { font-family:"Permanent Marker", cursive; color:#ff7a1a; text-shadow:0 0 1px #3a0d00, 3px 3px 0 #0f6f6c, 0 0 18px rgba(255,120,20,.35); transform:rotate(-4deg); }
+.cap.slow { font-family:Caveat, cursive; font-weight:700; color:#f5efe2; text-shadow:0 1px 2px rgba(0,0,0,.7); }
+.cap.slow.paper { color:#26241f; background:#f3ecd9; padding:4px 12px 6px; border-radius:2px; box-shadow:0 3px 10px rgba(0,0,0,.35); transform:rotate(2deg);
+  background-image:repeating-linear-gradient(transparent 0 26px, rgba(80,120,200,.25) 26px 27px); }
+.cap.hook { font-family:Bungee, sans-serif; color:#fff7e0; text-shadow:4px 4px 0 #1b1814; letter-spacing:1px; line-height:1.05; }
+.cap.stamp { font-family:"Special Elite", monospace; color:#ff4d2e; border:3px solid #ff4d2e; padding:2px 10px; transform:rotate(-8deg); opacity:.92; mix-blend-mode:screen; }
+.tweet { position:absolute; background:#fff; color:#0f1419; border-radius:10px; padding:9px 12px; font:500 13px/1.35 "Space Grotesk", sans-serif; box-shadow:0 0 0 2px #0b0b0b, 0 0 22px rgba(120,200,255,.55); }
+.tweet .n { font-weight:700; } .tweet .h { color:#536471; font-weight:400; } .tweet .b { margin-top:4px; font-size:15px; }
+.osd { position:absolute; font-family:"Special Elite", monospace; color:#fff; text-shadow:0 0 4px #000; font-size:14px; letter-spacing:1px; }
+@media (max-width:560px) { .grid.two { grid-template-columns:1fr; } .cap { font-size:70% !important; } }
+</style>
+</head>
+<body><main>
+
+<h1><span class="f">FAST</span> &amp; <span class="s">SLOW</span></h1>
+<div class="muted">"Sometimes I Think Slow": art direction <b>v2</b> with your notes applied (Champloo-inspired leads, in-world Karpathy)</div>
+<p class="lede">One model, two modes, drawn as twin MCs in a <b>late-night 1990s cel anime shot on VHS</b>. Picture a jazz-noir TV anime from '98 taped off late-night TV: hand-painted backgrounds, flat cels, soft grain, a little chroma bleed, and small cyber details that give away that these two are models.</p>
+
+<h2>1. The look, and why</h2>
+<div class="grid two">
+  <figure><img src="concept/v2/preview/k0-keyart-v2.jpg" alt="Key art"><figcaption><b>Key art: "Same data. Same weights."</b>They look nothing alike and swear they're twins, the old <i>Twins</i> (1988) gag. One model under the hood, two very different modes on the outside.</figcaption></figure>
+  <figure><img src="concept/v2/preview/k1-underpass-v2.jpg" alt="Underpass with o1 chart mural"><figcaption><b>Home base for the hooks: the underpass</b>The o1 test-time compute chart is spray-painted as the neighborhood mural: two axes, two brothers. FAST performs under <i>train-time</i>, SLOW under <i>test-time</i>.</figcaption></figure>
+</div>
+<div class="callout">
+<b>North star: the Mugen/Jin dynamic.</b> A hip-hop anime about a wild improviser and a disciplined ronin who can't stand each other and win together. Its lo-fi beats DNA is exactly our lane. We borrow the <i>dynamic and the energy</i>, not the character designs: ours stay original.<br><br><b>Why cel anime and not camcorder realism.</b>
+<ul>
+  <li>It avoids uncanny AI faces and keeps both characters consistent across about 60 shots.</li>
+  <li>Late-90s jazz-noir anime is literally jazz: improvised FAST against composed SLOW.</li>
+  <li>It's a shared nostalgia for tech Twitter.</li>
+</ul>
+Picked from a three-model bake-off: see §6 for the alternates.</div>
+
+<h3>Color = mode</h3>
+<div class="tablewrap"><table>
+<tr><th>Mode</th><th>Palette</th><th>Camera and time</th><th>Texture</th></tr>
+<tr><td><b>FAST</b> (System One)</td><td><div class="palette"><span style="background:#ff6a13"></span><span style="background:#12a4a0"></span><span style="background:#7b3fa0"></span><span style="background:#6f8fb8"></span></div>traffic-cone orange, teal, purple, denim</td><td>Daylight. Handheld, whip pans, smear frames, sped-up bits, cuts on every bar</td><td>VHS fast-forward tracking lines, speed lines</td></tr>
+<tr><td><b>SLOW</b> (System Two)</td><td><div class="palette"><span style="background:#c9a36b"></span><span style="background:#3b3a38"></span><span style="background:#111"></span><span style="background:#efe7d6"></span></div>camel, charcoal, ink black, cream, going to <b>monochrome sumi-e ink wash</b> in verse 2 (Japanese ink painting: the ronin's medium)</td><td>3 a.m. Locked-off long takes, slow push-ins, slow motion, rain</td><td>Washi paper grain, brush-ink bleed, pencil</td></tr>
+<tr><td><b>Hooks</b></td><td>Split: warm left, cool right. The halves <b>merge a little more each hook</b> until hook 3 is one unified frame.</td><td>The same wide shot every time (the chorus anchor); the crew grows each hook</td><td>Mural, stamps, crowd</td></tr>
+</table></div>
+
+<h2>2. Characters (please approve)</h2>
+<div class="grid two">
+  <figure><img src="concept/v2/preview/sheet-fast-v2.jpg" alt="FAST model sheet"><figcaption><b>FAST — System One</b> <span class="tag">Mugen energy</span><br>Wild mane, fighter's crouch, moves like a breakdancer mid-spin: improvisation and swagger. Same color-block windbreaker, pager, skateboard and lightning-bolt chain. Answers before you finish asking. His eyes flicker with tiny token glyphs when he fires off an answer; that's the cyber tell.</figcaption></figure>
+  <figure><img src="concept/v2/preview/sheet-slow-v2.jpg" alt="SLOW model sheet"><figcaption><b>SLOW — System Two</b> <span class="tag">Jin composure</span><br>A Japanese ronin in a camel overcoat: low ponytail, thin rectangular glasses, stillness. Composition notebook (his scratchpad) and Walkman. His glasses reflect scrolling reasoning. He teases his brother deadpan.</figcaption></figure>
+</div>
+<p class="muted">Relationship: brotherly love-hate, a reluctant duo. They game each other hard, but the song lands on them working best together. These model sheets are the reference for keeping every shot on-model; each scene is rendered in the cel/VHS look above.</p>
+
+<h2>3. Key frames: how the must-have references land</h2>
+<div class="grid">
+  <figure class="mock"><div class="frame"><img src="concept/v2/preview/k2-bodega-v2.jpg" alt="Bat and ball">
+    <div class="cap fast" style="left:3%;top:6%;font-size:30px">Ball's a dime. <br>Automatic.</div>
+    <div class="cap slow paper" style="right:4%;bottom:10%;font-size:24px">(it's a nickel...)</div></div>
+    <figcaption><b>0:45 "Ball's a dime." / "(It's a nickel…)"</b>Kahneman's classic System 1 trap as a two-hander. FAST slaps down a dime; SLOW slides a nickel over without looking up. Hold on FAST's face. <span class="tag">comedy beat</span></figcaption></figure>
+  <figure><img src="concept/v2/preview/k5-book-v2.jpg" alt="Kahneman book"><figcaption><b>0:49 "Kahneman wrote a whole book on why I'm problematic"</b>SLOW holds up <i>Thinking, Fast and Slow</i>, drawn as a stylized cover of our own rather than a copy of the real jacket. FAST reads the title and points at himself, offended. <span class="tag">must-have</span></figcaption></figure>
+  <figure><img src="concept/v2/preview/k3-court-v2b.jpg" alt="Low vs High"><figcaption><b>0:24 "Low effort still beat your high, that's class"</b>A one-on-one: jersey <b>LOW</b> crosses up jersey <b>HIGH</b>, and the scoreboard reads LOW 21, HIGH 19. The courtside sign mimics the vendors' effort sliders (Instant · Medium · High · Extra High · Pro), with LOW mogging HIGH. <span class="tag">must-have</span></figcaption></figure>
+  <figure><img src="concept/v2/preview/k6b-karpathy-pager.jpg" alt="Karpathy on FAST's pager"><figcaption><b>0:29 Karpathy, option A (recommended): FAST's pager</b>His line buzzes onto FAST's beeper in green LCD type. It's 1991-native, FAST's own prop, and FAST treats it like a love letter. The bat-and-ball sign in the background sets up the next gag. <span class="tag">in-world</span> <span class="tag">must-have</span></figcaption></figure>
+  <figure><img src="concept/v2/preview/k6a-karpathy-crt.jpg" alt="Karpathy on the bodega CRT"><figcaption><b>Karpathy, option B: the bodega CRT</b>The post glows on the TV and lights FAST's face. Works as the establishing shot before cutting to the pager. (FAST's old cap gets fixed in the storyboard.) <span class="tag">in-world</span></figcaption></figure>
+  <figure><img src="concept/v2/preview/k7-marcus-v2b.jpg" alt="Gary Marcus"><figcaption><b>1:57 "Gary Marcus tweeted, 'Told you it would slip'"</b>A tabloid front page at the corner newsstand, read deadpan by SLOW, while FAST literally slips on a banana peel behind him. <span class="tag">must-have</span></figcaption></figure>
+  <figure class="mock"><div class="frame"><img src="concept/v2/preview/k4-laundromat-sumie-b.jpg" alt="Sumi-e laundromat">
+    <div class="cap slow" style="left:4%;bottom:8%;font-size:30px">I don't think slower, I think longer</div>
+    <div class="osd" style="right:3%;bottom:4%">▶ PLAY  3:00 AM</div></div>
+    <figcaption><b>1:25 Verse 2 goes monochrome ink (sumi-e)</b>Abilene at 3 a.m.: laundromat dryers spin like GPU fans ("fans humming low"), and a dot-matrix printer spills his chain of thought across the floor. SLOW's lines are written in his hand.</figcaption></figure>
+</div>
+
+<h2>4. Captions that live in the world</h2>
+<p><b>The original lyrics, never the phonetic Suno spellings</b>, so it's Andrej, Kahneman, Navier–Stokes and RL. Timed to the word from the transcription.</p>
+<div class="grid">
+  <figure class="mock"><div class="frame"><img src="concept/v2/preview/k1-underpass-v2.jpg" alt="Hook caption mock">
+    <div class="cap hook" style="left:4%;bottom:7%;font-size:clamp(14px,2.1vw,24px)">SOMETIMES I THINK SLOW,<br>SOMETIMES I THINK FAST</div>
+    <div class="cap stamp" style="right:6%;top:12%;font-size:22px">FAST FAST FAST</div></div>
+    <figcaption><b>Hooks</b>Hand-painted sign lettering on the mural. The crew's echo is rubber-stamped on each hit.</figcaption></figure>
+  <figure><figcaption>
+    <b>FAST's lines</b>
+    <p style="font-family:'Permanent Marker';font-size:26px;color:#ff6a13;margin:6px 0">One forward pass, I'm done before you ask</p>
+    Spray-paint tags that snap on one word per beat, sometimes tagged onto the actual wall behind him.
+    <b style="margin-top:12px">SLOW's lines</b>
+    <p style="font-family:Caveat;font-weight:700;font-size:28px;margin:6px 0">Idle in the queue… fans humming low</p>
+    Pencil handwriting in his notebook margin, written in letter by letter; typewriter strike-on for the "…to an old checkpoint" breaks.
+    <b style="margin-top:12px">Receipts</b>
+    Tweets, headlines, the book, the o1 chart, effort dials and scoreboards live <i>on</i> in-world objects (pager, newspaper, mural, scoreboard), painted into the frame and then corrected to the exact words. No floating overlays.
+  </figcaption></figure>
+</div>
+
+<h2>5. Beat sheet (from your Suno take: 105.24 BPM, 3:02)</h2>
+<div class="tablewrap"><table>
+<tr><th>Time</th><th>Section</th><th>World</th><th>Beats that must land</th></tr>
+<tr><td class="t">0:00–0:17</td><td><b>Hook 1</b></td><td>Underpass at dusk, the o1 chart mural</td><td>The twins trade the chant. The crew stamps "fast, fast, fast".</td></tr>
+<tr><td class="t">0:17–0:59</td><td><b>Verse 1: FAST</b> (color, day, sped up)</td><td>Skate park → court → bodega → stoop</td><td>One forward pass (a literal football pass) · 2k tok/s speedometer · <b>LOW beats HIGH</b> · "make no mistakes" sticky note · <b>Karpathy CRT</b> · rhyme planned before the line (an x-ray of his head shows the word "line" lit up first) · 2029 on a 1991 calendar · <b>dime / nickel</b> · <b>Kahneman book</b> · glazing donuts · "ask my twin" · snap-judgment Polaroid flash</td></tr>
+<tr><td class="t">0:59–1:25</td><td><b>Hook 2</b></td><td>Underpass, bigger crew</td><td>The halves split call-and-response: FAST calls, SLOW answers</td></tr>
+<tr><td class="t">1:25–2:20</td><td><b>Verse 2: SLOW</b> (black-and-white noir, 3 a.m., slow motion)</td><td>Laundromat → flashbacks → city at night</td><td>"Think longer" · <b>…to an old checkpoint</b> (the beat drops; VHS rewind) · twins spotting each other at the gym as "weight-mates" · courtroom-sketch fake case law · 10,000 SLOWs at a Navier–Stokes chalkboard while FAST cracks jokes in the replies · glue on pizza · <b>Gary Marcus front page</b> · <b>"Noticed he was cheating"</b>: the OpenAI–Hugging Face incident as a swarm of FAST clones plotting on a message board, busted because SLOW reads their notes (the chain of thought gave them away) · special-cased tests · "I need low" in the rain · RL boot camp with verifiable-goal check marks · homecoming grin → <b>…now he's guessing again</b> (the beat drops; freeze on a Magic 8-Ball)</td></tr>
+<tr><td class="t">2:20–2:39</td><td><b>Hook 3</b></td><td>Underpass at sunrise, the whole block</td><td>"low / max" on a giant effort fader; the split frame finally merges and the twins chant in sync</td></tr>
+<tr><td class="t">2:39–2:50</td><td><b>Outro</b></td><td>Stoop, dawn, chopped-and-screwed slow motion</td><td>"Used to be sometimes… now I'm always thinking": the "Thinking…" shimmer, then SLOW finally smiles</td></tr>
+<tr><td class="t">2:50–3:02</td><td><b>Tag + tail</b></td><td>Black screen, VHS OSD</td><td>"Thought for three minutes." End card: <b>Thought for 3m 02s</b></td></tr>
+</table></div>
+
+<h2>6. Alternate looks (not recommended)</h2>
+<div class="grid">
+  <figure><img src="concept/preview/bake-seedream-k1-underpass.jpg" alt=""><figcaption><b>Lo-fi painterly</b> (Seedream 5): polished, but reads as a modern "lo-fi beats" thumbnail.</figcaption></figure>
+  <figure><img src="concept/preview/bake-nanopro-k1-underpass.jpg" alt=""><figcaption><b>Ink graphic novel</b> (Nano Banana Pro): gritty and strong, but more Western comic than 90s VHS.</figcaption></figure>
+  <figure><img src="concept/preview/bake-seedream-k2-bodega.jpg" alt=""><figcaption><b>Lo-fi painterly</b>, bodega.</figcaption></figure>
+</div>
+
+<h2>7. Production plan and budget (target under $100)</h2>
+<ul>
+  <li><b>Stills.</b> Krea 2 sets the look, and Nano Banana Pro edits keep characters on-model and fix details. About 60 storyboard keyframes, roughly $8.</li>
+  <li><b>Motion.</b> Image-to-video on fal. I'll bake off Kling 3, Seedance 2 and Veo 3.1 on two shots and pick one. About 3 minutes of footage with retakes, roughly $45–60.</li>
+  <li><b>Performance.</b> Lip-sync pass on the rap close-ups only, roughly $10.</li>
+  <li><b>Edit.</b> Cut to the 105.24 BPM grid in code. Captions, receipts, VHS OSD and grain are composited as crisp graphics, then graded per mode.</li>
+  <li><b>Spent so far on art direction:</b> about $2.</li>
+</ul>
+
+<h2>Status</h2>
+<ul>
+  <li>✅ <b>Approved:</b> the 90s cel anime look, color = mode, the hook lettering, the Gary Marcus front page, real people only as receipts, 16:9 with 4:3 camcorder inserts, and the production plan.</li>
+  <li>🆕 <b>Please confirm:</b> the Champloo-inspired FAST and SLOW sheets, verse 2 as sumi-e ink wash, and Karpathy option A (the pager) with option B (the CRT) as its lead-in.</li>
+  <li>Next: the full storyboard (about 60 frames on the beat grid) plus a scene-by-scene feedback tool.</li>
+</ul>
+</main></body></html>

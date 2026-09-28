@@ -1,0 +1,25 @@
+name: Test
+
+on: [push]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    # Offline and cheap: installs the core pipeline (no torch), checks that every Python file compiles, and runs the
+    # smoke tests. No secrets are configured, and nothing here calls fal, ElevenLabs, or any other API.
+    name: Test
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
+        with:
+          enable-cache: true
+      - name: Install dependencies
+        run: uv sync --frozen
+      - name: Check that every Python file compiles
+        run: git ls-files -z '*.py' | xargs -0 uv run --frozen python -m py_compile
+      - name: Run tests
+        run: uv run --frozen pytest -q

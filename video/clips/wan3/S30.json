@@ -1,0 +1,14 @@
+{
+ "id": "S30",
+ "model": "wan3",
+ "endpoint": "alibaba/wan-3.0/image-to-video",
+ "args": {
+  "prompt": "Printer head chatters; the ribbon keeps unspooling. A dot-matrix printer on a desk spills an endless ribbon of fan-fold paper covered in handwriting; the ribbon runs across the floor and out of a door into the far distance. SLOW walks alongside it, reading. Camera: Long corridor perspective. monochrome Japanese sumi-e ink wash animation, calm and slow, ink texture on washi paper, film grain. Keep the art style, characters, faces, hair, outfits and any lettering exactly as in the first frame. Characters do not speak or sing; mouths stay closed or relaxed. No new text or subtitles.",
+  "audio": false,
+  "resolution": "1080p",
+  "enable_prompt_expansion": false,
+  "duration": 4,
+  "aspect_ratio": "16:9"
+ },
+ "seconds": 177.7
+}

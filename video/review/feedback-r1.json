@@ -1,0 +1,213 @@
+{
+ "round": 1,
+ "shots": {
+  "S01": {
+   "status": "ok"
+  },
+  "S02": {
+   "status": "change",
+   "notes": "The fast person should be moving faster here, playing on his skateboard."
+  },
+  "S03": {
+   "notes": "I don't know what these guys are doing, hitting the board. This scene visually looks cool, and I like the fast, fast, fast, but I just don't understand what these guys are doing. Can we make it a little clearer?",
+   "status": "change"
+  },
+  "S04": {
+   "status": "ok"
+  },
+  "S05": {
+   "status": "ok"
+  },
+  "S06": {
+   "status": "ok"
+  },
+  "S07": {
+   "status": "change",
+   "notes": "The ball, the football, sort of teleports here, and it doesn't actually follow being thrown. I understand the metaphor of what we're going for, but it's just not really working. Although I liked the scene and the general concept, let's just make it a little bit more clear. Like, he throws a football, and it just catches the kid off guard. And he kind of tumbles surprisingly off the screen to the right."
+  },
+  "S08": {
+   "status": "ok"
+  },
+  "S09": {
+   "status": "ok"
+  },
+  "S10": {
+   "status": "change",
+   "notes": "His movement in this scene is weird like he kind of starts jogging in place and then reaches back. Redo this scene and make his motion direction simpler and just more frenetic, like he forgot something, reaching for it and then running off."
+  },
+  "S11": {
+   "status": "ok"
+  },
+  "S12": {
+   "status": "ok"
+  },
+  "S13": {
+   "status": "ok"
+  },
+  "S14": {
+   "notes": "Replace the word line on his brain visual with the word \"JEV\" which is a reference to TypeSafe AI's recent System 1 decision model release.",
+   "status": "change"
+  },
+  "S15": {
+   "status": "ok"
+  },
+  "S16": {
+   "status": "ok"
+  },
+  "S17": {
+   "status": "ok"
+  },
+  "S18": {
+   "status": "ok"
+  },
+  "S19": {
+   "status": "ok"
+  },
+  "S20": {
+   "status": "ok"
+  },
+  "S21": {
+   "status": "ok"
+  },
+  "S22": {
+   "status": "ok"
+  },
+  "S23": {
+   "status": "ok"
+  },
+  "S24": {
+   "status": "ok"
+  },
+  "S25": {
+   "status": "ok"
+  },
+  "S26": {
+   "status": "ok"
+  },
+  "S27": {
+   "status": "ok"
+  },
+  "S28": {
+   "status": "change",
+   "notes": "He's like moving in slow motion in this one. And he's supposed to be the fast character. So we have to maybe change the start, middle, and end frames for him to jump onto the car and then jump off. I like that he's jumping towards us, towards the camera. That's cool. But he just feels way too slow in this scene given what we're trying to show about him."
+  },
+  "S29": {
+   "status": "ok"
+  },
+  "S30": {
+   "status": "ok"
+  },
+  "S31": {
+   "status": "ok"
+  },
+  "S32": {
+   "status": "ok"
+  },
+  "S33": {
+   "status": "ok"
+  },
+  "S34": {
+   "status": "ok"
+  },
+  "S35": {
+   "status": "ok"
+  },
+  "S36": {
+   "status": "ok"
+  },
+  "S37": {
+   "status": "ok"
+  },
+  "S38": {
+   "status": "ok"
+  },
+  "S39": {
+   "status": "ok"
+  },
+  "S40": {
+   "status": "ok"
+  },
+  "S41": {
+   "status": "ok"
+  },
+  "S42": {
+   "status": "ok"
+  },
+  "S43": {
+   "status": "ok"
+  },
+  "S44": {
+   "status": "ok"
+  },
+  "S45": {
+   "status": "ok"
+  },
+  "S46": {
+   "notes": "This scene's great, but our fast character in the background should actually be slipping and falling on the banana right now. He just looks a little bit weird, so I don't know if we need to adjust our end frame of him falling on his ass. But right now, him slipping is not coming across.",
+   "status": "change"
+  },
+  "S47": {
+   "status": "ok"
+  },
+  "S48": {
+   "status": "ok"
+  },
+  "S49": {
+   "status": "ok"
+  },
+  "S50": {
+   "status": "ok"
+  },
+  "S51": {
+   "status": "ok"
+  },
+  "S52": {
+   "status": "ok"
+  },
+  "S53": {
+   "status": "ok"
+  },
+  "S54": {
+   "status": "ok"
+  },
+  "S55": {
+   "status": "ok"
+  },
+  "S56": {
+   "status": "ok"
+  },
+  "S57": {
+   "status": "ok"
+  },
+  "S58": {
+   "status": "ok"
+  },
+  "S59": {
+   "status": "ok"
+  },
+  "S60": {
+   "status": "ok"
+  },
+  "S61": {
+   "status": "ok"
+  },
+  "S62": {
+   "status": "ok"
+  },
+  "S63": {
+   "status": "ok"
+  },
+  "S64": {
+   "status": "ok"
+  },
+  "S65": {
+   "status": "ok"
+  },
+  "S66": {
+   "status": "ok"
+  }
+ },
+ "global": "",
+ "updated": 1790609107528,
+ "saved_at": "2026-09-28 22:25:16"
+}

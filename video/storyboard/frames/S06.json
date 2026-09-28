@@ -1,0 +1,10 @@
+{
+ "id": "S06",
+ "prompt": "Create a new 16:9 storyboard keyframe for a music video. Image 1 is the style reference: match its 1990s hand-painted cel anime look, ink line quality, film grain and VHS softness exactly. Image 2 is FAST's model sheet: draw FAST exactly on-model (same face, hair, skin tone, glasses, outfit and props). Image 3 is SLOW's model sheet: draw SLOW exactly on-model (same face, hair, skin tone, glasses, outfit and props). FAST's world: bright, saturated 90s colors (traffic-cone orange, teal, purple; neon if it is night), energetic diagonal composition, speed lines only where something moves fast.\nScene: Concrete skate park in bright afternoon sun, framed close enough to read both faces clearly. FAST carves the bowl at speed, one hand trailing the wall, face turned toward camera; SLOW sits on the coping at the top, calmly reading, face visible in three-quarter view. FAST is a dark-skinned Black man with a wild mane of short spiky twists and no hat, in his traffic-cone orange, teal and purple windbreaker; SLOW is a Japanese man with long black hair in a low ponytail and thin rectangular glasses, in his camel overcoat and black turtleneck. \nCamera: High angle over the bowl.\nCharacters: FAST and SLOW only, no one else unless the scene mentions extras. Their mouths are closed or relaxed (nobody is mid-word).\nNo readable text, letters, captions, subtitles or speech bubbles anywhere.\nNo borders, no panel frames, not a comic page.",
+ "refs": [
+  "https://v3b.fal.media/files/b/0aac3e40/1h9I-1KzrJOyXhQk8oK1S_k3-court-v2b.png",
+  "https://v3b.fal.media/files/b/0aac3e40/C26xXEY7VtRtcYwvCYZ1q_sheet-fast-v2.png",
+  "https://v3b.fal.media/files/b/0aac3e41/lb7FieIWNh7pfyqWu-ZDY_sheet-slow-v2.png"
+ ],
+ "seconds": 37.3
+}

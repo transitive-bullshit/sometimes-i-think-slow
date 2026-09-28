@@ -1,0 +1,7 @@
+{
+ "name": "k4-laundromat-sumie",
+ "endpoint": "fal-ai/nano-banana-pro/edit",
+ "source": "k4c-laundromat-noir.png",
+ "prompt": "Image 1 is the scene to edit and image 3 is the model sheet for SLOW; ignore image 2. Redraw the man on the bench as SLOW exactly as on his model sheet. Re-render the whole scene as Japanese sumi-e ink wash painting fused with the cel anime linework: expressive black brush strokes, ink bleeds, washi paper grain, pure monochrome with silver highlights, rain rendered as fine brush lines. Keep the neon sign 'ABILENE WASH & FOLD', the glowing dryers and the printer ribbon. No color.",
+ "seconds": 31.4
+}

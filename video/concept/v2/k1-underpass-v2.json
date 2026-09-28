@@ -1,0 +1,7 @@
+{
+ "name": "k1-underpass-v2",
+ "endpoint": "fal-ai/nano-banana-pro/edit",
+ "source": "bake-krea-k1-underpass.png",
+ "prompt": "Image 1 is the scene to edit. Image 2 is the model sheet for FAST and image 3 is the model sheet for SLOW. Redraw the two characters in image 1 as these two exact characters (same faces, hair, skin tones and outfits as their model sheets), in the same poses and positions. Keep the flat 1990s hand-painted cel anime look with soft film grain exactly as in the reference, keep the composition, background, props and any lettering exactly as they are, and draw no extra people.",
+ "seconds": 32.1
+}

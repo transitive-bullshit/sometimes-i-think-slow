@@ -1,0 +1,117 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+/playwright-report
+/test-results
+
+# next.js
+/.next/
+/out/
+next-env.d.ts
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# ide
+.idea
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# pnpm
+.pnpm-store
+
+# local env files
+.env
+.env.local
+local.env
+.env.build
+.env.development.local
+.env.test.local
+.env.production.local
+
+# vercel
+.vercel
+
+# local work
+/work
+
+# ---------------------------------------------------------------------------------------------------------------------
+# Sometimes I Think Slow: commit code, prompts, shot lists, timings, receipts and docs. Keep media out of git: it's
+# either regenerable from the receipts, third-party, or copyrighted source audio. See "What's not in the repo" in
+# contributing.md.
+
+# --- python
+__pycache__/
+*.pyc
+.pytest_cache/
+.env.*
+!.env.example
+
+# --- environments, model weights, and editor-local settings
+/.venv/
+/audio/models/
+/.claude/settings.local.json
+
+# --- private: research built from the author's own Notion workspace and X archive
+/research/notion-research.md
+/research/x-archive-references.md
+
+# --- audio: the original song (copyrighted: never commit) and our own takes (the song ships with the video)
+/audio/
+
+# --- kept local: the pre-Suno audio experiments and the research behind them
+/docs/03-audio-plan.md
+/drafts/audition-lyrics-v0.md
+/scripts/align.py
+/scripts/arrange.py
+/scripts/audition_*.py
+/scripts/full_generate.py
+/scripts/loop_check.py
+/analysis/*-instrumental.json
+/research_notes/
+/reports/
+
+# --- generated media and logs: renders, review cuts, and every tool's log
+*.log
+/video/out/
+/video/review/clips/
+/video/review/thumbs/
+/video/review/review.json
+/video/*/history/
+
+# --- safety net: no media or model weights anywhere (use `git add -f` for a deliberate exception)
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.aiff
+*.ogg
+*.mp4
+*.mov
+*.webm
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.onnx
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# the README's featured image: the approved poster, a stand-in until the video is hosted
+!/media/poster.webp

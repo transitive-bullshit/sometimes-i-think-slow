@@ -1,0 +1,6 @@
+{
+ "name": "sheet-fast-nano",
+ "endpoint": "fal-ai/nano-banana-pro/edit",
+ "prompt": "Keep these exact two characters: the same faces, hair, outfits and the same 1990s cel anime look as the reference images. Character model sheet on plain warm-gray paper, 1990s cel anime production design. FAST shown as a full-body turnaround (front, three-quarter, side, back) plus three head close-ups with expressions: cocky grin, wide-eyed surprise, laughing. Small prop callouts: skateboard with orange wheels, pager, lightning-bolt pendant, bucket hat. Title lettering at the top: 'FAST - SYSTEM ONE'. Color swatches: traffic-cone orange, teal, purple, denim.",
+ "seconds": 33.0
+}

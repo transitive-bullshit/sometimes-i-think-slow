@@ -1,0 +1,14 @@
+{
+ "job": "S28in_a",
+ "shot": "S28",
+ "start": "video/storyboard/frames_r2/S28_start.png",
+ "end": "video/storyboard/frames/S28.png",
+ "args": {
+  "prompt": "FAST sprints in and leaps up onto the car hood in one explosive bound, landing in a crouch; the crowd erupts. Under the overpass at dusk, a boxy sedan, the crowd behind cheering with fists raised. Camera: Low wide, FAST mid-air. 1990s hand-painted cel anime, dusk under a highway overpass, sodium light, film grain, VHS softness. Keep the art style, characters, faces, hair, outfits and any lettering exactly as in the first frame. Characters do not speak or sing; mouths stay closed or relaxed. No new text or subtitles.",
+  "negative_prompt": "3D render, CGI, photorealistic, morphing, warped faces, extra limbs, extra people, subtitles, captions, watermark, text changes, new writing, changing letters or numbers, slow motion",
+  "generate_audio": false,
+  "duration": "3",
+  "cfg_scale": 0.5
+ },
+ "seconds": 134.4
+}

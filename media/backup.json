@@ -1,0 +1,1187 @@
+{
+ "prefix": "sometimes-i-think-slow",
+ "files": [
+  {
+   "path": "audio/suno/final-take.wav",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/7f90d68cc0d66f9118eb1bba4904a9ded3a51128f74f3de0f99c93b46ff50c14.wav",
+   "bytes": 35034640,
+   "sha256": "7f90d68cc0d66f9118eb1bba4904a9ded3a51128f74f3de0f99c93b46ff50c14"
+  },
+  {
+   "path": "video/clips/kling3pro/S02.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/6d302fd3d56ba39267b94c50a8e23787e1e409395bec00922bd732e5dd6eca6f.mp4",
+   "bytes": 13561918,
+   "sha256": "6d302fd3d56ba39267b94c50a8e23787e1e409395bec00922bd732e5dd6eca6f"
+  },
+  {
+   "path": "video/clips/kling3pro/S03.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/0e532201c06aae811ccbe11c6f95c4b6088c64f1e43a4aaf81e6a5540d994a3a.mp4",
+   "bytes": 10533955,
+   "sha256": "0e532201c06aae811ccbe11c6f95c4b6088c64f1e43a4aaf81e6a5540d994a3a"
+  },
+  {
+   "path": "video/clips/kling3pro/S04.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/6c10fc403fc60f905e80ff68750a292904d117aae038bd26aaab3510fe2ebfc9.mp4",
+   "bytes": 10646450,
+   "sha256": "6c10fc403fc60f905e80ff68750a292904d117aae038bd26aaab3510fe2ebfc9"
+  },
+  {
+   "path": "video/clips/kling3pro/S05.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/287ddd70be2c4f49fbd6e8536a1c72876771fdcff64dffa82e29ff3f2a326085.mp4",
+   "bytes": 15791173,
+   "sha256": "287ddd70be2c4f49fbd6e8536a1c72876771fdcff64dffa82e29ff3f2a326085"
+  },
+  {
+   "path": "video/clips/kling3pro/S06.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/29154b430612784d2612949890eae67d56d1d1cada74641a8cd64a81e88c0f9f.mp4",
+   "bytes": 9857161,
+   "sha256": "29154b430612784d2612949890eae67d56d1d1cada74641a8cd64a81e88c0f9f"
+  },
+  {
+   "path": "video/clips/kling3pro/S07.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/571d8ee60e47730d877c2e9cb6b387d38fba21a3d89f8a180528b53e9f6da22f.mp4",
+   "bytes": 6697454,
+   "sha256": "571d8ee60e47730d877c2e9cb6b387d38fba21a3d89f8a180528b53e9f6da22f"
+  },
+  {
+   "path": "video/clips/kling3pro/S08.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/d0cf4fedaed3054b1bd291afacfe009d1fb70ed37f075b10a4b6e8c0fb77f4e1.mp4",
+   "bytes": 14175447,
+   "sha256": "d0cf4fedaed3054b1bd291afacfe009d1fb70ed37f075b10a4b6e8c0fb77f4e1"
+  },
+  {
+   "path": "video/clips/kling3pro/S09.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/4bb62aa45cfadf1c67bdfd4bf5b983515baf229bad55cd75d32a289f64252612.mp4",
+   "bytes": 9562660,
+   "sha256": "4bb62aa45cfadf1c67bdfd4bf5b983515baf229bad55cd75d32a289f64252612"
+  },
+  {
+   "path": "video/clips/kling3pro/S10.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/26f02993156339dbbb21f128413d0eaf598feabc2aa77da291c478c78a9ccdf1.mp4",
+   "bytes": 8963086,
+   "sha256": "26f02993156339dbbb21f128413d0eaf598feabc2aa77da291c478c78a9ccdf1"
+  },
+  {
+   "path": "video/clips/kling3pro/S11.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/669b73b8250f73c53c06e9d9b635abfd31a577facc1bf9a75b43e329235cbe9c.mp4",
+   "bytes": 10345065,
+   "sha256": "669b73b8250f73c53c06e9d9b635abfd31a577facc1bf9a75b43e329235cbe9c"
+  },
+  {
+   "path": "video/clips/kling3pro/S12.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/b7ec49bb6e316faae6e58ffde27db0371b7bb57d33ad00767fc2c7908e93efbc.mp4",
+   "bytes": 5404164,
+   "sha256": "b7ec49bb6e316faae6e58ffde27db0371b7bb57d33ad00767fc2c7908e93efbc"
+  },
+  {
+   "path": "video/clips/kling3pro/S13.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/b9bc3fe7ce7c662e7bb235f532b197d7ba4744772c2329d09ffb51d683f3fbae.mp4",
+   "bytes": 6358657,
+   "sha256": "b9bc3fe7ce7c662e7bb235f532b197d7ba4744772c2329d09ffb51d683f3fbae"
+  },
+  {
+   "path": "video/clips/kling3pro/S14.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/b0ebd2fc452175b81da78c0e6f98c2b61683cb52b3942d45380ed7d1d8b6c313.mp4",
+   "bytes": 8187451,
+   "sha256": "b0ebd2fc452175b81da78c0e6f98c2b61683cb52b3942d45380ed7d1d8b6c313"
+  },
+  {
+   "path": "video/clips/kling3pro/S15.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/fd484ae2a9a0849cd9b2c82a434ff6abd6ac860145fdf8e95c6b6ed5c86ef7c4.mp4",
+   "bytes": 4597467,
+   "sha256": "fd484ae2a9a0849cd9b2c82a434ff6abd6ac860145fdf8e95c6b6ed5c86ef7c4"
+  },
+  {
+   "path": "video/clips/kling3pro/S16.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/01dc4bda8f9b6c1ffe0e603eb9db6027d07401a7f9670609644cc34a42869657.mp4",
+   "bytes": 8012683,
+   "sha256": "01dc4bda8f9b6c1ffe0e603eb9db6027d07401a7f9670609644cc34a42869657"
+  },
+  {
+   "path": "video/clips/kling3pro/S17.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/6ef9ab245da1d5b808db56083e4a916c8608da7785b5b2e5ae1475a090778429.mp4",
+   "bytes": 8416940,
+   "sha256": "6ef9ab245da1d5b808db56083e4a916c8608da7785b5b2e5ae1475a090778429"
+  },
+  {
+   "path": "video/clips/kling3pro/S18.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/c268ec9152501fa44338991c26bd1a8c82218374e65e14964146d72eece3d215.mp4",
+   "bytes": 6382662,
+   "sha256": "c268ec9152501fa44338991c26bd1a8c82218374e65e14964146d72eece3d215"
+  },
+  {
+   "path": "video/clips/kling3pro/S19.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/bedec9bd17ac2d18ec5a9975826cbd7927b9bd5e1c9117c2a4de82898d90b57d.mp4",
+   "bytes": 5529889,
+   "sha256": "bedec9bd17ac2d18ec5a9975826cbd7927b9bd5e1c9117c2a4de82898d90b57d"
+  },
+  {
+   "path": "video/clips/kling3pro/S20.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/5545af2f1c88061b531b4ec6252e1f50a327948e3d87b980d5fadac37a615870.mp4",
+   "bytes": 5542823,
+   "sha256": "5545af2f1c88061b531b4ec6252e1f50a327948e3d87b980d5fadac37a615870"
+  },
+  {
+   "path": "video/clips/kling3pro/S21.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/a0aa203819d1993422f652031ee8efab0789ecfde97ce06b8ce07dfdad0c1058.mp4",
+   "bytes": 5807772,
+   "sha256": "a0aa203819d1993422f652031ee8efab0789ecfde97ce06b8ce07dfdad0c1058"
+  },
+  {
+   "path": "video/clips/kling3pro/S22.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/26774a2183ecb4c782a376efa4392ea7ce0bd475ebade0898d94d7e098dcd98d.mp4",
+   "bytes": 4442148,
+   "sha256": "26774a2183ecb4c782a376efa4392ea7ce0bd475ebade0898d94d7e098dcd98d"
+  },
+  {
+   "path": "video/clips/kling3pro/S23.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/505b5c42e98ce2c5490c1630a005487ada8fcf2a5e23e5dd4bfb175d0b9ce5de.mp4",
+   "bytes": 8264059,
+   "sha256": "505b5c42e98ce2c5490c1630a005487ada8fcf2a5e23e5dd4bfb175d0b9ce5de"
+  },
+  {
+   "path": "video/clips/kling3pro/S24.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/eb1f12adde8c9625697d18a02bbefe541c315420ed35f2c7c34b4a1e3b6ff70a.mp4",
+   "bytes": 12465290,
+   "sha256": "eb1f12adde8c9625697d18a02bbefe541c315420ed35f2c7c34b4a1e3b6ff70a"
+  },
+  {
+   "path": "video/clips/kling3pro/S25.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/fc17c31510f28b6c82071b4f10c6780b447bf2a7f89019eae5bf50e5d10138a9.mp4",
+   "bytes": 6822479,
+   "sha256": "fc17c31510f28b6c82071b4f10c6780b447bf2a7f89019eae5bf50e5d10138a9"
+  },
+  {
+   "path": "video/clips/kling3pro/S26.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/d4d5ce488c71398601b4304a443450033b2c5cc74658a39f959d10051b47f57a.mp4",
+   "bytes": 6029841,
+   "sha256": "d4d5ce488c71398601b4304a443450033b2c5cc74658a39f959d10051b47f57a"
+  },
+  {
+   "path": "video/clips/kling3pro/S27.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/ec4abae91bab53e99c0abad7c7ac6cffbade80f5a55f6538094fc4290bfe6f3a.mp4",
+   "bytes": 6082663,
+   "sha256": "ec4abae91bab53e99c0abad7c7ac6cffbade80f5a55f6538094fc4290bfe6f3a"
+  },
+  {
+   "path": "video/clips/kling3pro/S28.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/230881b7821dd3f3f6d48836443de88c32876a4dfb780cdaa2b5a7e1d103452f.mp4",
+   "bytes": 10568454,
+   "sha256": "230881b7821dd3f3f6d48836443de88c32876a4dfb780cdaa2b5a7e1d103452f"
+  },
+  {
+   "path": "video/clips/kling3pro/S29.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/95c64c4543f2d152ed2e9f39b19d026fb33b34d45218ef72fcc7c1d727ce6908.mp4",
+   "bytes": 12279455,
+   "sha256": "95c64c4543f2d152ed2e9f39b19d026fb33b34d45218ef72fcc7c1d727ce6908"
+  },
+  {
+   "path": "video/clips/kling3pro/S31.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/5494e744e2da87a741a74f25f6cbaae17ea97e41865d9eda7cefdc1f1c1d5de3.mp4",
+   "bytes": 6963916,
+   "sha256": "5494e744e2da87a741a74f25f6cbaae17ea97e41865d9eda7cefdc1f1c1d5de3"
+  },
+  {
+   "path": "video/clips/kling3pro/S46.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/af78d5a8da940d3af2447c1b1df56c3cd6b6fd8e298c0561a27082e5a83d6e59.mp4",
+   "bytes": 7596109,
+   "sha256": "af78d5a8da940d3af2447c1b1df56c3cd6b6fd8e298c0561a27082e5a83d6e59"
+  },
+  {
+   "path": "video/clips/kling3pro/S55.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/47f31a67067e08b3d66aa05ab6c20a5d4a6aa3cf7f8440c73376fbfa01831d6b.mp4",
+   "bytes": 4303496,
+   "sha256": "47f31a67067e08b3d66aa05ab6c20a5d4a6aa3cf7f8440c73376fbfa01831d6b"
+  },
+  {
+   "path": "video/clips/kling3pro/S56.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/7b58b50762776c98ecaac12a0c36d8598d3658a3c191db8640de69c3fbd4942a.mp4",
+   "bytes": 6369110,
+   "sha256": "7b58b50762776c98ecaac12a0c36d8598d3658a3c191db8640de69c3fbd4942a"
+  },
+  {
+   "path": "video/clips/kling3pro/S58.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/575e8ed48e313adc93280aee8f884fc7fb80cf559a6fbf9dc48fa2a3dee8c586.mp4",
+   "bytes": 9106395,
+   "sha256": "575e8ed48e313adc93280aee8f884fc7fb80cf559a6fbf9dc48fa2a3dee8c586"
+  },
+  {
+   "path": "video/clips/kling3pro/S59.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/116567994cb48b8291d01c6e8641082d6b011adbf4da7f81c17df1706ae2b373.mp4",
+   "bytes": 22083641,
+   "sha256": "116567994cb48b8291d01c6e8641082d6b011adbf4da7f81c17df1706ae2b373"
+  },
+  {
+   "path": "video/clips/kling3pro/S60.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/dcdbddde5548b011829729fe089a5b93a4b8ee449288160840bd6d910ae0b13b.mp4",
+   "bytes": 7481802,
+   "sha256": "dcdbddde5548b011829729fe089a5b93a4b8ee449288160840bd6d910ae0b13b"
+  },
+  {
+   "path": "video/clips/kling3pro/S61.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/eb6b8ee25ff6196aeadbf59a8d13a3812af60217141324332ed8adef8d5ecf81.mp4",
+   "bytes": 14662198,
+   "sha256": "eb6b8ee25ff6196aeadbf59a8d13a3812af60217141324332ed8adef8d5ecf81"
+  },
+  {
+   "path": "video/clips/kling3pro/S62.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/20df3a3bd7030a77593551ad1d8594db588a3e409c0b7561b28b25e1af171213.mp4",
+   "bytes": 7333349,
+   "sha256": "20df3a3bd7030a77593551ad1d8594db588a3e409c0b7561b28b25e1af171213"
+  },
+  {
+   "path": "video/clips/kling3pro/S63.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/b78da19d32f1122cc7448408b19727b2daa8abd25055c302e310df0140b6eb54.mp4",
+   "bytes": 6778467,
+   "sha256": "b78da19d32f1122cc7448408b19727b2daa8abd25055c302e310df0140b6eb54"
+  },
+  {
+   "path": "video/clips/kling3pro/S64.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/d2e0acd609943090e99d52b5ad014362eac124c2728b7e274b55ce2258de5d7c.mp4",
+   "bytes": 9785435,
+   "sha256": "d2e0acd609943090e99d52b5ad014362eac124c2728b7e274b55ce2258de5d7c"
+  },
+  {
+   "path": "video/clips/kling3pro_alt/S02_a.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/54eed9d15892b97e91ded0188054162063ec12c3564d4ad401334ca279c3f88c.mp4",
+   "bytes": 10708995,
+   "sha256": "54eed9d15892b97e91ded0188054162063ec12c3564d4ad401334ca279c3f88c"
+  },
+  {
+   "path": "video/clips/kling3pro_alt/S02_b.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/6d302fd3d56ba39267b94c50a8e23787e1e409395bec00922bd732e5dd6eca6f.mp4",
+   "bytes": 13561918,
+   "sha256": "6d302fd3d56ba39267b94c50a8e23787e1e409395bec00922bd732e5dd6eca6f"
+  },
+  {
+   "path": "video/clips/kling3pro_alt/S02_r1.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/44f110fd87ed0503385b4647e388b9a6a97b5fe169b12aeaf9a4ca85d0d5d5d0.mp4",
+   "bytes": 11188774,
+   "sha256": "44f110fd87ed0503385b4647e388b9a6a97b5fe169b12aeaf9a4ca85d0d5d5d0"
+  },
+  {
+   "path": "video/clips/kling3pro_alt/S03_a.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/b36dca0988d76866028be6c6e8bd8fc55340275e01210db80f8575e16de2e0a9.mp4",
+   "bytes": 7464911,
+   "sha256": "b36dca0988d76866028be6c6e8bd8fc55340275e01210db80f8575e16de2e0a9"
+  },
+  {
+   "path": "video/clips/kling3pro_alt/S03_b.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/7753f549f95dd20fca9a7a601590be60a743a3ecc9dc0ce4bf3db7a3d86e02a1.mp4",
+   "bytes": 8522071,
+   "sha256": "7753f549f95dd20fca9a7a601590be60a743a3ecc9dc0ce4bf3db7a3d86e02a1"
+  },
+  {
+   "path": "video/clips/kling3pro_alt/S03_r1.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/fb1fe60d3e6102844bfeffbad9a095066e29b1e65e837bd9abc575e013f3a52f.mp4",
+   "bytes": 12066702,
+   "sha256": "fb1fe60d3e6102844bfeffbad9a095066e29b1e65e837bd9abc575e013f3a52f"
+  },
+  {
+   "path": "video/clips/kling3pro_alt/S03h_a.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/0e532201c06aae811ccbe11c6f95c4b6088c64f1e43a4aaf81e6a5540d994a3a.mp4",
+   "bytes": 10533955,
+   "sha256": "0e532201c06aae811ccbe11c6f95c4b6088c64f1e43a4aaf81e6a5540d994a3a"
+  },
+  {
+   "path": "video/clips/kling3pro_alt/S03h_b.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/2f06bf4218a2532f692bd4560f49b03874af0663163e6fbdc920cb56ff4a4766.mp4",
+   "bytes": 7527676,
+   "sha256": "2f06bf4218a2532f692bd4560f49b03874af0663163e6fbdc920cb56ff4a4766"
+  },
+  {
+   "path": "video/clips/kling3pro_alt/S07_a.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/571d8ee60e47730d877c2e9cb6b387d38fba21a3d89f8a180528b53e9f6da22f.mp4",
+   "bytes": 6697454,
+   "sha256": "571d8ee60e47730d877c2e9cb6b387d38fba21a3d89f8a180528b53e9f6da22f"
+  },
+  {
+   "path": "video/clips/kling3pro_alt/S07_b.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/3898495ab4cb02fb86eda49c0b6aa8eb2eddb5bc9950c146ee7cb75aaed065c1.mp4",
+   "bytes": 8714667,
+   "sha256": "3898495ab4cb02fb86eda49c0b6aa8eb2eddb5bc9950c146ee7cb75aaed065c1"
+  },
+  {
+   "path": "video/clips/kling3pro_alt/S07_r1.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/49cec91d032902972429a7617082141c0df257d20b7892e7a94a80e26155784e.mp4",
+   "bytes": 9080226,
+   "sha256": "49cec91d032902972429a7617082141c0df257d20b7892e7a94a80e26155784e"
+  },
+  {
+   "path": "video/clips/kling3pro_alt/S10_a.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/b65e931763fbafc5fc3224f0e27b546d8a7627448a782115cb7456862ce3cba4.mp4",
+   "bytes": 8280635,
+   "sha256": "b65e931763fbafc5fc3224f0e27b546d8a7627448a782115cb7456862ce3cba4"
+  },
+  {
+   "path": "video/clips/kling3pro_alt/S10_b.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/26f02993156339dbbb21f128413d0eaf598feabc2aa77da291c478c78a9ccdf1.mp4",
+   "bytes": 8963086,
+   "sha256": "26f02993156339dbbb21f128413d0eaf598feabc2aa77da291c478c78a9ccdf1"
+  },
+  {
+   "path": "video/clips/kling3pro_alt/S10_r1.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/0ecb5412166ab80b4310c16a0e89f57324adfe74ecad47ea94f1c306a092642b.mp4",
+   "bytes": 7931455,
+   "sha256": "0ecb5412166ab80b4310c16a0e89f57324adfe74ecad47ea94f1c306a092642b"
+  },
+  {
+   "path": "video/clips/kling3pro_alt/S14_a.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/b0ebd2fc452175b81da78c0e6f98c2b61683cb52b3942d45380ed7d1d8b6c313.mp4",
+   "bytes": 8187451,
+   "sha256": "b0ebd2fc452175b81da78c0e6f98c2b61683cb52b3942d45380ed7d1d8b6c313"
+  },
+  {
+   "path": "video/clips/kling3pro_alt/S14_b.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/579bd74912fcca65add6235ed5f323980d12d1fa27d07e019c066b4ffca1fb9e.mp4",
+   "bytes": 4229090,
+   "sha256": "579bd74912fcca65add6235ed5f323980d12d1fa27d07e019c066b4ffca1fb9e"
+  },
+  {
+   "path": "video/clips/kling3pro_alt/S14_r1.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/d4c4fda45791a0c2c83f66ee0ea617269f532ea10079e3a8dd283a41e30c9890.mp4",
+   "bytes": 9762922,
+   "sha256": "d4c4fda45791a0c2c83f66ee0ea617269f532ea10079e3a8dd283a41e30c9890"
+  },
+  {
+   "path": "video/clips/kling3pro_alt/S17_a.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/3f96125f5a69cb1feee1242ad21db866b54781ebebb73aa6e3183bd02c9d8977.mp4",
+   "bytes": 8058225,
+   "sha256": "3f96125f5a69cb1feee1242ad21db866b54781ebebb73aa6e3183bd02c9d8977"
+  },
+  {
+   "path": "video/clips/kling3pro_alt/S17_b.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/6ef9ab245da1d5b808db56083e4a916c8608da7785b5b2e5ae1475a090778429.mp4",
+   "bytes": 8416940,
+   "sha256": "6ef9ab245da1d5b808db56083e4a916c8608da7785b5b2e5ae1475a090778429"
+  },
+  {
+   "path": "video/clips/kling3pro_alt/S17_orig.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/323dd3c902254610d231d71d2e6a734a535d816405d2087a56973d57ebb51e09.mp4",
+   "bytes": 7810051,
+   "sha256": "323dd3c902254610d231d71d2e6a734a535d816405d2087a56973d57ebb51e09"
+  },
+  {
+   "path": "video/clips/kling3pro_alt/S28_r1.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/eeaeaa652e4449983906ddb03339c45745bd7120af84519ba5f8d3dd75194e90.mp4",
+   "bytes": 12841230,
+   "sha256": "eeaeaa652e4449983906ddb03339c45745bd7120af84519ba5f8d3dd75194e90"
+  },
+  {
+   "path": "video/clips/kling3pro_alt/S28in_a.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/d464d235f6db4e6fdc4052aebe34e350fa7f7f2dfe60db38664188683d57cdb6.mp4",
+   "bytes": 6300945,
+   "sha256": "d464d235f6db4e6fdc4052aebe34e350fa7f7f2dfe60db38664188683d57cdb6"
+  },
+  {
+   "path": "video/clips/kling3pro_alt/S28in_b.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/dfcfd0d5ca7e746275c7d68aef2c99503605b9ef17bb3059c2fe51d03617c626.mp4",
+   "bytes": 6982166,
+   "sha256": "dfcfd0d5ca7e746275c7d68aef2c99503605b9ef17bb3059c2fe51d03617c626"
+  },
+  {
+   "path": "video/clips/kling3pro_alt/S28out_a.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/f16c3d33248d99868a255d2e6e66e5692854df2580692652b5a94691e274c25c.mp4",
+   "bytes": 10375133,
+   "sha256": "f16c3d33248d99868a255d2e6e66e5692854df2580692652b5a94691e274c25c"
+  },
+  {
+   "path": "video/clips/kling3pro_alt/S28out_b.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/6574c68a470608b86fea7828aac46a162f53a82cde83e61a6e291d512e31897b.mp4",
+   "bytes": 10398193,
+   "sha256": "6574c68a470608b86fea7828aac46a162f53a82cde83e61a6e291d512e31897b"
+  },
+  {
+   "path": "video/clips/kling3pro_alt/S46_a.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/af78d5a8da940d3af2447c1b1df56c3cd6b6fd8e298c0561a27082e5a83d6e59.mp4",
+   "bytes": 7596109,
+   "sha256": "af78d5a8da940d3af2447c1b1df56c3cd6b6fd8e298c0561a27082e5a83d6e59"
+  },
+  {
+   "path": "video/clips/kling3pro_alt/S46_b.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/e994ced0f6a8fc3f35ce303d1d66f0935fe3a34076edbda894103afbf3a569f1.mp4",
+   "bytes": 7820340,
+   "sha256": "e994ced0f6a8fc3f35ce303d1d66f0935fe3a34076edbda894103afbf3a569f1"
+  },
+  {
+   "path": "video/clips/wan3/S06.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/4fa77406d064a13ad63b63ee9e27a60d35ca02f854ffc6b81612d475244e9605.mp4",
+   "bytes": 22336285,
+   "sha256": "4fa77406d064a13ad63b63ee9e27a60d35ca02f854ffc6b81612d475244e9605"
+  },
+  {
+   "path": "video/clips/wan3/S30.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/de83d7c9bbfc01a5bbaf2d1d3c11a6b9c0e4ee62972c2ab4698cc9e6958cc702.mp4",
+   "bytes": 20591555,
+   "sha256": "de83d7c9bbfc01a5bbaf2d1d3c11a6b9c0e4ee62972c2ab4698cc9e6958cc702"
+  },
+  {
+   "path": "video/clips/wan3/S31.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/77e7d6d11252ea7d9409e4fecbfe95f4f50601e68589e7ba59fa9e30887f7a3b.mp4",
+   "bytes": 12966189,
+   "sha256": "77e7d6d11252ea7d9409e4fecbfe95f4f50601e68589e7ba59fa9e30887f7a3b"
+  },
+  {
+   "path": "video/clips/wan3/S32.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/8b997d33920ae0870e9fedb5ff8b1079be5f514d621679ca9d8d6954fe5b38c5.mp4",
+   "bytes": 27538971,
+   "sha256": "8b997d33920ae0870e9fedb5ff8b1079be5f514d621679ca9d8d6954fe5b38c5"
+  },
+  {
+   "path": "video/clips/wan3/S33.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/ecc859f5a2c4da6975ad2e51492c0a600ea51df47c14c784ab6e903cefb9113b.mp4",
+   "bytes": 8613111,
+   "sha256": "ecc859f5a2c4da6975ad2e51492c0a600ea51df47c14c784ab6e903cefb9113b"
+  },
+  {
+   "path": "video/clips/wan3/S34.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/1ddca9cf4c078179c7966a9741ece528f25df50fe34a05cd56de209582822f41.mp4",
+   "bytes": 29304695,
+   "sha256": "1ddca9cf4c078179c7966a9741ece528f25df50fe34a05cd56de209582822f41"
+  },
+  {
+   "path": "video/clips/wan3/S35.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/db879b736a70fa4e01cc0f08b8679e99aaa6828a0f0217193e6c21d48f76eeaf.mp4",
+   "bytes": 18613242,
+   "sha256": "db879b736a70fa4e01cc0f08b8679e99aaa6828a0f0217193e6c21d48f76eeaf"
+  },
+  {
+   "path": "video/clips/wan3/S36.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/b0039d966a9a7e188c61bf8f066256b7a30eb88f364b3e088f07d8387e7d4937.mp4",
+   "bytes": 12176480,
+   "sha256": "b0039d966a9a7e188c61bf8f066256b7a30eb88f364b3e088f07d8387e7d4937"
+  },
+  {
+   "path": "video/clips/wan3/S37.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/e96277f34d42420d09fc267bcb5e962e6e34dde981ab0a9a09cf9156c58ae5ca.mp4",
+   "bytes": 9110858,
+   "sha256": "e96277f34d42420d09fc267bcb5e962e6e34dde981ab0a9a09cf9156c58ae5ca"
+  },
+  {
+   "path": "video/clips/wan3/S38.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/34b690066049dafbb26e573bb02c69eff859b1ddd9340ef5252357c9ab73fee8.mp4",
+   "bytes": 16880361,
+   "sha256": "34b690066049dafbb26e573bb02c69eff859b1ddd9340ef5252357c9ab73fee8"
+  },
+  {
+   "path": "video/clips/wan3/S39.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/e9a4f7b41b9a7401f04fa349c2c4bc2c435c4477d4399080da00ed9cdd4000ce.mp4",
+   "bytes": 13066609,
+   "sha256": "e9a4f7b41b9a7401f04fa349c2c4bc2c435c4477d4399080da00ed9cdd4000ce"
+  },
+  {
+   "path": "video/clips/wan3/S40.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/27b948cf8bea55ba67c071ff239d3c131ca33260cc1914aa373d62abfd4239e7.mp4",
+   "bytes": 13146213,
+   "sha256": "27b948cf8bea55ba67c071ff239d3c131ca33260cc1914aa373d62abfd4239e7"
+  },
+  {
+   "path": "video/clips/wan3/S41.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/77e7a107b4aa4d8e3bf478079e6e5e031084a2263bc31aab0a650e64505ce7e9.mp4",
+   "bytes": 14829777,
+   "sha256": "77e7a107b4aa4d8e3bf478079e6e5e031084a2263bc31aab0a650e64505ce7e9"
+  },
+  {
+   "path": "video/clips/wan3/S42.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/7098166e9a6e2ba101151688e2783da075fc1762ebbf19ddf7c538823f92ebc3.mp4",
+   "bytes": 23969809,
+   "sha256": "7098166e9a6e2ba101151688e2783da075fc1762ebbf19ddf7c538823f92ebc3"
+  },
+  {
+   "path": "video/clips/wan3/S43.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/63c29c5edb4ca3277fabc487ab7f04398c87160c3d8aa3401f369f70a1521072.mp4",
+   "bytes": 44904548,
+   "sha256": "63c29c5edb4ca3277fabc487ab7f04398c87160c3d8aa3401f369f70a1521072"
+  },
+  {
+   "path": "video/clips/wan3/S44.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/a20a5a13888fd5686ba9389e43ea8b8d6ee92d0669cae48d7f8a3f273b8b24e8.mp4",
+   "bytes": 16529106,
+   "sha256": "a20a5a13888fd5686ba9389e43ea8b8d6ee92d0669cae48d7f8a3f273b8b24e8"
+  },
+  {
+   "path": "video/clips/wan3/S45.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/3fc42b550b423784bd0c75b237e01dd8a945fdeafac94894c46ba432fa540cea.mp4",
+   "bytes": 28801852,
+   "sha256": "3fc42b550b423784bd0c75b237e01dd8a945fdeafac94894c46ba432fa540cea"
+  },
+  {
+   "path": "video/clips/wan3/S46.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/a0b415af42f614615cd52ce4521e0a7a971e1f7d7dffc1b25209a2b3315db0b4.mp4",
+   "bytes": 11299470,
+   "sha256": "a0b415af42f614615cd52ce4521e0a7a971e1f7d7dffc1b25209a2b3315db0b4"
+  },
+  {
+   "path": "video/clips/wan3/S47.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/0ca8736ddac38bc01c646485a232b1b5dc1c328895dcdff21c9bc02b81f26db2.mp4",
+   "bytes": 15921549,
+   "sha256": "0ca8736ddac38bc01c646485a232b1b5dc1c328895dcdff21c9bc02b81f26db2"
+  },
+  {
+   "path": "video/clips/wan3/S48.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/66ae888dc7ca63a932afe06b53da3024bf1ca47da05e7c1ee2146a872cd538eb.mp4",
+   "bytes": 16125377,
+   "sha256": "66ae888dc7ca63a932afe06b53da3024bf1ca47da05e7c1ee2146a872cd538eb"
+  },
+  {
+   "path": "video/clips/wan3/S49.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/b1eadd53c6692a78fd3c26d4c6c36990147a8eaf741af4d7ed6f4303e939501c.mp4",
+   "bytes": 18116315,
+   "sha256": "b1eadd53c6692a78fd3c26d4c6c36990147a8eaf741af4d7ed6f4303e939501c"
+  },
+  {
+   "path": "video/clips/wan3/S50.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/899d53e327d6610f24ecc401f65044a1187b5e6f47436d0763f783f9388039f3.mp4",
+   "bytes": 12695432,
+   "sha256": "899d53e327d6610f24ecc401f65044a1187b5e6f47436d0763f783f9388039f3"
+  },
+  {
+   "path": "video/clips/wan3/S51.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/1d4188f17fcc8243ffd0d86597646f6a130d3ba8c4524383603ec451bc74dd10.mp4",
+   "bytes": 28765141,
+   "sha256": "1d4188f17fcc8243ffd0d86597646f6a130d3ba8c4524383603ec451bc74dd10"
+  },
+  {
+   "path": "video/clips/wan3/S52.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/7f3bcb82eb02a0cb378b8901722ae9790e38a74c765b72d65a8f1d99c6310b78.mp4",
+   "bytes": 14564199,
+   "sha256": "7f3bcb82eb02a0cb378b8901722ae9790e38a74c765b72d65a8f1d99c6310b78"
+  },
+  {
+   "path": "video/clips/wan3/S53.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/8a7ebda8bf26a089f68e0ca87ec62ae780ebe23c938664274f1a600d640ff06d.mp4",
+   "bytes": 21743304,
+   "sha256": "8a7ebda8bf26a089f68e0ca87ec62ae780ebe23c938664274f1a600d640ff06d"
+  },
+  {
+   "path": "video/clips/wan3/S54.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/6f47d3bd489d6df9c31babf8159d9b89da61686b2cbecacfea499c8d7209f204.mp4",
+   "bytes": 12720307,
+   "sha256": "6f47d3bd489d6df9c31babf8159d9b89da61686b2cbecacfea499c8d7209f204"
+  },
+  {
+   "path": "video/clips/wan3/S57.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/0528aee2d927eba139540f299e5092cdff59501e29601bfa25ce36f8358c6d20.mp4",
+   "bytes": 18450771,
+   "sha256": "0528aee2d927eba139540f299e5092cdff59501e29601bfa25ce36f8358c6d20"
+  },
+  {
+   "path": "video/concept/v2/k0-keyart-v2.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/4dff944e38422c009a469f869e2512b179cf2a94d36de545df8059c3f8ac824f.png",
+   "bytes": 5951959,
+   "sha256": "4dff944e38422c009a469f869e2512b179cf2a94d36de545df8059c3f8ac824f"
+  },
+  {
+   "path": "video/concept/v2/k1-underpass-v2.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/484b36548e743c10009b9bd5aa7f2cc54179862c16fae01fcb6299ab0b8037dd.png",
+   "bytes": 5870904,
+   "sha256": "484b36548e743c10009b9bd5aa7f2cc54179862c16fae01fcb6299ab0b8037dd"
+  },
+  {
+   "path": "video/concept/v2/k2-bodega-v2.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/2364ad8120713d25c399946737e3a0d8024adf50b1a389869690da7434ee1020.png",
+   "bytes": 5684205,
+   "sha256": "2364ad8120713d25c399946737e3a0d8024adf50b1a389869690da7434ee1020"
+  },
+  {
+   "path": "video/concept/v2/k3-court-v2.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/f4ab69bad393b4c0b525a1ffb1a994fa7bd9c15a26956a090f95d4ba8f2dbabf.png",
+   "bytes": 6586320,
+   "sha256": "f4ab69bad393b4c0b525a1ffb1a994fa7bd9c15a26956a090f95d4ba8f2dbabf"
+  },
+  {
+   "path": "video/concept/v2/k3-court-v2b.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/e5bf83f243be3b990243586f95ca108cc3931d2b011b7b74088e4ff4b1508cbb.png",
+   "bytes": 6801565,
+   "sha256": "e5bf83f243be3b990243586f95ca108cc3931d2b011b7b74088e4ff4b1508cbb"
+  },
+  {
+   "path": "video/concept/v2/k4-laundromat-sumie-b.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/f9278badf18b8e7a42d00641981dec77d93db1fe9fb16d59017ca10a367cf377.png",
+   "bytes": 8274712,
+   "sha256": "f9278badf18b8e7a42d00641981dec77d93db1fe9fb16d59017ca10a367cf377"
+  },
+  {
+   "path": "video/concept/v2/k4-laundromat-sumie.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/c89fb5afa0ab95d9f1a52ff582352ad4c7101234404dc0a0f4fc03cf40a45f7b.png",
+   "bytes": 8419434,
+   "sha256": "c89fb5afa0ab95d9f1a52ff582352ad4c7101234404dc0a0f4fc03cf40a45f7b"
+  },
+  {
+   "path": "video/concept/v2/k5-book-v2.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/770bd3e21a7eb75d3373284400a57bf84be1285de5ecc4baafcdb1164f881177.png",
+   "bytes": 6925685,
+   "sha256": "770bd3e21a7eb75d3373284400a57bf84be1285de5ecc4baafcdb1164f881177"
+  },
+  {
+   "path": "video/concept/v2/k6a-karpathy-crt.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/6082368b7ad5c894891db1770c2a6d3713977c6e066ee9bd37bc2552ccee4003.png",
+   "bytes": 6136850,
+   "sha256": "6082368b7ad5c894891db1770c2a6d3713977c6e066ee9bd37bc2552ccee4003"
+  },
+  {
+   "path": "video/concept/v2/k6b-karpathy-pager.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/980c64351340dd99eadb3e7cedaace6230e0ec1bd2b9d56797fd70af31963f83.png",
+   "bytes": 6022318,
+   "sha256": "980c64351340dd99eadb3e7cedaace6230e0ec1bd2b9d56797fd70af31963f83"
+  },
+  {
+   "path": "video/concept/v2/k7-marcus-v2.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/4254e1e4016412c650d6233d98c3155d4b391d5ac30d4e28e6e934f53320fbac.png",
+   "bytes": 6304079,
+   "sha256": "4254e1e4016412c650d6233d98c3155d4b391d5ac30d4e28e6e934f53320fbac"
+  },
+  {
+   "path": "video/concept/v2/k7-marcus-v2b.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/658a3b288ec0a2cf7642461322470a24c25bd2ddf4c3c24fea7997c49179549c.png",
+   "bytes": 6723901,
+   "sha256": "658a3b288ec0a2cf7642461322470a24c25bd2ddf4c3c24fea7997c49179549c"
+  },
+  {
+   "path": "video/concept/v2/sheet-fast-v2.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/833ca67367906d74f54988d185d55c3f5a0ed1d878c3c6848d75936db9d296c0.png",
+   "bytes": 6141807,
+   "sha256": "833ca67367906d74f54988d185d55c3f5a0ed1d878c3c6848d75936db9d296c0"
+  },
+  {
+   "path": "video/concept/v2/sheet-slow-v2.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/32f50332c3654b24c09296a87afc1edb556be39642542f5ce05f713f8267973f.png",
+   "bytes": 5177107,
+   "sha256": "32f50332c3654b24c09296a87afc1edb556be39642542f5ce05f713f8267973f"
+  },
+  {
+   "path": "video/out/fast-and-slow_share.mp4",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/dbaeec4dc994878587b0a3cd42e5837560504bc8229161a049931f10103d22f9.mp4",
+   "bytes": 318417211,
+   "sha256": "dbaeec4dc994878587b0a3cd42e5837560504bc8229161a049931f10103d22f9"
+  },
+  {
+   "path": "video/poster.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/9572e50a2eb7152dcd0ab1de6388b9ef57c63ba070c8402fcbbc654eb4847c93.png",
+   "bytes": 6315055,
+   "sha256": "9572e50a2eb7152dcd0ab1de6388b9ef57c63ba070c8402fcbbc654eb4847c93"
+  },
+  {
+   "path": "video/storyboard/frames/S01.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/771682bb24a1761c6c1dba307c578635b4423cfc15178cb0fa79c1405b6c17a1.png",
+   "bytes": 7121264,
+   "sha256": "771682bb24a1761c6c1dba307c578635b4423cfc15178cb0fa79c1405b6c17a1"
+  },
+  {
+   "path": "video/storyboard/frames/S02.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/484b36548e743c10009b9bd5aa7f2cc54179862c16fae01fcb6299ab0b8037dd.png",
+   "bytes": 5870904,
+   "sha256": "484b36548e743c10009b9bd5aa7f2cc54179862c16fae01fcb6299ab0b8037dd"
+  },
+  {
+   "path": "video/storyboard/frames/S03.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/470784c1cb5d06353c9ec7ffc73151a9477e4e4656dda2f6dea6192631882262.png",
+   "bytes": 6837434,
+   "sha256": "470784c1cb5d06353c9ec7ffc73151a9477e4e4656dda2f6dea6192631882262"
+  },
+  {
+   "path": "video/storyboard/frames/S04.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/10d7ddae38591bb77baa72d67a3332bf40a6a9954aa86368cef541a01d0a4ea3.png",
+   "bytes": 6467811,
+   "sha256": "10d7ddae38591bb77baa72d67a3332bf40a6a9954aa86368cef541a01d0a4ea3"
+  },
+  {
+   "path": "video/storyboard/frames/S05.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/49fa71f3f2ec7370e0c40ea6147821cf5d95030cf260cbb04c59a8f4750c0378.png",
+   "bytes": 7105097,
+   "sha256": "49fa71f3f2ec7370e0c40ea6147821cf5d95030cf260cbb04c59a8f4750c0378"
+  },
+  {
+   "path": "video/storyboard/frames/S06.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/420e8a6497e314013ab43c36c7e8c4caaa7634c8adebf9df904a788cbe58dd2b.png",
+   "bytes": 7914701,
+   "sha256": "420e8a6497e314013ab43c36c7e8c4caaa7634c8adebf9df904a788cbe58dd2b"
+  },
+  {
+   "path": "video/storyboard/frames/S07.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/11adf99fc8f558454b4d6ce1b3733bc9b2dba2210025699e72a10e8e09a6bced.png",
+   "bytes": 6776603,
+   "sha256": "11adf99fc8f558454b4d6ce1b3733bc9b2dba2210025699e72a10e8e09a6bced"
+  },
+  {
+   "path": "video/storyboard/frames/S08.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/509cb04db46141e79530cdcf824092412ec5d4a7b2a73b3ffda764010436f52d.png",
+   "bytes": 7283099,
+   "sha256": "509cb04db46141e79530cdcf824092412ec5d4a7b2a73b3ffda764010436f52d"
+  },
+  {
+   "path": "video/storyboard/frames/S09.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/e5bf83f243be3b990243586f95ca108cc3931d2b011b7b74088e4ff4b1508cbb.png",
+   "bytes": 6801565,
+   "sha256": "e5bf83f243be3b990243586f95ca108cc3931d2b011b7b74088e4ff4b1508cbb"
+  },
+  {
+   "path": "video/storyboard/frames/S10.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/3e6502da97a7c91a9b6a870108684153cd2d50197346f3da0b6b3a58b0a9a44a.png",
+   "bytes": 7088297,
+   "sha256": "3e6502da97a7c91a9b6a870108684153cd2d50197346f3da0b6b3a58b0a9a44a"
+  },
+  {
+   "path": "video/storyboard/frames/S11.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/b3ea58df87368e83658d4227663057e2358df3bf7a76744d8fe3441e35de7c17.png",
+   "bytes": 6964678,
+   "sha256": "b3ea58df87368e83658d4227663057e2358df3bf7a76744d8fe3441e35de7c17"
+  },
+  {
+   "path": "video/storyboard/frames/S12.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/980c64351340dd99eadb3e7cedaace6230e0ec1bd2b9d56797fd70af31963f83.png",
+   "bytes": 6022318,
+   "sha256": "980c64351340dd99eadb3e7cedaace6230e0ec1bd2b9d56797fd70af31963f83"
+  },
+  {
+   "path": "video/storyboard/frames/S13.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/2032cf1e3de6e6d0f62e825baba3e4a7919a4c3a35792892a4f1db8bad05814c.png",
+   "bytes": 6774288,
+   "sha256": "2032cf1e3de6e6d0f62e825baba3e4a7919a4c3a35792892a4f1db8bad05814c"
+  },
+  {
+   "path": "video/storyboard/frames/S14.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/812837639b00fdc3ee40f31e6465b48dfb98157860fa97cf6589272956a48d2e.png",
+   "bytes": 7239351,
+   "sha256": "812837639b00fdc3ee40f31e6465b48dfb98157860fa97cf6589272956a48d2e"
+  },
+  {
+   "path": "video/storyboard/frames/S15.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/d1cbf184b529b9cf7cea30ea94fcfed3e73f5c29428f08421e1adc2480a0ac52.png",
+   "bytes": 5978869,
+   "sha256": "d1cbf184b529b9cf7cea30ea94fcfed3e73f5c29428f08421e1adc2480a0ac52"
+  },
+  {
+   "path": "video/storyboard/frames/S16.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/4cfb7b9e8a212efeb1810ebc4bf1aea617ea42cc8cafcc980f37e97152b9ee04.png",
+   "bytes": 7201506,
+   "sha256": "4cfb7b9e8a212efeb1810ebc4bf1aea617ea42cc8cafcc980f37e97152b9ee04"
+  },
+  {
+   "path": "video/storyboard/frames/S17.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/abd6e5be9c16af8aaaf6549177616bf4374c3837e3809a9a83f0c87e2ea5736b.png",
+   "bytes": 7163756,
+   "sha256": "abd6e5be9c16af8aaaf6549177616bf4374c3837e3809a9a83f0c87e2ea5736b"
+  },
+  {
+   "path": "video/storyboard/frames/S18.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/2364ad8120713d25c399946737e3a0d8024adf50b1a389869690da7434ee1020.png",
+   "bytes": 5684205,
+   "sha256": "2364ad8120713d25c399946737e3a0d8024adf50b1a389869690da7434ee1020"
+  },
+  {
+   "path": "video/storyboard/frames/S19.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/c54a8d31b0393582f2c11ad5ba38d9713ee53944db972b9f2714a5dd40820a18.png",
+   "bytes": 6030906,
+   "sha256": "c54a8d31b0393582f2c11ad5ba38d9713ee53944db972b9f2714a5dd40820a18"
+  },
+  {
+   "path": "video/storyboard/frames/S20.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/770bd3e21a7eb75d3373284400a57bf84be1285de5ecc4baafcdb1164f881177.png",
+   "bytes": 6925685,
+   "sha256": "770bd3e21a7eb75d3373284400a57bf84be1285de5ecc4baafcdb1164f881177"
+  },
+  {
+   "path": "video/storyboard/frames/S21.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/f9f9c90c1fa6c6df807f827a1e647299516d9cad492dff6b4e4794450616b7fe.png",
+   "bytes": 6768932,
+   "sha256": "f9f9c90c1fa6c6df807f827a1e647299516d9cad492dff6b4e4794450616b7fe"
+  },
+  {
+   "path": "video/storyboard/frames/S22.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/6e7e7527cfd1b7108db73c3bd1a3d4d002cc6fc30190dc3b0d67868656f8dbc3.png",
+   "bytes": 6386068,
+   "sha256": "6e7e7527cfd1b7108db73c3bd1a3d4d002cc6fc30190dc3b0d67868656f8dbc3"
+  },
+  {
+   "path": "video/storyboard/frames/S23.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/9f9306c2e2a6218478b8d0d26aed902f91e70211e17f459c6d3de87fcd87f299.png",
+   "bytes": 6014396,
+   "sha256": "9f9306c2e2a6218478b8d0d26aed902f91e70211e17f459c6d3de87fcd87f299"
+  },
+  {
+   "path": "video/storyboard/frames/S24.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/1ade29336bdc8a00268d085a7f444bc0950115ec7b508ccef00da94341075717.png",
+   "bytes": 6420149,
+   "sha256": "1ade29336bdc8a00268d085a7f444bc0950115ec7b508ccef00da94341075717"
+  },
+  {
+   "path": "video/storyboard/frames/S25.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/5943e3263b5a38505b27827729cea6afb0a03f07cde1a2839abf37e614bd2fd5.png",
+   "bytes": 6376048,
+   "sha256": "5943e3263b5a38505b27827729cea6afb0a03f07cde1a2839abf37e614bd2fd5"
+  },
+  {
+   "path": "video/storyboard/frames/S26.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/477ee2cbb463421f67ba379c6cd97b480772dc01feb526eb9f1a221952e8e2e8.png",
+   "bytes": 6395731,
+   "sha256": "477ee2cbb463421f67ba379c6cd97b480772dc01feb526eb9f1a221952e8e2e8"
+  },
+  {
+   "path": "video/storyboard/frames/S27.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/db427f7dc895c128d5f79477453469ab1d0f9de6b88004e1822b64ffcf6bb2a8.png",
+   "bytes": 6417504,
+   "sha256": "db427f7dc895c128d5f79477453469ab1d0f9de6b88004e1822b64ffcf6bb2a8"
+  },
+  {
+   "path": "video/storyboard/frames/S28.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/10576018c4252714330ca32d0bf8d94be3f13ba055bd361503c93c0fc42714d9.png",
+   "bytes": 6519398,
+   "sha256": "10576018c4252714330ca32d0bf8d94be3f13ba055bd361503c93c0fc42714d9"
+  },
+  {
+   "path": "video/storyboard/frames/S29.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/9214431f1f5e4acdd72b4c07932031d1a0111d55cfc4d7a00c8da1e355051f75.png",
+   "bytes": 6601302,
+   "sha256": "9214431f1f5e4acdd72b4c07932031d1a0111d55cfc4d7a00c8da1e355051f75"
+  },
+  {
+   "path": "video/storyboard/frames/S30.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/741f28a5dc3c7786c492503923b10b9dc4503d09326dae516c469fc9b161326e.png",
+   "bytes": 7759245,
+   "sha256": "741f28a5dc3c7786c492503923b10b9dc4503d09326dae516c469fc9b161326e"
+  },
+  {
+   "path": "video/storyboard/frames/S31.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/f9278badf18b8e7a42d00641981dec77d93db1fe9fb16d59017ca10a367cf377.png",
+   "bytes": 8274712,
+   "sha256": "f9278badf18b8e7a42d00641981dec77d93db1fe9fb16d59017ca10a367cf377"
+  },
+  {
+   "path": "video/storyboard/frames/S32.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/167e0fac9f568bd7b271f530e8c9f7aad69b9eedd566ecfe9819a17d76b06809.png",
+   "bytes": 8497813,
+   "sha256": "167e0fac9f568bd7b271f530e8c9f7aad69b9eedd566ecfe9819a17d76b06809"
+  },
+  {
+   "path": "video/storyboard/frames/S33.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/616801006dd299763214122ee8e0a61227b2970e5d99951b7151dc0a9a0b3305.png",
+   "bytes": 7303739,
+   "sha256": "616801006dd299763214122ee8e0a61227b2970e5d99951b7151dc0a9a0b3305"
+  },
+  {
+   "path": "video/storyboard/frames/S34.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/2f98b73fda8b4f5aedc43a5b653f49352568a17a07cc6a44406b3254df86dea9.png",
+   "bytes": 7532799,
+   "sha256": "2f98b73fda8b4f5aedc43a5b653f49352568a17a07cc6a44406b3254df86dea9"
+  },
+  {
+   "path": "video/storyboard/frames/S35.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/d2b593f2589b6276bdae3cff10015f32fdb37ad6d51c26096e389fc8b85e0a86.png",
+   "bytes": 7587853,
+   "sha256": "d2b593f2589b6276bdae3cff10015f32fdb37ad6d51c26096e389fc8b85e0a86"
+  },
+  {
+   "path": "video/storyboard/frames/S36.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/969af6008af9cadb8be0d4ee5bbcc27350fb2cbb0edd490535b051e3bf8cf44e.png",
+   "bytes": 7935510,
+   "sha256": "969af6008af9cadb8be0d4ee5bbcc27350fb2cbb0edd490535b051e3bf8cf44e"
+  },
+  {
+   "path": "video/storyboard/frames/S37.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/911a3bbe35d9730c1158bb3bb58842ffb3b60f699687c6ef42ccbd4dd9a55740.png",
+   "bytes": 6952072,
+   "sha256": "911a3bbe35d9730c1158bb3bb58842ffb3b60f699687c6ef42ccbd4dd9a55740"
+  },
+  {
+   "path": "video/storyboard/frames/S38.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/5182d44522e5bc91b16da1339c06c8fc53262f79e1bf1c37b8a4da2cb19b7024.png",
+   "bytes": 7473367,
+   "sha256": "5182d44522e5bc91b16da1339c06c8fc53262f79e1bf1c37b8a4da2cb19b7024"
+  },
+  {
+   "path": "video/storyboard/frames/S39.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/cee456b12539184f423dc981352e4d988cd2c5e9152c8992a81c9730cd3ead82.png",
+   "bytes": 8359351,
+   "sha256": "cee456b12539184f423dc981352e4d988cd2c5e9152c8992a81c9730cd3ead82"
+  },
+  {
+   "path": "video/storyboard/frames/S40.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/94d9ce659ca6b77eb675cc9b4bef1bb4fa1ad6e92ef144dd11166b610c853e07.png",
+   "bytes": 7630378,
+   "sha256": "94d9ce659ca6b77eb675cc9b4bef1bb4fa1ad6e92ef144dd11166b610c853e07"
+  },
+  {
+   "path": "video/storyboard/frames/S41.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/1c2994df04a083af4f5dca231ff4d61f7c6d26ee24588acdf30429d02fb05fbb.png",
+   "bytes": 7914231,
+   "sha256": "1c2994df04a083af4f5dca231ff4d61f7c6d26ee24588acdf30429d02fb05fbb"
+  },
+  {
+   "path": "video/storyboard/frames/S42.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/422822a615966bc7ed943fbae1a4c3bd934ae8f2b9113297a1bf349e05ace7c5.png",
+   "bytes": 8381371,
+   "sha256": "422822a615966bc7ed943fbae1a4c3bd934ae8f2b9113297a1bf349e05ace7c5"
+  },
+  {
+   "path": "video/storyboard/frames/S43.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/6edd69c39db5406c0a1110a7fe7792ada50d5b060bf1f584bb63ede722e58f9d.png",
+   "bytes": 8848468,
+   "sha256": "6edd69c39db5406c0a1110a7fe7792ada50d5b060bf1f584bb63ede722e58f9d"
+  },
+  {
+   "path": "video/storyboard/frames/S44.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/c1438d70115ca9708594ec1a79924af318134611f5571c31c231a9f7f5d143f4.png",
+   "bytes": 7978680,
+   "sha256": "c1438d70115ca9708594ec1a79924af318134611f5571c31c231a9f7f5d143f4"
+  },
+  {
+   "path": "video/storyboard/frames/S45.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/37484d21f52282675d41e0598d278a1d03cabb27fd14fc24fe424abc640f8c75.png",
+   "bytes": 8533367,
+   "sha256": "37484d21f52282675d41e0598d278a1d03cabb27fd14fc24fe424abc640f8c75"
+  },
+  {
+   "path": "video/storyboard/frames/S46.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/e752eba189e5c9b69f5c90ffba7aa0e57aba1329af55a5000ecae06d3fcc7bb6.png",
+   "bytes": 6569650,
+   "sha256": "e752eba189e5c9b69f5c90ffba7aa0e57aba1329af55a5000ecae06d3fcc7bb6"
+  },
+  {
+   "path": "video/storyboard/frames/S47.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/95a38d149103e486e88c27db5c365ed4de36aa2a8c442e9e158582c77434a495.png",
+   "bytes": 7679972,
+   "sha256": "95a38d149103e486e88c27db5c365ed4de36aa2a8c442e9e158582c77434a495"
+  },
+  {
+   "path": "video/storyboard/frames/S48.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/e810fc1bcbb15d3ffbf34fbc8e35d18ffbd5e78317ab82064f86cebb13d98350.png",
+   "bytes": 7964691,
+   "sha256": "e810fc1bcbb15d3ffbf34fbc8e35d18ffbd5e78317ab82064f86cebb13d98350"
+  },
+  {
+   "path": "video/storyboard/frames/S49.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/860b68a075b7c950b2a1959f070440b91c48ece5b4b9238173ef1bd7eb384c69.png",
+   "bytes": 7457029,
+   "sha256": "860b68a075b7c950b2a1959f070440b91c48ece5b4b9238173ef1bd7eb384c69"
+  },
+  {
+   "path": "video/storyboard/frames/S50.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/9e62cd135943ff3dfa3b61f68b7e4ad2a2eb9cfad2634f304a1afce967f6e90d.png",
+   "bytes": 7485039,
+   "sha256": "9e62cd135943ff3dfa3b61f68b7e4ad2a2eb9cfad2634f304a1afce967f6e90d"
+  },
+  {
+   "path": "video/storyboard/frames/S51.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/3045ae35f641238c16d62ce4be7b43eaa9277551452c2fb88056fa350e226792.png",
+   "bytes": 8593934,
+   "sha256": "3045ae35f641238c16d62ce4be7b43eaa9277551452c2fb88056fa350e226792"
+  },
+  {
+   "path": "video/storyboard/frames/S52.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/5c253f2172198fad1c2d66acf5b3425d1baac05d7df84aa5aa84d6636f467c81.png",
+   "bytes": 7462139,
+   "sha256": "5c253f2172198fad1c2d66acf5b3425d1baac05d7df84aa5aa84d6636f467c81"
+  },
+  {
+   "path": "video/storyboard/frames/S53.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/b64f912089e2116f15a034fa87bde72ec98b6366febcf7241bae31987ac649ea.png",
+   "bytes": 8331835,
+   "sha256": "b64f912089e2116f15a034fa87bde72ec98b6366febcf7241bae31987ac649ea"
+  },
+  {
+   "path": "video/storyboard/frames/S54.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/d12060e4fe0d8fe3219616b1317fc9e9eb0442cbb030b6cdb097187782babc2d.png",
+   "bytes": 7628007,
+   "sha256": "d12060e4fe0d8fe3219616b1317fc9e9eb0442cbb030b6cdb097187782babc2d"
+  },
+  {
+   "path": "video/storyboard/frames/S55.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/b7f251aef295a93001258f021735b5f21a0a0158b1a5a46de5568dda810d2b3c.png",
+   "bytes": 7796602,
+   "sha256": "b7f251aef295a93001258f021735b5f21a0a0158b1a5a46de5568dda810d2b3c"
+  },
+  {
+   "path": "video/storyboard/frames/S56.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/6b15d4716c13954da465cdf8524df40f0025d000355daefd370c45d1a6b74f64.png",
+   "bytes": 6972610,
+   "sha256": "6b15d4716c13954da465cdf8524df40f0025d000355daefd370c45d1a6b74f64"
+  },
+  {
+   "path": "video/storyboard/frames/S57.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/496568f7f5a5b6a8f80b47a0c4ff34082965d7708caa0f06d13d69254d3b2f34.png",
+   "bytes": 7570730,
+   "sha256": "496568f7f5a5b6a8f80b47a0c4ff34082965d7708caa0f06d13d69254d3b2f34"
+  },
+  {
+   "path": "video/storyboard/frames/S58.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/2c8e505eff41f4724304405fe375160b18323a3c750cccd4fac5e2fa6076139e.png",
+   "bytes": 6232716,
+   "sha256": "2c8e505eff41f4724304405fe375160b18323a3c750cccd4fac5e2fa6076139e"
+  },
+  {
+   "path": "video/storyboard/frames/S59.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/15ae877ec35d63625f10c4a14611700e7781973f2ab4295005538d118b57d35a.png",
+   "bytes": 7236453,
+   "sha256": "15ae877ec35d63625f10c4a14611700e7781973f2ab4295005538d118b57d35a"
+  },
+  {
+   "path": "video/storyboard/frames/S60.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/c7851f5feac046b750b4fc68301e376b14c69da143bf2578c57cde38392d6631.png",
+   "bytes": 6803316,
+   "sha256": "c7851f5feac046b750b4fc68301e376b14c69da143bf2578c57cde38392d6631"
+  },
+  {
+   "path": "video/storyboard/frames/S61.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/df6ff1dc492dc30103b8486112321ab4d3bb4f4a2710a08eeaf4b63db6914805.png",
+   "bytes": 6402221,
+   "sha256": "df6ff1dc492dc30103b8486112321ab4d3bb4f4a2710a08eeaf4b63db6914805"
+  },
+  {
+   "path": "video/storyboard/frames/S62.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/07fd89a85616f0379fdd5070047da11cddb38e1d8223b0497927d5b3603d14c7.png",
+   "bytes": 6669906,
+   "sha256": "07fd89a85616f0379fdd5070047da11cddb38e1d8223b0497927d5b3603d14c7"
+  },
+  {
+   "path": "video/storyboard/frames/S63.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/139e23521b31402c18617b03e5815f899829c47d915b6cd883bff72ce5b34d27.png",
+   "bytes": 5866165,
+   "sha256": "139e23521b31402c18617b03e5815f899829c47d915b6cd883bff72ce5b34d27"
+  },
+  {
+   "path": "video/storyboard/frames/S64.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/6ca65f9ae3b4513b50b4f65dfeb9c2ca7a47b8e683c032e390cdb665979c9db1.png",
+   "bytes": 7293583,
+   "sha256": "6ca65f9ae3b4513b50b4f65dfeb9c2ca7a47b8e683c032e390cdb665979c9db1"
+  },
+  {
+   "path": "video/storyboard/frames/S65.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/1e488f938347d87d33118168d67aab52a9673fdd4cc57accae971b7ccc86cf94.png",
+   "bytes": 23979,
+   "sha256": "1e488f938347d87d33118168d67aab52a9673fdd4cc57accae971b7ccc86cf94"
+  },
+  {
+   "path": "video/storyboard/frames/S66.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/9572e50a2eb7152dcd0ab1de6388b9ef57c63ba070c8402fcbbc654eb4847c93.png",
+   "bytes": 6315055,
+   "sha256": "9572e50a2eb7152dcd0ab1de6388b9ef57c63ba070c8402fcbbc654eb4847c93"
+  },
+  {
+   "path": "video/storyboard/frames_r2/S03_hype.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/bf1e732de36c70d8974d33224915378019e0492d8ce80cf8786ce3a0f3f31e65.png",
+   "bytes": 6820185,
+   "sha256": "bf1e732de36c70d8974d33224915378019e0492d8ce80cf8786ce3a0f3f31e65"
+  },
+  {
+   "path": "video/storyboard/frames_r2/S03_hype_1.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/bf1e732de36c70d8974d33224915378019e0492d8ce80cf8786ce3a0f3f31e65.png",
+   "bytes": 6820185,
+   "sha256": "bf1e732de36c70d8974d33224915378019e0492d8ce80cf8786ce3a0f3f31e65"
+  },
+  {
+   "path": "video/storyboard/frames_r2/S03_hype_2.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/ae36bdb07fd212c9f4fe68d2154cba6206cfc453bb1acfa376d6f05429c685b9.png",
+   "bytes": 7011157,
+   "sha256": "ae36bdb07fd212c9f4fe68d2154cba6206cfc453bb1acfa376d6f05429c685b9"
+  },
+  {
+   "path": "video/storyboard/frames_r2/S07_end.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/666db2d5a39f6a9615a5d2850dd3b420569c9310e13fa63e0efb166d3d43b17c.png",
+   "bytes": 6490582,
+   "sha256": "666db2d5a39f6a9615a5d2850dd3b420569c9310e13fa63e0efb166d3d43b17c"
+  },
+  {
+   "path": "video/storyboard/frames_r2/S07_end_1.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/666db2d5a39f6a9615a5d2850dd3b420569c9310e13fa63e0efb166d3d43b17c.png",
+   "bytes": 6490582,
+   "sha256": "666db2d5a39f6a9615a5d2850dd3b420569c9310e13fa63e0efb166d3d43b17c"
+  },
+  {
+   "path": "video/storyboard/frames_r2/S07_start.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/faf2beb2b283d01ed1323cc0e8d0b66c3a67b0b2b4dae5af85da7c834a548a6c.png",
+   "bytes": 6614125,
+   "sha256": "faf2beb2b283d01ed1323cc0e8d0b66c3a67b0b2b4dae5af85da7c834a548a6c"
+  },
+  {
+   "path": "video/storyboard/frames_r2/S07_start_1.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/faf2beb2b283d01ed1323cc0e8d0b66c3a67b0b2b4dae5af85da7c834a548a6c.png",
+   "bytes": 6614125,
+   "sha256": "faf2beb2b283d01ed1323cc0e8d0b66c3a67b0b2b4dae5af85da7c834a548a6c"
+  },
+  {
+   "path": "video/storyboard/frames_r2/S07_start_2.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/c11eebdeafb27a3de1114c5dda8e74f943b91d650ef49513fe10f32baef4894f.png",
+   "bytes": 6567226,
+   "sha256": "c11eebdeafb27a3de1114c5dda8e74f943b91d650ef49513fe10f32baef4894f"
+  },
+  {
+   "path": "video/storyboard/frames_r2/S14.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/79e436c142c8bb802d42bf4b60a27324449317712cc8fffbf403fb091d3424bd.png",
+   "bytes": 7335494,
+   "sha256": "79e436c142c8bb802d42bf4b60a27324449317712cc8fffbf403fb091d3424bd"
+  },
+  {
+   "path": "video/storyboard/frames_r2/S14_1.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/9a8af2254a16f5dde5f6bc0473195048c337f40560809a96572668290942fa66.png",
+   "bytes": 6991765,
+   "sha256": "9a8af2254a16f5dde5f6bc0473195048c337f40560809a96572668290942fa66"
+  },
+  {
+   "path": "video/storyboard/frames_r2/S28_end.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/9e9ef3d18aeaade02f905f26ef56504ea7ff39b6b2b4554efa96b9510831a8af.png",
+   "bytes": 6525179,
+   "sha256": "9e9ef3d18aeaade02f905f26ef56504ea7ff39b6b2b4554efa96b9510831a8af"
+  },
+  {
+   "path": "video/storyboard/frames_r2/S28_end_1.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/80bae1997bd08f52472c3217e4e3d72ac44e9568103debf2ccf3524408063752.png",
+   "bytes": 6551040,
+   "sha256": "80bae1997bd08f52472c3217e4e3d72ac44e9568103debf2ccf3524408063752"
+  },
+  {
+   "path": "video/storyboard/frames_r2/S28_end_2.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/9e9ef3d18aeaade02f905f26ef56504ea7ff39b6b2b4554efa96b9510831a8af.png",
+   "bytes": 6525179,
+   "sha256": "9e9ef3d18aeaade02f905f26ef56504ea7ff39b6b2b4554efa96b9510831a8af"
+  },
+  {
+   "path": "video/storyboard/frames_r2/S28_start.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/d16bea04e4e01f4d2c0e6b4d72f4c281cbba4509d2cad8eff5f6943a65f4e7c6.png",
+   "bytes": 6481478,
+   "sha256": "d16bea04e4e01f4d2c0e6b4d72f4c281cbba4509d2cad8eff5f6943a65f4e7c6"
+  },
+  {
+   "path": "video/storyboard/frames_r2/S28_start_1.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/d16bea04e4e01f4d2c0e6b4d72f4c281cbba4509d2cad8eff5f6943a65f4e7c6.png",
+   "bytes": 6481478,
+   "sha256": "d16bea04e4e01f4d2c0e6b4d72f4c281cbba4509d2cad8eff5f6943a65f4e7c6"
+  },
+  {
+   "path": "video/storyboard/frames_r2/S28_start_2.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/8b5511f9519e7874f6cda857fbd2470a150992bcb2dd850da7ef6b17575e6caf.png",
+   "bytes": 6499322,
+   "sha256": "8b5511f9519e7874f6cda857fbd2470a150992bcb2dd850da7ef6b17575e6caf"
+  },
+  {
+   "path": "video/storyboard/frames_r2/S46_end.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/bc46d136808bbe431189c5e75ac21736e24baa680ee16c3c5f5c6e9eb59baaa4.png",
+   "bytes": 6842283,
+   "sha256": "bc46d136808bbe431189c5e75ac21736e24baa680ee16c3c5f5c6e9eb59baaa4"
+  },
+  {
+   "path": "video/storyboard/frames_r2/S46_end_1.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/483d529fa3d12731d342c8124ebe58189f4cd6c23450d027af548b07910dc34a.png",
+   "bytes": 6592366,
+   "sha256": "483d529fa3d12731d342c8124ebe58189f4cd6c23450d027af548b07910dc34a"
+  },
+  {
+   "path": "video/storyboard/frames_r2/S46_end_2.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/ad82d08156d7a6b73ad2c2cd89cc9358ec615f40461e983dec32ea70e3921555.png",
+   "bytes": 6635287,
+   "sha256": "ad82d08156d7a6b73ad2c2cd89cc9358ec615f40461e983dec32ea70e3921555"
+  },
+  {
+   "path": "video/storyboard/frames_r2/S46_sit_1.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/c5b927fc8266a9136eadb7fd704c85431765820aa0431e06bb2db07c6279d4b6.png",
+   "bytes": 6651660,
+   "sha256": "c5b927fc8266a9136eadb7fd704c85431765820aa0431e06bb2db07c6279d4b6"
+  },
+  {
+   "path": "video/storyboard/frames_r2/S46_sit_2.png",
+   "url": "https://assets.cultural-alignment.com/sometimes-i-think-slow/5d7690530ade26516de2427386f54e21899c9e70348a6b13a949a5ce20811668.png",
+   "bytes": 6572367,
+   "sha256": "5d7690530ade26516de2427386f54e21899c9e70348a6b13a949a5ce20811668"
+  }
+ ]
+}

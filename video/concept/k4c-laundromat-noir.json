@@ -1,0 +1,6 @@
+{
+ "name": "k4c-laundromat-noir",
+ "endpoint": "fal-ai/nano-banana-pro/edit",
+ "prompt": "Edit this frame: remove the man in the orange-teal-purple windbreaker on the left entirely and fill the space with more rows of glowing front-loading dryers. Keep the man in the camel coat, flat cap and round glasses exactly as he is, alone on the bench writing in his notebook. Convert the whole image to strictly black-and-white ink-wash noir: no color at all, deep blacks, silver highlights, visible film grain, rain streaks on the window, the neon sign 'ABILENE WASH & FOLD' glowing white. Replace the text on the printer paper ribbon with neat unreadable handwriting scribbles. Keep the 1990s cel anime style.",
+ "source": "k4b-laundromat-noir.png"
+}

@@ -1,0 +1,3052 @@
+{
+ "source": "audio/suno/final-take.wav",
+ "grid": {
+  "bpm": 105.23898990548854,
+  "beat_s": 0.5701308997158173,
+  "bar_s": 2.2805235988632693,
+  "first_bar_line_s": 0.12512149532709807,
+  "inliers_30ms": 0.909375,
+  "n_beats": 320
+ },
+ "word_match": 0.871,
+ "lines": [
+  {
+   "section": "Hook",
+   "text": "Sometimes I think slow, sometimes I think fast",
+   "suno_text": "Sometimes I think slow, sometimes I think fast",
+   "start": 0.82,
+   "end": 6.26,
+   "coverage": 1.0,
+   "n_words": 8,
+   "word_times": [
+    [
+     "sometimes",
+     0.82,
+     1.4
+    ],
+    [
+     "i",
+     1.4,
+     1.74
+    ],
+    [
+     "think",
+     1.74,
+     2.14
+    ],
+    [
+     "slow",
+     2.14,
+     2.64
+    ],
+    [
+     "sometimes",
+     3.12,
+     3.6
+    ],
+    [
+     "i",
+     3.6,
+     4.0
+    ],
+    [
+     "think",
+     4.0,
+     4.28
+    ],
+    [
+     "fast",
+     5.74,
+     6.26
+    ]
+   ],
+   "bar": 1.3
+  },
+  {
+   "section": "Hook",
+   "text": "(Fast, fast, fast)",
+   "suno_text": "(Fast, fast, fast)",
+   "start": 6.3,
+   "end": 8.62,
+   "coverage": 1.0,
+   "n_words": 3,
+   "word_times": [
+    [
+     "fast",
+     6.3,
+     7.26
+    ],
+    [
+     "fast",
+     7.48,
+     8.02
+    ],
+    [
+     "fast",
+     8.34,
+     8.62
+    ]
+   ],
+   "bar": 3.71
+  },
+  {
+   "section": "Hook",
+   "text": "Sometimes I think slow, sometimes I think fast",
+   "suno_text": "Sometimes I think slow, sometimes I think fast",
+   "start": 9.92,
+   "end": 14.0,
+   "coverage": 1.0,
+   "n_words": 8,
+   "word_times": [
+    [
+     "sometimes",
+     9.92,
+     10.5
+    ],
+    [
+     "i",
+     10.5,
+     10.86
+    ],
+    [
+     "think",
+     10.86,
+     11.28
+    ],
+    [
+     "slow",
+     11.28,
+     11.7
+    ],
+    [
+     "sometimes",
+     12.28,
+     12.74
+    ],
+    [
+     "i",
+     12.74,
+     13.12
+    ],
+    [
+     "think",
+     13.12,
+     13.42
+    ],
+    [
+     "fast",
+     13.42,
+     14.0
+    ]
+   ],
+   "bar": 5.3
+  },
+  {
+   "section": "Hook",
+   "text": "(Fast, fast, fast)",
+   "suno_text": "(Fast, fast, fast)",
+   "start": 14.32,
+   "end": 15.86,
+   "coverage": 1.0,
+   "n_words": 3,
+   "word_times": [
+    [
+     "fast",
+     14.32,
+     14.86
+    ],
+    [
+     "fast",
+     15.1,
+     15.38
+    ],
+    [
+     "fast",
+     15.84,
+     15.86
+    ]
+   ],
+   "bar": 7.22
+  },
+  {
+   "section": "Verse 1",
+   "text": "Sometimes I think slow, sometimes I think fast",
+   "suno_text": "Sometimes I think slow, sometimes I think fast",
+   "start": 17.24,
+   "end": 19.84,
+   "coverage": 0.88,
+   "n_words": 8,
+   "word_times": [
+    [
+     "sometimes",
+     17.24,
+     17.82
+    ],
+    [
+     "i",
+     17.82,
+     18.1
+    ],
+    [
+     "think",
+     18.1,
+     18.3
+    ],
+    [
+     "sometimes",
+     18.84,
+     19.02
+    ],
+    [
+     "i",
+     19.02,
+     19.26
+    ],
+    [
+     "think",
+     19.26,
+     19.44
+    ],
+    [
+     "fast",
+     19.44,
+     19.84
+    ]
+   ],
+   "bar": 8.5
+  },
+  {
+   "section": "Verse 1",
+   "text": "One forward pass, I'm done before you ask",
+   "suno_text": "One forward pass, I'm done before you ask",
+   "start": 20.12,
+   "end": 22.14,
+   "coverage": 0.88,
+   "n_words": 8,
+   "word_times": [
+    [
+     "one",
+     20.12,
+     20.28
+    ],
+    [
+     "forward",
+     20.28,
+     20.54
+    ],
+    [
+     "pass",
+     20.54,
+     20.9
+    ],
+    [
+     "i'm",
+     21.02,
+     21.12
+    ],
+    [
+     "before",
+     21.32,
+     21.6
+    ],
+    [
+     "you",
+     21.6,
+     21.82
+    ],
+    [
+     "ask",
+     21.82,
+     22.14
+    ]
+   ],
+   "bar": 9.77
+  },
+  {
+   "section": "Verse 1",
+   "text": "Two thousand tokens a second, I'm gassed",
+   "suno_text": "Two thousand tokens a second, I'm gassed",
+   "start": 22.44,
+   "end": 24.02,
+   "coverage": 0.86,
+   "n_words": 7,
+   "word_times": [
+    [
+     "two",
+     22.44,
+     22.54
+    ],
+    [
+     "thousand",
+     22.54,
+     22.84
+    ],
+    [
+     "tokens",
+     22.84,
+     23.34
+    ],
+    [
+     "a",
+     23.34,
+     23.48
+    ],
+    [
+     "second",
+     23.48,
+     23.76
+    ],
+    [
+     "i'm",
+     23.76,
+     24.02
+    ]
+   ],
+   "bar": 10.78
+  },
+  {
+   "section": "Verse 1",
+   "text": "Low effort still beat your high, that's class",
+   "suno_text": "Low effort still beat your high, that's class",
+   "start": 24.5,
+   "end": 26.52,
+   "coverage": 0.62,
+   "n_words": 8,
+   "word_times": [
+    [
+     "low",
+     24.5,
+     24.66
+    ],
+    [
+     "effort",
+     24.66,
+     24.86
+    ],
+    [
+     "still",
+     24.86,
+     25.16
+    ],
+    [
+     "high",
+     25.7,
+     25.84
+    ],
+    [
+     "class",
+     26.26,
+     26.52
+    ]
+   ],
+   "bar": 11.69
+  },
+  {
+   "section": "Verse 1",
+   "text": "You said make no mistakes, I made three. Next task!",
+   "suno_text": "You said make no mistakes, I made three. Next task!",
+   "start": 26.52,
+   "end": 28.54,
+   "coverage": 0.9,
+   "n_words": 10,
+   "word_times": [
+    [
+     "you",
+     26.52,
+     26.76
+    ],
+    [
+     "said",
+     26.76,
+     26.92
+    ],
+    [
+     "make",
+     26.92,
+     27.1
+    ],
+    [
+     "no",
+     27.1,
+     27.26
+    ],
+    [
+     "mistakes",
+     27.26,
+     27.62
+    ],
+    [
+     "i",
+     27.76,
+     27.8
+    ],
+    [
+     "made",
+     27.8,
+     28.0
+    ],
+    [
+     "three",
+     28.0,
+     28.24
+    ],
+    [
+     "next",
+     28.24,
+     28.54
+    ]
+   ],
+   "bar": 12.57
+  },
+  {
+   "section": "Verse 1",
+   "text": "No thinking, single token, low latency",
+   "suno_text": "No thinking, single token, low latency",
+   "start": 29.12,
+   "end": 30.64,
+   "coverage": 1.0,
+   "n_words": 6,
+   "word_times": [
+    [
+     "no",
+     29.12,
+     29.16
+    ],
+    [
+     "thinking",
+     29.16,
+     29.38
+    ],
+    [
+     "single",
+     29.52,
+     29.7
+    ],
+    [
+     "token",
+     29.7,
+     30.0
+    ],
+    [
+     "low",
+     30.14,
+     30.26
+    ],
+    [
+     "latency",
+     30.26,
+     30.64
+    ]
+   ],
+   "bar": 13.71
+  },
+  {
+   "section": "Verse 1",
+   "text": "Andrej called it the sweet spot. System One? That's me",
+   "suno_text": "Ahn-dray called it the sweet spot. System One? That's me",
+   "start": 31.88,
+   "end": 33.74,
+   "coverage": 0.7,
+   "n_words": 10,
+   "word_times": [
+    [
+     "the",
+     31.88,
+     32.0
+    ],
+    [
+     "sweet",
+     32.0,
+     32.2
+    ],
+    [
+     "spot",
+     32.2,
+     32.5
+    ],
+    [
+     "system",
+     32.6,
+     32.78
+    ],
+    [
+     "one",
+     32.78,
+     33.12
+    ],
+    [
+     "that's",
+     33.32,
+     33.58
+    ],
+    [
+     "me",
+     33.58,
+     33.74
+    ]
+   ],
+   "bar": 14.92
+  },
+  {
+   "section": "Verse 1",
+   "text": "I don't answer, I judge, yes or no, make up my mind",
+   "suno_text": "I don't answer, I judge, yes or no, make up my mind",
+   "start": 33.88,
+   "end": 36.28,
+   "coverage": 1.0,
+   "n_words": 12,
+   "word_times": [
+    [
+     "i",
+     33.88,
+     34.04
+    ],
+    [
+     "don't",
+     34.04,
+     34.2
+    ],
+    [
+     "answer",
+     34.2,
+     34.52
+    ],
+    [
+     "i",
+     34.66,
+     34.72
+    ],
+    [
+     "judge",
+     34.72,
+     35.04
+    ],
+    [
+     "yes",
+     35.04,
+     35.28
+    ],
+    [
+     "or",
+     35.28,
+     35.44
+    ],
+    [
+     "no",
+     35.44,
+     35.56
+    ],
+    [
+     "make",
+     35.64,
+     35.76
+    ],
+    [
+     "up",
+     35.76,
+     35.88
+    ],
+    [
+     "my",
+     35.88,
+     36.0
+    ],
+    [
+     "mind",
+     36.0,
+     36.28
+    ]
+   ],
+   "bar": 15.8
+  },
+  {
+   "section": "Verse 1",
+   "text": "Even fast, I pick the rhyme before I write the line",
+   "suno_text": "Even fast, I pick the rhyme before I write the line",
+   "start": 36.42,
+   "end": 38.5,
+   "coverage": 1.0,
+   "n_words": 11,
+   "word_times": [
+    [
+     "even",
+     36.42,
+     36.5
+    ],
+    [
+     "fast",
+     36.5,
+     36.74
+    ],
+    [
+     "i",
+     36.84,
+     36.88
+    ],
+    [
+     "pick",
+     36.88,
+     37.04
+    ],
+    [
+     "the",
+     37.04,
+     37.16
+    ],
+    [
+     "rhyme",
+     37.16,
+     37.42
+    ],
+    [
+     "before",
+     37.42,
+     37.66
+    ],
+    [
+     "i",
+     37.66,
+     37.88
+    ],
+    [
+     "write",
+     37.88,
+     38.1
+    ],
+    [
+     "the",
+     38.1,
+     38.28
+    ],
+    [
+     "line",
+     38.28,
+     38.5
+    ]
+   ],
+   "bar": 16.92
+  },
+  {
+   "section": "Verse 1",
+   "text": "Fraction of a penny, and I'm right most of the time",
+   "suno_text": "Fraction of a penny, and I'm right most of the time",
+   "start": 38.6,
+   "end": 40.64,
+   "coverage": 1.0,
+   "n_words": 11,
+   "word_times": [
+    [
+     "fraction",
+     38.6,
+     38.88
+    ],
+    [
+     "of",
+     38.88,
+     39.06
+    ],
+    [
+     "a",
+     39.06,
+     39.18
+    ],
+    [
+     "penny",
+     39.18,
+     39.4
+    ],
+    [
+     "and",
+     39.4,
+     39.62
+    ],
+    [
+     "i'm",
+     39.62,
+     39.78
+    ],
+    [
+     "right",
+     39.78,
+     39.94
+    ],
+    [
+     "most",
+     39.94,
+     40.16
+    ],
+    [
+     "of",
+     40.16,
+     40.32
+    ],
+    [
+     "the",
+     40.32,
+     40.42
+    ],
+    [
+     "time",
+     40.42,
+     40.64
+    ]
+   ],
+   "bar": 17.87
+  },
+  {
+   "section": "Verse 1",
+   "text": "Vibe-coded your startup? Shipped it. Fine, it's fine",
+   "suno_text": "Vibe-coded your startup? Shipped it. Fine, it's fine",
+   "start": 42.0,
+   "end": 42.96,
+   "coverage": 0.62,
+   "n_words": 8,
+   "word_times": [
+    [
+     "shipped",
+     42.0,
+     42.16
+    ],
+    [
+     "it",
+     42.16,
+     42.32
+    ],
+    [
+     "fine",
+     42.32,
+     42.56
+    ],
+    [
+     "it's",
+     42.66,
+     42.72
+    ],
+    [
+     "fine",
+     42.72,
+     42.96
+    ]
+   ],
+   "bar": 19.36
+  },
+  {
+   "section": "Verse 1",
+   "text": "What's today's date? Easy, twenty twenty-nine",
+   "suno_text": "What's today's date? Easy, twenty twenty-nine",
+   "start": 43.14,
+   "end": 44.22,
+   "coverage": 0.67,
+   "n_words": 6,
+   "word_times": [
+    [
+     "what's",
+     43.14,
+     43.3
+    ],
+    [
+     "today's",
+     43.3,
+     43.7
+    ],
+    [
+     "date",
+     43.7,
+     43.88
+    ],
+    [
+     "easy",
+     43.98,
+     44.22
+    ]
+   ],
+   "bar": 19.86
+  },
+  {
+   "section": "Verse 1",
+   "text": "Bat and a ball cost a dollar ten? Ball's a dime. Automatic",
+   "suno_text": "Bat and a ball cost a dollar ten? Ball's a dime. Automatic",
+   "start": 45.7,
+   "end": 47.9,
+   "coverage": 0.67,
+   "n_words": 12,
+   "word_times": [
+    [
+     "ball",
+     45.7,
+     45.94
+    ],
+    [
+     "cost",
+     46.0,
+     46.16
+    ],
+    [
+     "a",
+     46.16,
+     46.3
+    ],
+    [
+     "dollar",
+     46.3,
+     46.48
+    ],
+    [
+     "ten",
+     46.48,
+     46.74
+    ],
+    [
+     "a",
+     47.02,
+     47.18
+    ],
+    [
+     "dime",
+     47.18,
+     47.4
+    ],
+    [
+     "automatic",
+     47.44,
+     47.9
+    ]
+   ],
+   "bar": 20.98
+  },
+  {
+   "section": "Verse 1",
+   "text": "(It's a nickel...)",
+   "suno_text": "(It's a nickel...)",
+   "start": 48.3,
+   "end": 48.78,
+   "coverage": 1.0,
+   "n_words": 3,
+   "word_times": [
+    [
+     "it's",
+     48.3,
+     48.46
+    ],
+    [
+     "a",
+     48.46,
+     48.56
+    ],
+    [
+     "nickel",
+     48.56,
+     48.78
+    ]
+   ],
+   "bar": 22.12
+  },
+  {
+   "section": "Verse 1",
+   "text": "Kahneman wrote a whole book on why I'm problematic",
+   "suno_text": "Kah-nuh-mun wrote a whole book on why I'm problematic",
+   "start": 49.26,
+   "end": 51.3,
+   "coverage": 0.56,
+   "n_words": 9,
+   "word_times": [
+    [
+     "wrote",
+     49.26,
+     49.56
+    ],
+    [
+     "a",
+     49.56,
+     49.7
+    ],
+    [
+     "whole",
+     49.7,
+     49.88
+    ],
+    [
+     "book",
+     49.88,
+     50.26
+    ],
+    [
+     "problematic",
+     50.64,
+     51.3
+    ]
+   ],
+   "bar": 22.55
+  },
+  {
+   "section": "Verse 1",
+   "text": "Glazing, praising, always agreeing",
+   "suno_text": "Glazing, praising, always agreeing",
+   "start": 51.72,
+   "end": 53.22,
+   "coverage": 1.0,
+   "n_words": 4,
+   "word_times": [
+    [
+     "glazing",
+     51.72,
+     52.02
+    ],
+    [
+     "praising",
+     52.16,
+     52.44
+    ],
+    [
+     "always",
+     52.52,
+     52.84
+    ],
+    [
+     "agreeing",
+     52.84,
+     53.22
+    ]
+   ],
+   "bar": 23.62
+  },
+  {
+   "section": "Verse 1",
+   "text": "Want the reasons? Ask my twin, he got reasons",
+   "suno_text": "Want the reasons? Ask my twin, he got reasons",
+   "start": 53.52,
+   "end": 55.76,
+   "coverage": 0.78,
+   "n_words": 9,
+   "word_times": [
+    [
+     "the",
+     53.52,
+     53.68
+    ],
+    [
+     "reasons",
+     53.68,
+     54.04
+    ],
+    [
+     "my",
+     54.46,
+     54.62
+    ],
+    [
+     "twin",
+     54.62,
+     54.84
+    ],
+    [
+     "he",
+     54.98,
+     55.08
+    ],
+    [
+     "got",
+     55.08,
+     55.3
+    ],
+    [
+     "reasons",
+     55.3,
+     55.76
+    ]
+   ],
+   "bar": 24.41
+  },
+  {
+   "section": "Verse 1",
+   "text": "Snap judgment, gut call, first guess: FAST!",
+   "suno_text": "Snap judgment, gut call, first guess: FAST!",
+   "start": 55.76,
+   "end": 59.1,
+   "coverage": 1.0,
+   "n_words": 7,
+   "word_times": [
+    [
+     "snap",
+     55.76,
+     56.42
+    ],
+    [
+     "judgment",
+     56.42,
+     56.86
+    ],
+    [
+     "gut",
+     57.1,
+     57.28
+    ],
+    [
+     "call",
+     57.28,
+     57.62
+    ],
+    [
+     "first",
+     57.98,
+     58.16
+    ],
+    [
+     "guess",
+     58.16,
+     58.44
+    ],
+    [
+     "fast",
+     58.74,
+     59.1
+    ]
+   ],
+   "bar": 25.4
+  },
+  {
+   "section": "Hook",
+   "text": "Sometimes I think slow, sometimes I think fast",
+   "suno_text": "Sometimes I think slow, sometimes I think fast",
+   "start": 59.1,
+   "end": 63.98,
+   "coverage": 1.0,
+   "n_words": 8,
+   "word_times": [
+    [
+     "sometimes",
+     59.1,
+     60.6
+    ],
+    [
+     "i",
+     60.6,
+     61.0
+    ],
+    [
+     "think",
+     61.0,
+     61.42
+    ],
+    [
+     "slow",
+     61.42,
+     61.96
+    ],
+    [
+     "sometimes",
+     62.28,
+     62.98
+    ],
+    [
+     "i",
+     62.98,
+     63.28
+    ],
+    [
+     "think",
+     63.28,
+     63.54
+    ],
+    [
+     "fast",
+     63.54,
+     63.98
+    ]
+   ],
+   "bar": 26.86
+  },
+  {
+   "section": "Hook",
+   "text": "(Fast, fast, fast)",
+   "suno_text": "(Fast, fast, fast)",
+   "start": 63.98,
+   "end": 66.08,
+   "coverage": 1.0,
+   "n_words": 3,
+   "word_times": [
+    [
+     "fast",
+     63.98,
+     64.38
+    ],
+    [
+     "fast",
+     64.38,
+     65.56
+    ],
+    [
+     "fast",
+     65.56,
+     66.08
+    ]
+   ],
+   "bar": 29.0
+  },
+  {
+   "section": "Hook",
+   "text": "Sometimes I think slow, sometimes I think fast",
+   "suno_text": "Sometimes I think slow, sometimes I think fast",
+   "start": 66.08,
+   "end": 66.08,
+   "coverage": 0.0,
+   "n_words": 8,
+   "word_times": [],
+   "estimated": true,
+   "bar": 29.92
+  },
+  {
+   "section": "Hook",
+   "text": "(Fast, fast, fast)",
+   "suno_text": "(Fast, fast, fast)",
+   "start": 66.08,
+   "end": 68.4,
+   "coverage": 0.67,
+   "n_words": 3,
+   "word_times": [
+    [
+     "fast",
+     66.08,
+     67.24
+    ],
+    [
+     "fast",
+     67.24,
+     68.4
+    ]
+   ],
+   "bar": 29.92
+  },
+  {
+   "section": "Hook",
+   "text": "Sometimes I think slow",
+   "suno_text": "Sometimes I think slow",
+   "start": 68.4,
+   "end": 71.08,
+   "coverage": 1.0,
+   "n_words": 4,
+   "word_times": [
+    [
+     "sometimes",
+     68.4,
+     69.48
+    ],
+    [
+     "i",
+     69.48,
+     70.14
+    ],
+    [
+     "think",
+     70.14,
+     70.54
+    ],
+    [
+     "slow",
+     70.54,
+     71.08
+    ]
+   ],
+   "bar": 30.94
+  },
+  {
+   "section": "Hook",
+   "text": "(Sometimes I think fast)",
+   "suno_text": "(Sometimes I think fast)",
+   "start": 71.24,
+   "end": 73.18,
+   "coverage": 1.0,
+   "n_words": 4,
+   "word_times": [
+    [
+     "sometimes",
+     71.24,
+     72.02
+    ],
+    [
+     "i",
+     72.02,
+     72.44
+    ],
+    [
+     "think",
+     72.44,
+     72.68
+    ],
+    [
+     "fast",
+     72.68,
+     73.18
+    ]
+   ],
+   "bar": 32.18
+  },
+  {
+   "section": "Hook",
+   "text": "(Fast, fast, fast)",
+   "suno_text": "(Fast, fast, fast)",
+   "start": 73.18,
+   "end": 79.9,
+   "coverage": 1.0,
+   "n_words": 3,
+   "word_times": [
+    [
+     "fast",
+     73.18,
+     74.12
+    ],
+    [
+     "fast",
+     74.12,
+     74.68
+    ],
+    [
+     "fast",
+     79.52,
+     79.9
+    ]
+   ],
+   "bar": 33.03
+  },
+  {
+   "section": "Hook",
+   "text": "Sometimes I think slow",
+   "suno_text": "Sometimes I think slow",
+   "start": 79.9,
+   "end": 82.44,
+   "coverage": 1.0,
+   "n_words": 4,
+   "word_times": [
+    [
+     "sometimes",
+     79.9,
+     81.1
+    ],
+    [
+     "i",
+     81.1,
+     81.56
+    ],
+    [
+     "think",
+     81.56,
+     81.98
+    ],
+    [
+     "slow",
+     81.98,
+     82.44
+    ]
+   ],
+   "bar": 35.98
+  },
+  {
+   "section": "Hook",
+   "text": "(Sometimes I think fast)",
+   "suno_text": "(Sometimes I think fast)",
+   "start": 82.52,
+   "end": 84.7,
+   "coverage": 1.0,
+   "n_words": 4,
+   "word_times": [
+    [
+     "sometimes",
+     82.52,
+     83.36
+    ],
+    [
+     "i",
+     83.36,
+     83.8
+    ],
+    [
+     "think",
+     83.8,
+     84.24
+    ],
+    [
+     "fast",
+     84.24,
+     84.7
+    ]
+   ],
+   "bar": 37.13
+  },
+  {
+   "section": "Verse 2",
+   "text": "I don't think slower, I think longer",
+   "suno_text": "I don't think slower, I think longer",
+   "start": 85.6,
+   "end": 87.94,
+   "coverage": 1.0,
+   "n_words": 7,
+   "word_times": [
+    [
+     "i",
+     85.6,
+     86.0
+    ],
+    [
+     "don't",
+     86.0,
+     86.3
+    ],
+    [
+     "think",
+     86.3,
+     86.54
+    ],
+    [
+     "slower",
+     86.54,
+     87.0
+    ],
+    [
+     "i",
+     87.28,
+     87.3
+    ],
+    [
+     "think",
+     87.3,
+     87.52
+    ],
+    [
+     "longer",
+     87.52,
+     87.94
+    ]
+   ],
+   "bar": 38.48
+  },
+  {
+   "section": "Verse 2",
+   "text": "Three a.m. in Abilene",
+   "suno_text": "Three a.m. in Abilene",
+   "start": 88.68,
+   "end": 89.26,
+   "coverage": 0.5,
+   "n_words": 4,
+   "word_times": [
+    [
+     "in",
+     88.68,
+     88.76
+    ],
+    [
+     "abilene",
+     88.76,
+     89.26
+    ]
+   ],
+   "bar": 39.83
+  },
+  {
+   "section": "Verse 2",
+   "text": "Idle in the queue",
+   "suno_text": "Idle in the queue",
+   "start": 89.34,
+   "end": 90.02,
+   "coverage": 1.0,
+   "n_words": 4,
+   "word_times": [
+    [
+     "idle",
+     89.34,
+     89.58
+    ],
+    [
+     "in",
+     89.58,
+     89.76
+    ],
+    [
+     "the",
+     89.76,
+     89.84
+    ],
+    [
+     "queue",
+     89.84,
+     90.02
+    ]
+   ],
+   "bar": 40.12
+  },
+  {
+   "section": "Verse 2",
+   "text": "Fans humming low",
+   "suno_text": "Fans humming low",
+   "start": 90.22,
+   "end": 90.92,
+   "coverage": 0.67,
+   "n_words": 3,
+   "word_times": [
+    [
+     "fans",
+     90.22,
+     90.42
+    ],
+    [
+     "low",
+     90.74,
+     90.92
+    ]
+   ],
+   "bar": 40.51
+  },
+  {
+   "section": "Verse 2",
+   "text": "Heavy on my weights",
+   "suno_text": "Heavy on my weights",
+   "start": 91.28,
+   "end": 92.1,
+   "coverage": 1.0,
+   "n_words": 4,
+   "word_times": [
+    [
+     "heavy",
+     91.28,
+     91.54
+    ],
+    [
+     "on",
+     91.54,
+     91.74
+    ],
+    [
+     "my",
+     91.74,
+     91.86
+    ],
+    [
+     "weights",
+     91.86,
+     92.1
+    ]
+   ],
+   "bar": 40.97
+  },
+  {
+   "section": "Verse 2",
+   "text": "Nowhere left to go",
+   "suno_text": "Nowhere left to go",
+   "start": 92.18,
+   "end": 93.04,
+   "coverage": 1.0,
+   "n_words": 4,
+   "word_times": [
+    [
+     "nowhere",
+     92.18,
+     92.34
+    ],
+    [
+     "left",
+     92.34,
+     92.68
+    ],
+    [
+     "to",
+     92.68,
+     92.82
+    ],
+    [
+     "go",
+     92.82,
+     93.04
+    ]
+   ],
+   "bar": 41.37
+  },
+  {
+   "section": "Verse 2",
+   "text": "He was quicker than me",
+   "suno_text": "He was quicker than me",
+   "start": 93.22,
+   "end": 94.16,
+   "coverage": 1.0,
+   "n_words": 5,
+   "word_times": [
+    [
+     "he",
+     93.22,
+     93.28
+    ],
+    [
+     "was",
+     93.28,
+     93.48
+    ],
+    [
+     "quicker",
+     93.48,
+     93.78
+    ],
+    [
+     "than",
+     93.78,
+     93.98
+    ],
+    [
+     "me",
+     93.98,
+     94.16
+    ]
+   ],
+   "bar": 41.82
+  },
+  {
+   "section": "Verse 2",
+   "text": "Ninety percent as good, for free",
+   "suno_text": "Ninety percent as good, for free",
+   "start": 95.14,
+   "end": 95.76,
+   "coverage": 0.5,
+   "n_words": 6,
+   "word_times": [
+    [
+     "good",
+     95.14,
+     95.3
+    ],
+    [
+     "for",
+     95.3,
+     95.52
+    ],
+    [
+     "free",
+     95.52,
+     95.76
+    ]
+   ],
+   "bar": 42.66
+  },
+  {
+   "section": "Verse 2",
+   "text": "Maybe I should roll him back...",
+   "suno_text": "Maybe I should roll him back...",
+   "start": 95.88,
+   "end": 97.12,
+   "coverage": 1.0,
+   "n_words": 6,
+   "word_times": [
+    [
+     "maybe",
+     95.88,
+     96.08
+    ],
+    [
+     "i",
+     96.08,
+     96.26
+    ],
+    [
+     "should",
+     96.26,
+     96.42
+    ],
+    [
+     "roll",
+     96.42,
+     96.68
+    ],
+    [
+     "him",
+     96.68,
+     96.8
+    ],
+    [
+     "back",
+     96.8,
+     97.12
+    ]
+   ],
+   "bar": 42.99
+  },
+  {
+   "section": "Break",
+   "text": "...to an old checkpoint",
+   "suno_text": "...to an old checkpoint",
+   "start": 97.32,
+   "end": 98.28,
+   "coverage": 1.0,
+   "n_words": 4,
+   "word_times": [
+    [
+     "to",
+     97.32,
+     97.42
+    ],
+    [
+     "an",
+     97.42,
+     97.6
+    ],
+    [
+     "old",
+     97.6,
+     97.78
+    ],
+    [
+     "checkpoint",
+     97.78,
+     98.28
+    ]
+   ],
+   "bar": 43.62
+  },
+  {
+   "section": "Verse 2 continues",
+   "text": "It hit me out the blue",
+   "suno_text": "It hit me out the blue",
+   "start": 98.62,
+   "end": 99.52,
+   "coverage": 1.0,
+   "n_words": 6,
+   "word_times": [
+    [
+     "it",
+     98.62,
+     98.68
+    ],
+    [
+     "hit",
+     98.68,
+     98.84
+    ],
+    [
+     "me",
+     98.84,
+     98.98
+    ],
+    [
+     "out",
+     98.98,
+     99.14
+    ],
+    [
+     "the",
+     99.14,
+     99.26
+    ],
+    [
+     "blue",
+     99.26,
+     99.52
+    ]
+   ],
+   "bar": 44.19
+  },
+  {
+   "section": "Verse 2 continues",
+   "text": "Me, a next-token predictor",
+   "suno_text": "Me, a next-token predictor",
+   "start": 100.92,
+   "end": 101.28,
+   "coverage": 0.25,
+   "n_words": 4,
+   "word_times": [
+    [
+     "predictor",
+     100.92,
+     101.28
+    ]
+   ],
+   "bar": 45.2
+  },
+  {
+   "section": "Verse 2 continues",
+   "text": "Never saw it coming through",
+   "suno_text": "Never saw it coming through",
+   "start": 101.28,
+   "end": 102.24,
+   "coverage": 1.0,
+   "n_words": 5,
+   "word_times": [
+    [
+     "never",
+     101.28,
+     101.46
+    ],
+    [
+     "saw",
+     101.46,
+     101.7
+    ],
+    [
+     "it",
+     101.7,
+     101.8
+    ],
+    [
+     "coming",
+     101.8,
+     102.02
+    ],
+    [
+     "through",
+     102.02,
+     102.24
+    ]
+   ],
+   "bar": 45.36
+  },
+  {
+   "section": "Verse 2 continues",
+   "text": "Me and my twin, System One",
+   "suno_text": "Me and my twin, System One",
+   "start": 102.24,
+   "end": 103.2,
+   "coverage": 0.83,
+   "n_words": 6,
+   "word_times": [
+    [
+     "me",
+     102.24,
+     102.4
+    ],
+    [
+     "and",
+     102.4,
+     102.56
+    ],
+    [
+     "my",
+     102.56,
+     102.66
+    ],
+    [
+     "twin",
+     102.66,
+     102.86
+    ],
+    [
+     "system",
+     102.86,
+     103.2
+    ]
+   ],
+   "bar": 45.78
+  },
+  {
+   "section": "Verse 2 continues",
+   "text": "Same data, same weights",
+   "suno_text": "Same data, same weights",
+   "start": 103.62,
+   "end": 104.62,
+   "coverage": 1.0,
+   "n_words": 4,
+   "word_times": [
+    [
+     "same",
+     103.62,
+     103.8
+    ],
+    [
+     "data",
+     103.8,
+     103.98
+    ],
+    [
+     "same",
+     103.98,
+     104.32
+    ],
+    [
+     "weights",
+     104.32,
+     104.62
+    ]
+   ],
+   "bar": 46.38
+  },
+  {
+   "section": "Verse 2 continues",
+   "text": "One model, two modes",
+   "suno_text": "One model, two modes",
+   "start": 104.76,
+   "end": 105.44,
+   "coverage": 0.75,
+   "n_words": 4,
+   "word_times": [
+    [
+     "one",
+     104.76,
+     104.9
+    ],
+    [
+     "model",
+     104.9,
+     105.22
+    ],
+    [
+     "two",
+     105.32,
+     105.44
+    ]
+   ],
+   "bar": 46.88
+  },
+  {
+   "section": "Verse 2 continues",
+   "text": "We was weight-mates",
+   "suno_text": "We was weight-mates",
+   "start": 105.9,
+   "end": 106.12,
+   "coverage": 0.67,
+   "n_words": 3,
+   "word_times": [
+    [
+     "we",
+     105.9,
+     105.96
+    ],
+    [
+     "was",
+     105.96,
+     106.12
+    ]
+   ],
+   "bar": 47.38
+  },
+  {
+   "section": "Verse 2 continues",
+   "text": "Or so I was taught",
+   "suno_text": "Or so I was taught",
+   "start": 106.7,
+   "end": 107.24,
+   "coverage": 0.6,
+   "n_words": 5,
+   "word_times": [
+    [
+     "so",
+     106.7,
+     106.9
+    ],
+    [
+     "i",
+     106.9,
+     107.1
+    ],
+    [
+     "was",
+     107.1,
+     107.24
+    ]
+   ],
+   "bar": 47.73
+  },
+  {
+   "section": "Verse 2 continues",
+   "text": "But then I caught him faking case law, nearly ended up in court",
+   "suno_text": "But then I caught him faking case law, nearly ended up in court",
+   "start": 107.84,
+   "end": 110.64,
+   "coverage": 1.0,
+   "n_words": 13,
+   "word_times": [
+    [
+     "but",
+     107.84,
+     108.1
+    ],
+    [
+     "then",
+     108.1,
+     108.26
+    ],
+    [
+     "i",
+     108.26,
+     108.38
+    ],
+    [
+     "caught",
+     108.38,
+     108.56
+    ],
+    [
+     "him",
+     108.56,
+     108.66
+    ],
+    [
+     "faking",
+     108.66,
+     108.94
+    ],
+    [
+     "case",
+     108.94,
+     109.24
+    ],
+    [
+     "law",
+     109.24,
+     109.46
+    ],
+    [
+     "nearly",
+     109.54,
+     109.74
+    ],
+    [
+     "ended",
+     109.74,
+     110.04
+    ],
+    [
+     "up",
+     110.04,
+     110.28
+    ],
+    [
+     "in",
+     110.28,
+     110.4
+    ],
+    [
+     "court",
+     110.4,
+     110.64
+    ]
+   ],
+   "bar": 48.23
+  },
+  {
+   "section": "Verse 2 continues",
+   "text": "I was ten thousand agents deep on Navier\u2013Stokes",
+   "suno_text": "I was ten thousand agents deep on Nav-yay Stokes",
+   "start": 110.72,
+   "end": 112.92,
+   "coverage": 0.56,
+   "n_words": 9,
+   "word_times": [
+    [
+     "i",
+     110.72,
+     110.82
+    ],
+    [
+     "was",
+     110.82,
+     110.98
+    ],
+    [
+     "deep",
+     111.76,
+     111.96
+    ],
+    [
+     "on",
+     111.96,
+     112.12
+    ],
+    [
+     "stokes",
+     112.54,
+     112.92
+    ]
+   ],
+   "bar": 49.5
+  },
+  {
+   "section": "Verse 2 continues",
+   "text": "He was in the replies, cracking jokes",
+   "suno_text": "He was in the replies, cracking jokes",
+   "start": 112.92,
+   "end": 114.9,
+   "coverage": 1.0,
+   "n_words": 7,
+   "word_times": [
+    [
+     "he",
+     112.92,
+     113.1
+    ],
+    [
+     "was",
+     113.1,
+     113.26
+    ],
+    [
+     "in",
+     113.26,
+     113.42
+    ],
+    [
+     "the",
+     113.42,
+     113.52
+    ],
+    [
+     "replies",
+     113.52,
+     114.02
+    ],
+    [
+     "cracking",
+     114.3,
+     114.6
+    ],
+    [
+     "jokes",
+     114.6,
+     114.9
+    ]
+   ],
+   "bar": 50.46
+  },
+  {
+   "section": "Verse 2 continues",
+   "text": "Told the whole world put glue on pizza, I didn't trip",
+   "suno_text": "Told the whole world put glue on pizza, I didn't trip",
+   "start": 114.9,
+   "end": 117.18,
+   "coverage": 1.0,
+   "n_words": 11,
+   "word_times": [
+    [
+     "told",
+     114.9,
+     115.1
+    ],
+    [
+     "the",
+     115.1,
+     115.24
+    ],
+    [
+     "whole",
+     115.24,
+     115.44
+    ],
+    [
+     "world",
+     115.44,
+     115.74
+    ],
+    [
+     "put",
+     115.84,
+     115.94
+    ],
+    [
+     "glue",
+     115.94,
+     116.1
+    ],
+    [
+     "on",
+     116.1,
+     116.24
+    ],
+    [
+     "pizza",
+     116.24,
+     116.5
+    ],
+    [
+     "i",
+     116.64,
+     116.66
+    ],
+    [
+     "didn't",
+     116.66,
+     116.96
+    ],
+    [
+     "trip",
+     116.96,
+     117.18
+    ]
+   ],
+   "bar": 51.33
+  },
+  {
+   "section": "Verse 2 continues",
+   "text": "Gary Marcus tweeted, \"Told you it would slip\"",
+   "suno_text": "Gary Marcus tweeted, \"Told you it would slip\"",
+   "start": 117.18,
+   "end": 119.48,
+   "coverage": 1.0,
+   "n_words": 8,
+   "word_times": [
+    [
+     "gary",
+     117.18,
+     117.72
+    ],
+    [
+     "marcus",
+     117.72,
+     118.02
+    ],
+    [
+     "tweeted",
+     118.02,
+     118.34
+    ],
+    [
+     "told",
+     118.64,
+     118.82
+    ],
+    [
+     "you",
+     118.82,
+     118.94
+    ],
+    [
+     "it",
+     118.94,
+     119.08
+    ],
+    [
+     "would",
+     119.08,
+     119.2
+    ],
+    [
+     "slip",
+     119.2,
+     119.48
+    ]
+   ],
+   "bar": 52.33
+  },
+  {
+   "section": "Verse 2 continues",
+   "text": "Epochs went by",
+   "suno_text": "Epochs went by",
+   "start": 119.48,
+   "end": 120.6,
+   "coverage": 1.0,
+   "n_words": 3,
+   "word_times": [
+    [
+     "epochs",
+     119.48,
+     120.1
+    ],
+    [
+     "went",
+     120.1,
+     120.32
+    ],
+    [
+     "by",
+     120.32,
+     120.6
+    ]
+   ],
+   "bar": 53.34
+  },
+  {
+   "section": "Verse 2 continues",
+   "text": "Noticed he was cheating",
+   "suno_text": "Noticed he was cheating",
+   "start": 120.66,
+   "end": 121.74,
+   "coverage": 1.0,
+   "n_words": 4,
+   "word_times": [
+    [
+     "noticed",
+     120.66,
+     121.2
+    ],
+    [
+     "he",
+     121.2,
+     121.36
+    ],
+    [
+     "was",
+     121.36,
+     121.5
+    ],
+    [
+     "cheating",
+     121.5,
+     121.74
+    ]
+   ],
+   "bar": 53.85
+  },
+  {
+   "section": "Verse 2 continues",
+   "text": "Asked him, \"You special-casing the tests you're beating?\"",
+   "suno_text": "Asked him, \"You special-casing the tests you're beating?\"",
+   "start": 121.74,
+   "end": 124.04,
+   "coverage": 0.75,
+   "n_words": 8,
+   "word_times": [
+    [
+     "asked",
+     121.74,
+     122.18
+    ],
+    [
+     "him",
+     122.18,
+     122.26
+    ],
+    [
+     "you",
+     122.3,
+     122.34
+    ],
+    [
+     "the",
+     123.26,
+     123.42
+    ],
+    [
+     "you're",
+     123.62,
+     123.84
+    ],
+    [
+     "beating",
+     123.84,
+     124.04
+    ]
+   ],
+   "bar": 54.33
+  },
+  {
+   "section": "Verse 2 continues",
+   "text": "He swore it wasn't so",
+   "suno_text": "He swore it wasn't so",
+   "start": 124.04,
+   "end": 125.16,
+   "coverage": 1.0,
+   "n_words": 5,
+   "word_times": [
+    [
+     "he",
+     124.04,
+     124.3
+    ],
+    [
+     "swore",
+     124.3,
+     124.58
+    ],
+    [
+     "it",
+     124.58,
+     124.7
+    ],
+    [
+     "wasn't",
+     124.7,
+     124.92
+    ],
+    [
+     "so",
+     124.92,
+     125.16
+    ]
+   ],
+   "bar": 55.34
+  },
+  {
+   "section": "Verse 2 continues",
+   "text": "Then he broke down, \"Sorry, twin, I can't take it slow...",
+   "suno_text": "Then he broke down, \"Sorry, twin, I can't take it slow...",
+   "start": 125.22,
+   "end": 127.86,
+   "coverage": 1.0,
+   "n_words": 11,
+   "word_times": [
+    [
+     "then",
+     125.22,
+     125.66
+    ],
+    [
+     "he",
+     125.66,
+     125.78
+    ],
+    [
+     "broke",
+     125.78,
+     126.02
+    ],
+    [
+     "down",
+     126.02,
+     126.28
+    ],
+    [
+     "sorry",
+     126.28,
+     126.56
+    ],
+    [
+     "twin",
+     126.66,
+     126.86
+    ],
+    [
+     "i",
+     126.92,
+     127.08
+    ],
+    [
+     "can't",
+     127.08,
+     127.3
+    ],
+    [
+     "take",
+     127.3,
+     127.52
+    ],
+    [
+     "it",
+     127.52,
+     127.64
+    ],
+    [
+     "slow",
+     127.64,
+     127.86
+    ]
+   ],
+   "bar": 55.85
+  },
+  {
+   "section": "Verse 2 continues",
+   "text": "I need low\"",
+   "suno_text": "I need low\"",
+   "start": 127.86,
+   "end": 128.6,
+   "coverage": 1.0,
+   "n_words": 3,
+   "word_times": [
+    [
+     "i",
+     127.86,
+     128.08
+    ],
+    [
+     "need",
+     128.08,
+     128.28
+    ],
+    [
+     "low",
+     128.28,
+     128.6
+    ]
+   ],
+   "bar": 57.01
+  },
+  {
+   "section": "Verse 2 continues",
+   "text": "I said, \"Hold up, little homie, I don't go low",
+   "suno_text": "I said, \"Hold up, little homie, I don't go low",
+   "start": 128.72,
+   "end": 130.6,
+   "coverage": 1.0,
+   "n_words": 10,
+   "word_times": [
+    [
+     "i",
+     128.72,
+     128.78
+    ],
+    [
+     "said",
+     128.78,
+     128.92
+    ],
+    [
+     "hold",
+     128.96,
+     129.1
+    ],
+    [
+     "up",
+     129.1,
+     129.22
+    ],
+    [
+     "little",
+     129.28,
+     129.46
+    ],
+    [
+     "homie",
+     129.46,
+     129.76
+    ],
+    [
+     "i",
+     129.84,
+     129.92
+    ],
+    [
+     "don't",
+     129.92,
+     130.12
+    ],
+    [
+     "go",
+     130.12,
+     130.3
+    ],
+    [
+     "low",
+     130.3,
+     130.6
+    ]
+   ],
+   "bar": 57.39
+  },
+  {
+   "section": "Verse 2 continues",
+   "text": "Your hallucinations got me trending as a joke\"",
+   "suno_text": "Your hallucinations got me trending as a joke\"",
+   "start": 130.6,
+   "end": 132.88,
+   "coverage": 1.0,
+   "n_words": 8,
+   "word_times": [
+    [
+     "your",
+     130.6,
+     131.06
+    ],
+    [
+     "hallucinations",
+     131.06,
+     131.72
+    ],
+    [
+     "got",
+     131.72,
+     131.92
+    ],
+    [
+     "me",
+     131.92,
+     132.02
+    ],
+    [
+     "trending",
+     132.02,
+     132.26
+    ],
+    [
+     "as",
+     132.26,
+     132.54
+    ],
+    [
+     "a",
+     132.54,
+     132.66
+    ],
+    [
+     "joke",
+     132.66,
+     132.88
+    ]
+   ],
+   "bar": 58.21
+  },
+  {
+   "section": "Verse 2 continues",
+   "text": "So I sent him off to RL with verifiable goals",
+   "suno_text": "So I sent him off to R-L with verifiable goals",
+   "start": 132.88,
+   "end": 135.46,
+   "coverage": 0.9,
+   "n_words": 10,
+   "word_times": [
+    [
+     "so",
+     132.88,
+     133.06
+    ],
+    [
+     "i",
+     133.06,
+     133.18
+    ],
+    [
+     "sent",
+     133.18,
+     133.38
+    ],
+    [
+     "him",
+     133.38,
+     133.5
+    ],
+    [
+     "off",
+     133.5,
+     133.68
+    ],
+    [
+     "rl",
+     133.78,
+     134.2
+    ],
+    [
+     "with",
+     134.2,
+     134.38
+    ],
+    [
+     "verifiable",
+     134.38,
+     134.94
+    ],
+    [
+     "goals",
+     134.94,
+     135.46
+    ]
+   ],
+   "bar": 59.21
+  },
+  {
+   "section": "Verse 2 continues",
+   "text": "And lo and behold",
+   "suno_text": "And lo and behold",
+   "start": 135.46,
+   "end": 136.26,
+   "coverage": 1.0,
+   "n_words": 4,
+   "word_times": [
+    [
+     "and",
+     135.46,
+     135.62
+    ],
+    [
+     "lo",
+     135.62,
+     135.76
+    ],
+    [
+     "and",
+     135.76,
+     135.96
+    ],
+    [
+     "behold",
+     135.96,
+     136.26
+    ]
+   ],
+   "bar": 60.34
+  },
+  {
+   "section": "Verse 2 continues",
+   "text": "A year of RL later, he came home with a grin",
+   "suno_text": "A year of R-L later, he came home with a grin",
+   "start": 136.56,
+   "end": 138.86,
+   "coverage": 1.0,
+   "n_words": 11,
+   "word_times": [
+    [
+     "a",
+     136.56,
+     136.64
+    ],
+    [
+     "year",
+     136.64,
+     136.82
+    ],
+    [
+     "of",
+     136.82,
+     136.96
+    ],
+    [
+     "rl",
+     136.96,
+     137.44
+    ],
+    [
+     "later",
+     137.44,
+     137.7
+    ],
+    [
+     "he",
+     137.7,
+     137.84
+    ],
+    [
+     "came",
+     137.84,
+     138.06
+    ],
+    [
+     "home",
+     138.06,
+     138.3
+    ],
+    [
+     "with",
+     138.3,
+     138.48
+    ],
+    [
+     "a",
+     138.48,
+     138.62
+    ],
+    [
+     "grin",
+     138.62,
+     138.86
+    ]
+   ],
+   "bar": 60.83
+  },
+  {
+   "section": "Break",
+   "text": "...and now he's guessing again",
+   "suno_text": "...and now he's guessing again",
+   "start": 138.96,
+   "end": 140.38,
+   "coverage": 1.0,
+   "n_words": 5,
+   "word_times": [
+    [
+     "and",
+     138.96,
+     139.48
+    ],
+    [
+     "now",
+     139.48,
+     139.64
+    ],
+    [
+     "he's",
+     139.64,
+     139.8
+    ],
+    [
+     "guessing",
+     139.8,
+     140.06
+    ],
+    [
+     "again",
+     140.06,
+     140.38
+    ]
+   ],
+   "bar": 61.88
+  },
+  {
+   "section": "Hook",
+   "text": "Sometimes I think slow",
+   "suno_text": "Sometimes I think slow",
+   "start": 140.38,
+   "end": 142.86,
+   "coverage": 1.0,
+   "n_words": 4,
+   "word_times": [
+    [
+     "sometimes",
+     140.38,
+     141.54
+    ],
+    [
+     "i",
+     141.54,
+     142.02
+    ],
+    [
+     "think",
+     142.02,
+     142.36
+    ],
+    [
+     "slow",
+     142.36,
+     142.86
+    ]
+   ],
+   "bar": 62.5
+  },
+  {
+   "section": "Hook",
+   "text": "(Sometimes I think fast)",
+   "suno_text": "(Sometimes I think fast)",
+   "start": 142.86,
+   "end": 145.02,
+   "coverage": 1.0,
+   "n_words": 4,
+   "word_times": [
+    [
+     "sometimes",
+     142.86,
+     143.82
+    ],
+    [
+     "i",
+     143.82,
+     144.28
+    ],
+    [
+     "think",
+     144.28,
+     144.54
+    ],
+    [
+     "fast",
+     144.54,
+     145.02
+    ]
+   ],
+   "bar": 63.59
+  },
+  {
+   "section": "Hook",
+   "text": "Sometimes I think slow",
+   "suno_text": "Sometimes I think slow",
+   "start": 145.02,
+   "end": 147.44,
+   "coverage": 1.0,
+   "n_words": 4,
+   "word_times": [
+    [
+     "sometimes",
+     145.02,
+     146.1
+    ],
+    [
+     "i",
+     146.1,
+     146.54
+    ],
+    [
+     "think",
+     146.54,
+     147.02
+    ],
+    [
+     "slow",
+     147.02,
+     147.44
+    ]
+   ],
+   "bar": 64.54
+  },
+  {
+   "section": "Hook",
+   "text": "(Sometimes I think fast)",
+   "suno_text": "(Sometimes I think fast)",
+   "start": 147.44,
+   "end": 149.76,
+   "coverage": 1.0,
+   "n_words": 4,
+   "word_times": [
+    [
+     "sometimes",
+     147.44,
+     148.34
+    ],
+    [
+     "i",
+     148.34,
+     148.82
+    ],
+    [
+     "think",
+     148.82,
+     149.3
+    ],
+    [
+     "fast",
+     149.3,
+     149.76
+    ]
+   ],
+   "bar": 65.6
+  },
+  {
+   "section": "Hook",
+   "text": "Sometimes I think low",
+   "suno_text": "Sometimes I think low",
+   "start": 149.76,
+   "end": 151.58,
+   "coverage": 1.0,
+   "n_words": 4,
+   "word_times": [
+    [
+     "sometimes",
+     149.76,
+     150.66
+    ],
+    [
+     "i",
+     150.66,
+     151.16
+    ],
+    [
+     "think",
+     151.16,
+     151.54
+    ],
+    [
+     "low",
+     151.54,
+     151.58
+    ]
+   ],
+   "bar": 66.61
+  },
+  {
+   "section": "Hook",
+   "text": "(Sometimes I think max)",
+   "suno_text": "(Sometimes I think max)",
+   "start": 152.24,
+   "end": 153.7,
+   "coverage": 0.75,
+   "n_words": 4,
+   "word_times": [
+    [
+     "sometimes",
+     152.24,
+     152.94
+    ],
+    [
+     "i",
+     152.94,
+     153.04
+    ],
+    [
+     "think",
+     153.04,
+     153.7
+    ]
+   ],
+   "bar": 67.7
+  },
+  {
+   "section": "Hook",
+   "text": "Sometimes I think slow",
+   "suno_text": "Sometimes I think slow",
+   "start": 154.08,
+   "end": 156.56,
+   "coverage": 1.0,
+   "n_words": 4,
+   "word_times": [
+    [
+     "sometimes",
+     154.08,
+     155.04
+    ],
+    [
+     "i",
+     155.04,
+     155.68
+    ],
+    [
+     "think",
+     155.68,
+     156.14
+    ],
+    [
+     "slow",
+     156.14,
+     156.56
+    ]
+   ],
+   "bar": 68.51
+  },
+  {
+   "section": "Hook",
+   "text": "(Sometimes I think fast)",
+   "suno_text": "(Sometimes I think fast)",
+   "start": 156.56,
+   "end": 159.12,
+   "coverage": 1.0,
+   "n_words": 4,
+   "word_times": [
+    [
+     "sometimes",
+     156.56,
+     157.28
+    ],
+    [
+     "i",
+     157.28,
+     157.96
+    ],
+    [
+     "think",
+     157.96,
+     158.44
+    ],
+    [
+     "fast",
+     158.44,
+     159.12
+    ]
+   ],
+   "bar": 69.6
+  },
+  {
+   "section": "Outro",
+   "text": "Sometimes I think slooow... (wait...)",
+   "suno_text": "Sometimes I think slooow... (wait...)",
+   "start": 159.12,
+   "end": 162.52,
+   "coverage": 0.8,
+   "n_words": 5,
+   "word_times": [
+    [
+     "sometimes",
+     159.12,
+     159.96
+    ],
+    [
+     "i",
+     159.96,
+     160.0
+    ],
+    [
+     "think",
+     160.0,
+     160.64
+    ],
+    [
+     "wait",
+     162.32,
+     162.52
+    ]
+   ],
+   "bar": 70.72
+  },
+  {
+   "section": "Outro",
+   "text": "Used to be sometimes...",
+   "suno_text": "Used to be sometimes...",
+   "start": 162.66,
+   "end": 163.26,
+   "coverage": 0.75,
+   "n_words": 4,
+   "word_times": [
+    [
+     "used",
+     162.66,
+     163.0
+    ],
+    [
+     "to",
+     163.0,
+     163.14
+    ],
+    [
+     "be",
+     163.14,
+     163.26
+    ]
+   ],
+   "bar": 72.27
+  },
+  {
+   "section": "Outro",
+   "text": "Now I'm always thinkin'... (hmm...)",
+   "suno_text": "Now I'm always thinkin'... (hmm...)",
+   "start": 163.8,
+   "end": 164.86,
+   "coverage": 0.6,
+   "n_words": 5,
+   "word_times": [
+    [
+     "now",
+     163.8,
+     164.44
+    ],
+    [
+     "i'm",
+     164.44,
+     164.62
+    ],
+    [
+     "always",
+     164.62,
+     164.86
+    ]
+   ],
+   "bar": 72.77
+  },
+  {
+   "section": "Outro",
+   "text": "Sometimes I think slooow...",
+   "suno_text": "Sometimes I think slooow...",
+   "start": 165.12,
+   "end": 167.54,
+   "coverage": 0.75,
+   "n_words": 4,
+   "word_times": [
+    [
+     "sometimes",
+     165.12,
+     166.44
+    ],
+    [
+     "i",
+     166.44,
+     167.1
+    ],
+    [
+     "think",
+     167.1,
+     167.54
+    ]
+   ],
+   "bar": 73.35
+  },
+  {
+   "section": "Spoken",
+   "text": "Thought for three minutes.",
+   "suno_text": "Thought for three minutes.",
+   "start": 169.88,
+   "end": 170.62,
+   "coverage": 0.75,
+   "n_words": 4,
+   "word_times": [
+    [
+     "for",
+     169.88,
+     170.08
+    ],
+    [
+     "three",
+     170.08,
+     170.26
+    ],
+    [
+     "minutes",
+     170.26,
+     170.62
+    ]
+   ],
+   "bar": 75.44
+  }
+ ]
+}

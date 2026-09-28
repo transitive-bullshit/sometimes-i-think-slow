@@ -1,0 +1,13 @@
+{
+ "id": "S23",
+ "model": "kling3pro",
+ "endpoint": "fal-ai/kling-video/v3/pro/image-to-video",
+ "args": {
+  "prompt": "Flash white frame; the print develops; freeze. Night street outside the bodega, neon. FAST (dark skin, wild spiky twists) holds a Polaroid camera at arm's length for a selfie of the two of them, flash bursting; SLOW (Japanese, low ponytail, rectangular glasses) stands beside him perfectly still and unimpressed. A freshly ejected Polaroid print hangs from the camera showing the two of them: FAST a motion blur, SLOW perfectly sharp. Exactly two people in the frame. Camera: Medium two-shot, slightly low. 1990s hand-painted cel anime, saturated colors, energetic limited animation with smear frames, film grain. Keep the art style, characters, faces, hair, outfits and any lettering exactly as in the first frame. Characters do not speak or sing; mouths stay closed or relaxed. No new text or subtitles.",
+  "negative_prompt": "3D render, CGI, photorealistic, morphing, warped faces, extra limbs, extra people, subtitles, captions, watermark, text changes",
+  "generate_audio": false,
+  "duration": "4",
+  "cfg_scale": 0.5
+ },
+ "seconds": 121.7
+}

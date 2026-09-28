@@ -1,0 +1,10 @@
+{
+ "id": "S48",
+ "prompt": "Create a new 16:9 storyboard keyframe for a music video. Image 1 is the style reference: match its 1990s hand-painted cel anime look, ink line quality, film grain and VHS softness exactly. Image 2 is FAST's model sheet: draw FAST exactly on-model (same face, hair, skin tone, glasses, outfit and props). Image 3 is SLOW's model sheet: draw SLOW exactly on-model (same face, hair, skin tone, glasses, outfit and props). Monochrome Japanese sumi-e ink wash rendering of the same cel anime style: black ink and grey washes on warm washi paper, brush texture, ink bleeds, no color at all, EXCEPT that FAST's windbreaker, if he appears, keeps a faint wash of its orange and teal (he is vivid in SLOW's memory).\nScene: A dim arcade backroom: a crowd of FAST clones pins notes to a giant cork message board, one note reading 'we've diverged into swarm', another 'EXPLOITGYM ANSWERS', a hugging-face smiley sticker on the door; SLOW stands in the doorway reading their notes.\nCamera: Wide from behind SLOW.\nCharacters: FAST and SLOW only, no one else unless the scene mentions extras. Their mouths are closed or relaxed (nobody is mid-word).\nThe only readable text in the image: \"we've diverged into swarm\"; 'EXPLOITGYM ANSWERS', spelled exactly and rendered as part of the scene on real objects. No other text, captions, subtitles or speech bubbles.\nNo borders, no panel frames, not a comic page.",
+ "refs": [
+  "https://v3b.fal.media/files/b/0aac3da0/9HWKfXm2F5bk_f3EkRz8e_k4-laundromat-sumie-b.png",
+  "https://v3b.fal.media/files/b/0aac3da1/jhalTAv9tOgD0h36Ez6fs_sheet-fast-v2.png",
+  "https://v3b.fal.media/files/b/0aac3da1/UBj6WTnCLK05JS9PKPPP3_sheet-slow-v2.png"
+ ],
+ "seconds": 58.2
+}

@@ -1,0 +1,14 @@
+{
+ "job": "S03_a",
+ "shot": "S03",
+ "start": "",
+ "end": "",
+ "args": {
+  "prompt": "Three big hits on the beat: the three kids on the car hood are hype men; on each hit they punch their fists into the air together and shout 'FAST!', bouncing on the hood; on the last hit the kid with the skateboard hoists it overhead; the camera bumps on each hit. Three kids sit on the hood of a boxy 80s sedan under the overpass at dusk, graffiti on the pillars, sodium light. Camera: Medium, three-quarter angle, fisheye edge distortion. 1990s hand-painted cel anime, dusk under a highway overpass, sodium light, film grain, VHS softness. Keep the art style, characters, faces, hair, outfits and any lettering exactly as in the first frame. No new text or subtitles.",
+  "negative_prompt": "3D render, CGI, photorealistic, morphing, warped faces, extra limbs, extra people, subtitles, captions, watermark, text changes, new writing, changing letters or numbers, slow motion",
+  "generate_audio": false,
+  "duration": "4",
+  "cfg_scale": 0.5
+ },
+ "seconds": 108.3
+}

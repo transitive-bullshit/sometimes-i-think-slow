@@ -1,0 +1,14 @@
+{
+ "id": "S40",
+ "model": "wan3",
+ "endpoint": "alibaba/wan-3.0/image-to-video",
+ "args": {
+  "prompt": "One rep together. Flashback gym: FAST spots SLOW on a bench press, both laughing, iron plates on the bar; FAST's windbreaker keeps a faint orange wash. Camera: Medium, side angle. monochrome Japanese sumi-e ink wash animation, calm and slow, ink texture on washi paper, film grain. Keep the art style, characters, faces, hair, outfits and any lettering exactly as in the first frame. Characters do not speak or sing; mouths stay closed or relaxed. No new text or subtitles.",
+  "audio": false,
+  "resolution": "1080p",
+  "enable_prompt_expansion": false,
+  "duration": 3,
+  "aspect_ratio": "16:9"
+ },
+ "seconds": 127.2
+}

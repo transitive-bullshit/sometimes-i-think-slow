@@ -1,0 +1,14 @@
+{
+ "id": "S32",
+ "model": "wan3",
+ "endpoint": "alibaba/wan-3.0/image-to-video",
+ "args": {
+  "prompt": "Drums spin; the ticket counter does not move. Row of front-loading dryers seen close, their drums spinning like server fans, glowing through the glass in ink wash; a red 'NOW SERVING 0001' ticket counter on the wall, SLOW's ticket '10,000' on the bench. Camera: Slow lateral dolly along the dryers. monochrome Japanese sumi-e ink wash animation, calm and slow, ink texture on washi paper, film grain. Keep the art style, characters, faces, hair, outfits and any lettering exactly as in the first frame. Characters do not speak or sing; mouths stay closed or relaxed. No new text or subtitles.",
+  "audio": false,
+  "resolution": "1080p",
+  "enable_prompt_expansion": false,
+  "duration": 3,
+  "aspect_ratio": "16:9"
+ },
+ "seconds": 150.1
+}
