@@ -1,6 +1,6 @@
 # AGENTS.md
 
-"Sometimes I Think Slow", an AI-made hip-hop parody music video about fast (System 1) and slow (System 2) thinking in AI models. It isn't published yet; the finished video will go on https://www.transitivebullsh.it. This repo is a working directory of scripts, prompts, and data, not a package. For setup, commands, and a step-by-step map, see `contributing.md`.
+"Sometimes I Think Slow", an AI-made hip-hop parody music video about fast (System 1) and slow (System 2) thinking in AI models. It's published on YouTube (https://www.youtube.com/watch?v=dZjYGcjS3iQ), with a write-up at https://www.transitivebullsh.it/projects/sometimes-i-think-slow-ai-music-video. This repo is a working directory of scripts, prompts, and data, not a package. For setup, commands, and a step-by-step map, see `contributing.md`.
 
 ## Mental model
 

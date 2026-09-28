@@ -2,9 +2,9 @@
 
 > A hip-hop parody about the two ways AI thinks: fast, in one forward pass, and slow, reasoning at test time.
 
-![FAST & SLOW: Sometimes I Think Slow, Sometimes I Think Fast](media/poster.webp)
+[![FAST & SLOW: Sometimes I Think Slow, Sometimes I Think Fast](media/poster.webp)](https://www.transitivebullsh.it/projects/sometimes-i-think-slow-ai-music-video)
 
-**▶ The video is coming soon to [transitivebullsh.it](https://www.transitivebullsh.it).**
+**[▶ Watch on YouTube](https://www.youtube.com/watch?v=dZjYGcjS3iQ)** · **[Read the write-up](https://www.transitivebullsh.it/projects/sometimes-i-think-slow-ai-music-video)**
 
 An AI-made parody of Nice & Smooth’s [“Sometimes I Rhyme Slow”](https://www.youtube.com/watch?v=dkl_Vq1SWKg) (1991), made almost entirely by Claude Code with Opus 5.5, Suno, and fal. This repo is the whole working directory behind it.
 
