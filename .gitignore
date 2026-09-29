@@ -115,3 +115,6 @@ __pycache__/
 
 # the README's images: the poster and a few stills from the cut
 !/media/*.webp
+
+# local working state: per-platform social post copy (posted via Postiz, not versioned)
+social/drafts/
