@@ -106,6 +106,7 @@ video/clips/           a receipt for every clip: model, prompt, and parameters
 video/review/          the scene review page and my feedback on each render
 video/fonts/           the caption fonts (OFL and Apache licensed)
 media/                 the README's images (the poster and five stills from the cut), and backup.json: the R2 manifest
+release/               the DistroKid kit: square cover, store lyrics, form answers (the WAV and covers are git-ignored)
 tests/                 offline smoke tests
 ```
 

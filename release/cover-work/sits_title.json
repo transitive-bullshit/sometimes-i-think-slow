@@ -1,0 +1,11 @@
+{
+  "model": "fal-ai/nano-banana-pro/edit",
+  "source": "video/poster.png",
+  "precrop_box": null,
+  "prompt": "Reframe this exact painting as a square 1:1 album cover by extending the canvas upward and downward (outpainting), and repaint the wall lettering so the only words on the wall are the song title 'Sometimes I Think Slow', hand-painted in the same bold black brush lettering as 'FAST & SLOW' was, large, on two centered lines: 'SOMETIMES I' above 'THINK SLOW', spanning both the warm orange-and-purple left half and the cold blue-grey right half. Keep everything else exactly as it is: the skateboard and the composition notebook leaning on the wall below the lettering, the warm left half and cold ink-wash right half split down the middle, the lamps, and the same painterly style. Above: more of the concrete overpass underside, beams and the lamps. Below: more of the same dry, cracked, dusty concrete pavement with a little scattered litter and pebbles, catching the orange lamplight on the left and the cold blue light on the right; the lettering appears only once, on the wall.",
+  "aspect_ratio": "1:1",
+  "resolution": "4K",
+  "output_format": "png",
+  "num_images": 1,
+  "safety_tolerance": "5"
+}
