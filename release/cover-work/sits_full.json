@@ -1,0 +1,11 @@
+{
+  "model": "fal-ai/nano-banana-pro/edit",
+  "source": "video/poster.png",
+  "precrop_box": null,
+  "prompt": "Reframe this exact painting as a square 1:1 album cover by extending the canvas upward and downward (outpainting), not by cropping or redrawing. Keep everything exactly as it is: the hand-painted wall lettering 'FAST & SLOW' with 'Sometimes I Think Slow' and 'Sometimes I Think Fast' beneath it, spelled exactly like that, the skateboard and the composition notebook leaning on the wall, the warm orange-and-purple left half and the cold blue-grey ink-wash right half split down the middle, and the same painterly style. Above: more of the concrete overpass underside, beams and the lamps. Below: more of the cracked wet pavement with puddle reflections. The lettering stays centered and the same size relative to the wall.",
+  "aspect_ratio": "1:1",
+  "resolution": "4K",
+  "output_format": "png",
+  "num_images": 1,
+  "safety_tolerance": "5"
+}
